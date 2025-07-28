@@ -2,6 +2,7 @@ import { NextResponse } from "next/server"
 import { exec } from "child_process"
 import { promisify } from "util"
 import path from "path"
+import { getLastUpdate } from "../last-update/route"
 
 const execAsync = promisify(exec)
 
@@ -15,9 +16,7 @@ export async function POST() {
     await execAsync("python process_csv.py", { cwd: scriptsDir })
 
     // Get the new last update date
-    const { lastUpdate } = await import("./last-update/route")
-    const response = await lastUpdate()
-    const data = await response.json()
+    const data = getLastUpdate()
 
     return NextResponse.json({
       success: true,

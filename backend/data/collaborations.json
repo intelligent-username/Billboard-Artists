@@ -1,4 +1,27 @@
 {
+  "Megan Thee Stallion": {
+    "Cardi B": 2,
+    "Beyonce": 1,
+    "Young Thug": 1,
+    "DaBaby": 2,
+    "City Girls": 1,
+    "Hot Girl Meg": 1,
+    "SZA": 1,
+    "Maroon 5": 1,
+    "DJ Khaled": 1,
+    "Lil Baby": 1,
+    "Post Malone": 1,
+    "Lil Nas X": 1,
+    "DJ Snake": 1,
+    "Lisa": 1,
+    "Ozuna": 1,
+    "Dua Lipa": 1,
+    "Future": 1,
+    "GloRilla": 1,
+    "Yuki Chiba": 1,
+    "RM": 1,
+    "TWICE": 1
+  },
   "Cardi B": {
     "Megan Thee Stallion": 2,
     "Maroon 5": 1,
@@ -10,9 +33,9 @@
     "Normani": 1,
     "Lizzo": 1,
     "Summer Walker": 1,
-    "Kay Flock": 1,
     "Bory300": 1,
     "Dougie B": 1,
+    "Kay Flock": 1,
     "Lil Durk": 1,
     "Ye": 1,
     "GloRilla": 1,
@@ -20,57 +43,34 @@
     "Offset": 1,
     "Shakira": 1
   },
-  "Megan Thee Stallion": {
-    "Cardi B": 2,
-    "Beyonce": 1,
-    "Young Thug": 1,
-    "DaBaby": 2,
-    "City Girls": 1,
-    "Hot Girl Meg": 1,
-    "SZA": 1,
-    "Maroon 5": 1,
-    "Lil Baby": 1,
-    "DJ Khaled": 1,
-    "Post Malone": 1,
-    "Lil Nas X": 1,
-    "DJ Snake": 1,
-    "Ozuna": 1,
-    "Lisa": 1,
-    "Dua Lipa": 1,
-    "Future": 1,
-    "GloRilla": 1,
-    "Yuki Chiba": 1,
-    "RM": 1,
-    "TWICE": 1
-  },
   "BTS": {
     "Halsey": 1,
     "Coldplay": 1,
-    "benny blanco": 1,
-    "Snoop Dogg": 1
+    "Snoop Dogg": 1,
+    "benny blanco": 1
   },
   "iann dior": {
     "24kGoldn": 1
   },
   "24kGoldn": {
     "iann dior": 1,
-    "Clean Bandit": 1,
-    "Mabel": 1
+    "Mabel": 1,
+    "Clean Bandit": 1
   },
   "Maluma": {
     "Aya Nakamura": 1,
     "Justin Quiles": 2,
     "Sech": 1,
     "Feid": 2,
-    "J Balvin": 2,
     "Nicky Jam": 1,
+    "J Balvin": 2,
     "Lenny Tavarez": 1,
     "Jennifer Lopez": 1,
     "Myke Towers": 1,
-    "Adassa": 1,
     "Encanto Cast": 1,
-    "Olga Merediz": 1,
     "John Leguizamo": 1,
+    "Adassa": 1,
+    "Olga Merediz": 1,
     "Stephanie Beatriz": 1,
     "Myriam Fares": 1,
     "Nicki Minaj": 1,
@@ -79,10 +79,47 @@
     "Carin Leon": 1,
     "Darell": 1,
     "Ozuna": 1,
-    "Ryan Castro": 1,
-    "Ovy On The Drums": 1,
+    "Blessd": 1,
     "DFZM": 1,
-    "Blessd": 1
+    "Ryan Castro": 1,
+    "Ovy On The Drums": 1
+  },
+  "Lil Durk": {
+    "Drake": 2,
+    "Polo G": 4,
+    "Lil Tecca": 1,
+    "Young Thug": 2,
+    "6LACK": 1,
+    "King Von": 2,
+    "Meek Mill": 3,
+    "Pooh Shiesty": 2,
+    "Lil Baby": 19,
+    "Coi Leray": 1,
+    "Moneybagg Yo": 1,
+    "DJ Khaled": 2,
+    "A Boogie Wit da Hoodie": 1,
+    "Travis Scott": 1,
+    "Rod Wave": 2,
+    "The Kid LAROI": 1,
+    "Trippie Redd": 1,
+    "Giveon": 1,
+    "21 Savage": 4,
+    "G Herbo": 1,
+    "Nardo Wick": 1,
+    "Summer Walker": 2,
+    "Morgan Wallen": 2,
+    "Gucci Mane": 1,
+    "Gunna": 1,
+    "Future": 1,
+    "Cardi B": 1,
+    "Ye": 1,
+    "Roddy Ricch": 1,
+    "J. Cole": 1,
+    "Metro Boomin": 1,
+    "Ty Dolla $ign": 1,
+    "¥$: Ye": 1,
+    "Bump J": 1,
+    "Central Cee": 1
   },
   "Drake": {
     "Lil Durk": 2,
@@ -90,16 +127,16 @@
     "Future": 5,
     "Chris Brown": 1,
     "Giveon": 2,
-    "Metro Boomin": 1,
     "21 Savage": 16,
+    "Metro Boomin": 1,
     "Bryson Tiller": 1,
     "Yung Bleu": 1,
     "Lil Baby": 3,
     "Rick Ross": 2,
     "Gunna": 2,
     "Young Thug": 5,
-    "Lil Wayne": 3,
     "Nicki Minaj": 2,
+    "Lil Wayne": 3,
     "Migos": 1,
     "Brent Faiyaz": 1,
     "Smiley": 1,
@@ -131,49 +168,12 @@
     "Pimmie": 1,
     "Chino Pacas": 1
   },
-  "Lil Durk": {
-    "Drake": 2,
-    "Lil Tecca": 1,
-    "Polo G": 4,
-    "6LACK": 1,
-    "Young Thug": 2,
-    "King Von": 2,
-    "Meek Mill": 3,
-    "Pooh Shiesty": 2,
-    "Lil Baby": 19,
-    "Coi Leray": 1,
-    "Moneybagg Yo": 1,
-    "DJ Khaled": 2,
-    "A Boogie Wit da Hoodie": 1,
-    "Travis Scott": 1,
-    "Rod Wave": 2,
-    "The Kid LAROI": 1,
-    "Trippie Redd": 1,
-    "Giveon": 1,
-    "Nardo Wick": 1,
-    "G Herbo": 1,
-    "21 Savage": 4,
-    "Summer Walker": 2,
-    "Morgan Wallen": 2,
-    "Gucci Mane": 1,
-    "Gunna": 1,
-    "Future": 1,
-    "Cardi B": 1,
-    "Ye": 1,
-    "Roddy Ricch": 1,
-    "J. Cole": 1,
-    "Metro Boomin": 1,
-    "¥$: Ye": 1,
-    "Bump J": 1,
-    "Ty Dolla $ign": 1,
-    "Central Cee": 1
+  "Jawsh 685": {
+    "Jason Derulo": 1
   },
   "Jason Derulo": {
     "Jawsh 685": 1,
     "Adam Levine": 1
-  },
-  "Jawsh 685": {
-    "Jason Derulo": 1
   },
   "The Weeknd": {
     "Juice WRLD": 1,
@@ -189,18 +189,18 @@
     "Rosalia": 1,
     "Tyler, The Creator": 1,
     "Lil Wayne": 1,
-    "Metro Boomin": 4,
     "21 Savage": 2,
+    "Metro Boomin": 4,
     "Future": 5,
-    "Playboi Carti": 2,
+    "Playboi Carti": 3,
     "Madonna": 1,
-    "Bad Bunny": 1,
     "Travis Scott": 3,
+    "Bad Bunny": 1,
     "Swae Lee": 1,
-    "Diddy": 1,
     "French Montana": 1,
-    "Lily-Rose Depp": 1,
+    "Diddy": 1,
     "Jennie": 1,
+    "Lily-Rose Depp": 1,
     "Anitta": 1,
     "Justice": 1,
     "Florence + The Machine": 1,
@@ -208,39 +208,39 @@
     "Giorgio Moroder": 1
   },
   "BLACKPINK X Selena Gomez": {},
-  "Roddy Ricch": {
-    "DaBaby": 1,
-    "50 Cent": 1,
-    "Pop Smoke": 1,
-    "42 Dugg": 1,
-    "Bryson Tiller": 1,
-    "DJ Khaled": 2,
-    "Lil Baby": 2,
-    "21 Savage": 2,
-    "Kodak Black": 1,
-    "Post Malone": 1,
-    "Lil Durk": 1,
-    "Kendrick Lamar": 1,
-    "Wallie the Sensei": 1,
-    "Siete7x": 1
-  },
   "DaBaby": {
     "Roddy Ricch": 1,
-    "Lil Baby": 2,
     "Pop Smoke": 1,
-    "Tory Lanez": 1,
+    "Lil Baby": 2,
     "Jack Harlow": 1,
     "Lil Wayne": 1,
+    "Tory Lanez": 1,
     "Megan Thee Stallion": 2,
     "DJ Khaled": 1,
     "Post Malone": 1,
     "Polo G": 1
   },
+  "Roddy Ricch": {
+    "DaBaby": 1,
+    "Pop Smoke": 1,
+    "50 Cent": 1,
+    "42 Dugg": 1,
+    "Lil Baby": 2,
+    "Bryson Tiller": 1,
+    "DJ Khaled": 2,
+    "21 Savage": 2,
+    "Kodak Black": 1,
+    "Post Malone": 1,
+    "Lil Durk": 1,
+    "Wallie the Sensei": 1,
+    "Siete7x": 1,
+    "Kendrick Lamar": 1
+  },
   "Harry Styles": {},
   "DJ Khaled": {
     "Drake": 4,
-    "Lil Durk": 2,
     "Lil Baby": 5,
+    "Lil Durk": 2,
     "DaBaby": 1,
     "Megan Thee Stallion": 1,
     "Post Malone": 1,
@@ -249,32 +249,61 @@
     "Nas": 1,
     "Justin Bieber": 1,
     "21 Savage": 2,
-    "Roddy Ricch": 2,
     "Bryson Tiller": 1,
+    "Roddy Ricch": 2,
     "Cardi B": 1,
-    "Lil Wayne": 2,
     "Jeremih": 1,
-    "H.E.R.": 1,
+    "Lil Wayne": 2,
     "Migos": 1,
-    "Fridayy": 1,
+    "H.E.R.": 1,
     "Rick Ross": 1,
+    "Fridayy": 1,
     "John Legend": 1,
-    "SZA": 1,
     "Future": 2,
+    "SZA": 1,
     "Eminem": 1,
     "Kanye West": 1,
     "Juice WRLD": 1,
-    "Quavo": 1,
     "Takeoff": 1,
+    "Quavo": 1,
     "Travis Scott": 1,
     "Don Toliver": 1,
     "Nardo Wick": 1,
     "Kodak Black": 1,
     "SEVENTEEN": 1
   },
+  "Pop Smoke": {
+    "Lil Baby": 1,
+    "DaBaby": 1,
+    "Lil Tjay": 2,
+    "Roddy Ricch": 1,
+    "50 Cent": 1,
+    "A Boogie Wit da Hoodie": 1,
+    "Kid Cudi": 1,
+    "Skepta": 1,
+    "Polo G": 1,
+    "Fivio Foreign": 1,
+    "Migos": 1,
+    "Pusha T": 2,
+    "Kanye West": 1,
+    "21 Savage": 1,
+    "42 Dugg": 1,
+    "Chris Brown": 1,
+    "Dua Lipa": 1,
+    "Future": 1,
+    "Rick Ross": 1,
+    "The-Dream": 1,
+    "Rah Swish": 1,
+    "Bizzy Banks": 1,
+    "Swae Lee": 1,
+    "Takeoff": 1,
+    "TRAVI": 1,
+    "The Neptunes": 1,
+    "Beam": 1
+  },
   "Lil Baby": {
-    "DaBaby": 2,
     "Pop Smoke": 1,
+    "DaBaby": 2,
     "Money Man": 1,
     "42 Dugg": 2,
     "NAV": 2,
@@ -282,13 +311,13 @@
     "Drake": 3,
     "EST Gee": 2,
     "Gunna": 2,
-    "YTB Trench": 1,
     "Young Thug": 4,
+    "YTB Trench": 1,
     "DJ Khaled": 5,
     "Megan Thee Stallion": 1,
     "Post Malone": 1,
-    "Roddy Ricch": 2,
     "Bryson Tiller": 1,
+    "Roddy Ricch": 2,
     "Joyner Lucas": 1,
     "J. Cole": 1,
     "Travis Scott": 3,
@@ -307,76 +336,67 @@
     "Central Cee": 1,
     "21 Savage": 1
   },
-  "Pop Smoke": {
-    "DaBaby": 1,
-    "Lil Baby": 1,
-    "Lil Tjay": 2,
-    "Roddy Ricch": 1,
-    "50 Cent": 1,
-    "A Boogie Wit da Hoodie": 1,
-    "Skepta": 1,
-    "Kid Cudi": 1,
-    "Polo G": 1,
-    "Fivio Foreign": 1,
-    "Migos": 1,
-    "Pusha T": 2,
-    "Kanye West": 1,
-    "21 Savage": 1,
-    "42 Dugg": 1,
-    "Chris Brown": 1,
-    "Dua Lipa": 1,
-    "Future": 1,
-    "The-Dream": 1,
-    "Rick Ross": 1,
-    "Rah Swish": 1,
-    "Bizzy Banks": 1,
-    "Swae Lee": 1,
-    "Takeoff": 1,
-    "Beam": 1,
-    "The Neptunes": 1,
-    "TRAVI": 1
-  },
   "Sech": {
+    "Rosalia": 1,
+    "Farruko": 1,
     "Daddy Yankee": 2,
     "J Balvin": 5,
-    "Farruko": 1,
-    "Rosalia": 1,
     "Justin Quiles": 2,
     "Maluma": 1,
     "Feid": 1,
     "Nicky Jam": 1,
     "Arcangel": 1,
     "Jhay Cortez": 1,
-    "Bad Bunny": 1,
     "Mora": 2,
-    "Lenny Tavarez": 1,
+    "Bad Bunny": 1,
     "Dalex": 1,
+    "Lenny Tavarez": 1,
     "Dimelo Flow": 1,
     "Myke Towers": 1
   },
+  "Rosalia": {
+    "Sech": 1,
+    "Farruko": 1,
+    "Daddy Yankee": 1,
+    "J Balvin": 1,
+    "Travis Scott": 1,
+    "Bad Bunny": 1,
+    "The Weeknd": 1,
+    "Romeo Santos": 1,
+    "Rauw Alejandro": 2,
+    "LISA": 1
+  },
+  "Farruko": {
+    "Sech": 1,
+    "Rosalia": 1,
+    "Daddy Yankee": 1,
+    "J Balvin": 1,
+    "DJ Adoni": 1,
+    "Victor Cardenas": 1
+  },
   "Daddy Yankee": {
     "Sech": 2,
-    "J Balvin": 2,
-    "Farruko": 1,
     "Rosalia": 1,
-    "Luis Fonsi": 1,
+    "Farruko": 1,
+    "J Balvin": 2,
     "Justin Bieber": 1,
-    "Kendo Kaponi": 1,
+    "Luis Fonsi": 1,
     "Anuel AA": 1,
-    "Zion": 1,
+    "Kendo Kaponi": 1,
     "Lennox": 1,
+    "Zion": 1,
     "Bad Bunny": 1,
     "Yandel": 1,
     "Feid": 1
   },
   "J Balvin": {
     "Sech": 5,
-    "Daddy Yankee": 2,
-    "Farruko": 1,
     "Rosalia": 1,
-    "Bad Bunny": 2,
-    "Dua Lipa": 1,
+    "Farruko": 1,
+    "Daddy Yankee": 2,
     "Tainy": 2,
+    "Dua Lipa": 1,
+    "Bad Bunny": 2,
     "Justin Quiles": 1,
     "Maluma": 2,
     "Feid": 2,
@@ -388,36 +408,16 @@
     "Anuel AA": 1,
     "Khalid": 1,
     "Maria Becerra": 1,
-    "Shander": 1,
-    "Totoy El Frio": 1,
     "Natan": 1,
     "Crissin": 1,
+    "Totoy El Frio": 1,
+    "Shander": 1,
     "Skrillex": 1,
     "Ed Sheeran": 1,
-    "Ryan Castro": 1,
-    "Ovy On The Drums": 1,
+    "Blessd": 1,
     "DFZM": 1,
-    "Blessd": 1
-  },
-  "Farruko": {
-    "Sech": 1,
-    "Daddy Yankee": 1,
-    "J Balvin": 1,
-    "Rosalia": 1,
-    "DJ Adoni": 1,
-    "Victor Cardenas": 1
-  },
-  "Rosalia": {
-    "Sech": 1,
-    "Daddy Yankee": 1,
-    "J Balvin": 1,
-    "Farruko": 1,
-    "Travis Scott": 1,
-    "Bad Bunny": 1,
-    "The Weeknd": 1,
-    "Romeo Santos": 1,
-    "Rauw Alejandro": 2,
-    "LISA": 1
+    "Ryan Castro": 1,
+    "Ovy On The Drums": 1
   },
   "SAINt JHN": {},
   "Lil Tjay": {
@@ -425,8 +425,8 @@
     "6LACK": 1,
     "Polo G": 1,
     "Fivio Foreign": 2,
-    "Offset": 1,
     "Moneybagg Yo": 1,
+    "Offset": 1,
     "Swae Lee": 1,
     "Kay Flock": 1
   },
@@ -434,14 +434,14 @@
     "Myke Towers": 1,
     "Ozuna": 1,
     "Nicki Minaj": 1,
-    "Anuel AA": 1,
     "J Balvin": 3,
+    "Anuel AA": 1,
     "Mariah Angeliq": 1,
-    "Shander": 1,
-    "Totoy El Frio": 1,
     "Natan": 1,
-    "Crissin": 1,
     "Nicky Jam": 1,
+    "Crissin": 1,
+    "Totoy El Frio": 1,
+    "Shander": 1,
     "Tiesto": 2,
     "Maldy": 1,
     "Ovy On The Drums": 2,
@@ -451,31 +451,34 @@
     "Carla Morrison": 1,
     "Justin Quiles": 1,
     "Angel Dior": 1,
-    "Sean Paul": 1,
     "Bad Gyal": 1,
-    "Maluma": 2,
+    "Sean Paul": 1,
     "DENNIS E MC Kevin O Chris": 1,
+    "Maluma": 2,
     "Peso Pluma": 1,
-    "Cris Mj": 1,
     "Ryan Castro": 2,
+    "Cris Mj": 1,
     "Young Miko": 1,
     "Kali Uchis": 1,
-    "Feid": 1,
+    "Blessd": 1,
     "DFZM": 1,
-    "Blessd": 1
+    "Feid": 2,
+    "Marco Antonio Solis": 1,
+    "Greeicy": 1,
+    "Eddy Lover": 1
   },
   "Myke Towers": {
     "Karol G": 1,
     "Ozuna": 1,
+    "Juanka": 1,
+    "Nio Garcia": 1,
     "Brray": 1,
     "Anuel AA": 2,
-    "Nio Garcia": 1,
-    "Juanka": 1,
     "DJ Nelson Presenta Jay Wheeler": 1,
     "Anitta": 1,
     "Cardi B": 1,
-    "Rauw Alejandro": 1,
     "Manuel Turizo": 1,
+    "Rauw Alejandro": 1,
     "Los Legendarios": 1,
     "Wisin": 1,
     "Maluma": 1,
@@ -484,15 +487,15 @@
     "Eladio Carrion": 1,
     "Sky Rompiendo": 1,
     "Feid": 1,
-    "Arcangel": 1,
-    "Tainy": 1,
-    "Omar Courtz": 1,
     "Jhayco": 1,
+    "Omar Courtz": 1,
     "Arca": 1,
+    "Tainy": 1,
+    "Arcangel": 1,
     "Justin Quiles": 1,
-    "Lenny Tavarez": 1,
-    "Sech": 1,
     "Dalex": 1,
+    "Sech": 1,
+    "Lenny Tavarez": 1,
     "Dimelo Flow": 1,
     "Bad Bunny": 1,
     "benny blanco": 1,
@@ -507,28 +510,23 @@
     "Chencho Corleone": 1,
     "J Balvin": 1,
     "Anuel AA": 2,
-    "Megan Thee Stallion": 1,
     "DJ Snake": 1,
+    "Megan Thee Stallion": 1,
     "Lisa": 1,
     "Feid": 1,
-    "Migrantes": 1,
     "Lil CaKe": 1,
     "Ryan Castro": 1,
-    "Darell": 1,
-    "Maluma": 1
-  },
-  "Tory Lanez": {
-    "Jack Harlow": 1,
-    "Lil Wayne": 1,
-    "DaBaby": 1
+    "Migrantes": 1,
+    "Maluma": 1,
+    "Darell": 1
   },
   "Jack Harlow": {
-    "Tory Lanez": 1,
-    "Lil Wayne": 2,
     "DaBaby": 1,
+    "Lil Wayne": 2,
+    "Tory Lanez": 1,
     "Big Sean": 1,
-    "Cordae": 1,
     "Eminem": 1,
+    "Cordae": 1,
     "Lil Nas X": 1,
     "Pooh Shiesty": 1,
     "Drake": 1,
@@ -536,15 +534,16 @@
     "Justin Timberlake": 1,
     "Chris Brown": 1,
     "Rod Wave": 1,
-    "Jung Kook": 1
+    "Jung Kook": 1,
+    "Doja Cat": 1
   },
   "Lil Wayne": {
-    "Tory Lanez": 1,
     "Jack Harlow": 2,
     "DaBaby": 1,
+    "Tory Lanez": 1,
     "YoungBoy Never Broke Again": 1,
-    "DJ Khaled": 2,
     "Jeremih": 1,
+    "DJ Khaled": 2,
     "Drake": 3,
     "Nicki Minaj": 1,
     "Polo G": 1,
@@ -553,14 +552,21 @@
     "Rick Ross": 2,
     "The Weeknd": 1,
     "Machine Gun Kelly": 1,
-    "Fridayy": 1,
     "JAY-Z": 1,
+    "Fridayy": 1,
     "John Legend": 1,
+    "Swae Lee": 1,
     "Metro Boomin": 1,
     "Offset": 1,
-    "Swae Lee": 1,
+    "GloRilla": 1,
     "Sexyy Red": 1,
-    "GloRilla": 1
+    "Jay Jones": 1,
+    "BigXthaPlug": 1
+  },
+  "Tory Lanez": {
+    "Jack Harlow": 1,
+    "DaBaby": 1,
+    "Lil Wayne": 1
   },
   "Tones And I": {},
   "Joel Corry X MNEK": {},
@@ -575,19 +581,14 @@
     "A7S": 2,
     "ATB": 1
   },
-  "Lady Gaga": {
-    "Ariana Grande": 1,
-    "Bradley Cooper": 1,
-    "Bruno Mars": 1
-  },
   "Ariana Grande": {
     "Lady Gaga": 1,
     "Justin Bieber": 1,
     "Doja Cat": 2,
     "The Weeknd": 3,
     "Ty Dolla $ign": 1,
-    "Jennifer Hudson": 1,
     "Mariah Carey": 1,
+    "Jennifer Hudson": 1,
     "Demi Lovato": 1,
     "Kid Cudi": 1,
     "Kelly Clarkson": 1,
@@ -596,6 +597,13 @@
     "Nonna": 1,
     "Charli xcx": 1,
     "Cynthia Erivo": 2
+  },
+  "Lady Gaga": {
+    "Ariana Grande": 1,
+    "Bradley Cooper": 1,
+    "Bruno Mars": 1,
+    "Gesaffelstein": 1,
+    "Colby O'Donis": 1
   },
   "Miley Cyrus": {
     "Dua Lipa": 1,
@@ -606,14 +614,14 @@
     "Beyonce": 1
   },
   "Gunna": {
+    "Don Toliver": 2,
     "Internet Money": 2,
     "NAV": 1,
-    "Don Toliver": 2,
     "Young Thug": 9,
     "Drake": 2,
     "Travis Scott": 1,
-    "YTB Trench": 1,
     "Lil Baby": 2,
+    "YTB Trench": 1,
     "Yak Gotti": 1,
     "Lil Duke": 1,
     "Lil Uzi Vert": 1,
@@ -623,86 +631,73 @@
     "Kodak Black": 1,
     "G Herbo": 1,
     "Chloe": 1,
-    "Yung Bleu": 1,
     "Chris Brown": 1,
+    "Yung Bleu": 1,
     "Lil Durk": 1,
     "Post Malone": 1,
     "Metro Boomin": 1,
     "Offset": 1,
     "Tyla": 1,
-    "Skillibeng": 1
-  },
-  "Internet Money": {
-    "Gunna": 2,
-    "NAV": 1,
-    "Don Toliver": 2,
-    "Trippie Redd": 1,
-    "Juice WRLD": 1,
-    "YoungBoy Never Brok Again": 1,
-    "The Kid LAROI": 1,
-    "Lil Uzi Vert": 1,
-    "YoungBoy Never Broke Again": 1
-  },
-  "NAV": {
-    "Gunna": 1,
-    "Internet Money": 1,
-    "Don Toliver": 1,
-    "Lil Baby": 2,
-    "Travis Scott": 1,
-    "Metro Boomin": 1,
-    "A Boogie Wit da Hoodie": 1,
-    "Swae Lee": 1
+    "Skillibeng": 1,
+    "Justin Bieber": 1
   },
   "Don Toliver": {
     "Gunna": 2,
     "Internet Money": 2,
     "NAV": 1,
     "Lil Uzi Vert": 3,
-    "Skrillex": 1,
     "Justin Bieber": 3,
-    "Travis Scott": 2,
+    "Skrillex": 1,
+    "Travis Scott": 4,
     "Pusha T": 1,
     "DJ Khaled": 1,
     "Metro Boomin": 5,
     "Future": 3,
     "SZA": 1,
-    "Toian": 1,
-    "BEAM": 1,
     "Wizkid": 1,
+    "BEAM": 1,
+    "Toian": 1,
     "Offset": 1,
     "Kodak Black": 2,
-    "Charlie Wilson": 1,
     "Cash Cobain": 1,
+    "Charlie Wilson": 1,
     "Playboi Carti": 1,
     "¥$: Kanye West": 1,
     "Ty Dolla $ign": 1,
-    "Speedy": 1,
     "j-hope": 1,
-    "Pharrell Williams": 1
+    "Pharrell Williams": 1,
+    "Speedy": 1,
+    "Doja Cat": 1,
+    "Sheck Wes": 1
   },
-  "Chris Brown": {
-    "Young Thug": 1,
-    "Drake": 1,
-    "G-Eazy": 1,
-    "Mark Morrison": 1,
-    "H.E.R.": 1,
-    "Pop Smoke": 1,
-    "Rauw Alejandro": 1,
-    "Rvssian": 1,
+  "Internet Money": {
+    "Gunna": 2,
+    "Don Toliver": 2,
+    "NAV": 1,
+    "Trippie Redd": 1,
+    "Juice WRLD": 1,
+    "The Kid LAROI": 1,
+    "YoungBoy Never Brok Again": 1,
+    "Lil Uzi Vert": 1,
+    "YoungBoy Never Broke Again": 1
+  },
+  "NAV": {
     "Gunna": 1,
-    "Yung Bleu": 1,
-    "WizKid": 1,
-    "Jack Harlow": 1,
+    "Don Toliver": 1,
+    "Internet Money": 1,
+    "Lil Baby": 2,
+    "Travis Scott": 1,
+    "Swae Lee": 1,
     "Metro Boomin": 1,
-    "Future": 1
+    "A Boogie Wit da Hoodie": 1
   },
   "Young Thug": {
     "Chris Brown": 1,
     "Gunna": 9,
-    "M.I.A.": 1,
     "Travis Scott": 5,
-    "Metro Boomin": 4,
+    "M.I.A.": 1,
     "21 Savage": 5,
+    "Metro Boomin": 4,
     "Megan Thee Stallion": 1,
     "Lil Durk": 2,
     "6LACK": 1,
@@ -711,23 +706,53 @@
     "Yung Kayo": 1,
     "Lil Uzi Vert": 1,
     "Rowdy Rebel": 1,
-    "YTB Trench": 1,
     "Lil Baby": 4,
+    "YTB Trench": 1,
     "Yak Gotti": 2,
     "Lil Duke": 1,
     "Doja Cat": 1,
-    "The Weeknd": 1,
     "Belly": 1,
-    "Future": 5,
+    "The Weeknd": 1,
+    "Future": 6,
+    "Dua Lipa": 1,
     "Calvin Harris": 1,
-    "Dua Lipa": 1
+    "Playboi Carti": 1,
+    "Ty Dolla $ign": 1
+  },
+  "Chris Brown": {
+    "Young Thug": 1,
+    "Drake": 1,
+    "Mark Morrison": 1,
+    "G-Eazy": 1,
+    "H.E.R.": 1,
+    "Pop Smoke": 1,
+    "Rvssian": 1,
+    "Rauw Alejandro": 1,
+    "Gunna": 1,
+    "Yung Bleu": 1,
+    "WizKid": 1,
+    "Jack Harlow": 1,
+    "Metro Boomin": 1,
+    "Future": 1
+  },
+  "Marshmello": {
+    "Juice WRLD": 2,
+    "Halsey": 1,
+    "Bastille": 1,
+    "Demi Lovato": 1,
+    "Vance Joy": 1,
+    "benny blanco": 1,
+    "Khalid": 1,
+    "Manuel Turizo": 1,
+    "Fuerza Regida": 1,
+    "Kane Brown": 1
   },
   "Juice WRLD": {
     "Marshmello": 2,
     "The Weeknd": 1,
     "Eminem": 2,
-    "Internet Money": 1,
     "Trippie Redd": 4,
+    "Internet Money": 1,
     "benny blanco": 2,
     "The Kid LAROI": 1,
     "Young Thug": 1,
@@ -740,29 +765,23 @@
     "Cordae": 1,
     "Nicki Minaj": 1
   },
-  "Marshmello": {
-    "Juice WRLD": 2,
-    "Halsey": 1,
-    "Bastille": 1,
-    "Demi Lovato": 1,
-    "benny blanco": 1,
-    "Vance Joy": 1,
-    "Khalid": 1,
-    "Manuel Turizo": 1,
-    "Fuerza Regida": 1,
-    "Kane Brown": 1
+  "Camilo": {
+    "Rauw Alejandro": 1,
+    "Ozuna": 1,
+    "El Alfa": 1,
+    "Shawn Mendes": 1
   },
   "Rauw Alejandro": {
     "Camilo": 1,
     "Ir-Sais": 1,
-    "Manuel Turizo": 1,
     "Myke Towers": 1,
+    "Manuel Turizo": 1,
     "Anuel AA": 1,
     "J Balvin": 1,
-    "Pol Granch": 1,
     "Marc Segui": 1,
-    "Chris Brown": 1,
+    "Pol Granch": 1,
     "Rvssian": 2,
+    "Chris Brown": 1,
     "Chencho Corleone": 1,
     "Shakira": 1,
     "Bad Bunny": 2,
@@ -776,27 +795,33 @@
     "Laura Pausini": 1,
     "Feid": 1
   },
-  "Camilo": {
-    "Rauw Alejandro": 1,
-    "Ozuna": 1,
-    "El Alfa": 1,
-    "Shawn Mendes": 1
+  "Juanka": {
+    "Nio Garcia": 1,
+    "Brray": 1,
+    "Myke Towers": 1,
+    "Anuel AA": 1
+  },
+  "Nio Garcia": {
+    "Juanka": 1,
+    "Brray": 1,
+    "Myke Towers": 1,
+    "Anuel AA": 1
   },
   "Brray": {
-    "Anuel AA": 1,
+    "Juanka": 1,
     "Nio Garcia": 1,
     "Myke Towers": 1,
-    "Juanka": 1,
-    "Rauw Alejandro": 1,
-    "Lyanno": 1
+    "Anuel AA": 1,
+    "Lyanno": 1,
+    "Rauw Alejandro": 1
   },
   "Anuel AA": {
-    "Brray": 1,
-    "Nio Garcia": 1,
-    "Myke Towers": 2,
     "Juanka": 1,
-    "Kendo Kaponi": 1,
+    "Nio Garcia": 1,
+    "Brray": 1,
+    "Myke Towers": 2,
     "Daddy Yankee": 1,
+    "Kendo Kaponi": 1,
     "Rauw Alejandro": 1,
     "Ozuna": 2,
     "Karol G": 1,
@@ -809,39 +834,54 @@
     "DJ Luian": 2,
     "Mambo Kingz": 2,
     "Dei V": 1,
+    "Hades66": 1,
     "Bryant Myers": 1,
     "Jay Wheeler": 1,
-    "Hades66": 1,
-    "iZaak": 1,
     "Jhayco": 1,
+    "iZaak": 1,
     "Blessd": 1
-  },
-  "Nio Garcia": {
-    "Brray": 1,
-    "Anuel AA": 1,
-    "Myke Towers": 1,
-    "Juanka": 1
-  },
-  "Juanka": {
-    "Brray": 1,
-    "Anuel AA": 1,
-    "Nio Garcia": 1,
-    "Myke Towers": 1
   },
   "Tate McRae": {
     "Regard": 1,
     "Troye Sivan": 1,
     "Tiesto": 1,
     "The Kid LAROI": 1,
-    "Flo Milli": 1
+    "Flo Milli": 1,
+    "Morgan Wallen": 1
+  },
+  "Tainy": {
+    "Dua Lipa": 1,
+    "J Balvin": 2,
+    "Bad Bunny": 4,
+    "Shawn Mendes": 1,
+    "Julieta Venegas": 1,
+    "Jhayco": 1,
+    "Omar Courtz": 1,
+    "Arca": 1,
+    "Arcangel": 1,
+    "Myke Towers": 1
+  },
+  "Dua Lipa": {
+    "Tainy": 1,
+    "J Balvin": 1,
+    "Bad Bunny": 1,
+    "Angele": 1,
+    "Miley Cyrus": 1,
+    "Pop Smoke": 1,
+    "Elton John": 1,
+    "Sean Paul": 1,
+    "Megan Thee Stallion": 1,
+    "Young Thug": 1,
+    "Calvin Harris": 2,
+    "JENNIE": 1
   },
   "Bad Bunny": {
-    "Dua Lipa": 1,
     "Tainy": 4,
+    "Dua Lipa": 1,
     "J Balvin": 2,
+    "Jowell": 1,
     "Nengo Flow": 3,
     "Randy": 1,
-    "Jowell": 1,
     "Jhay Cortez": 2,
     "Rosalia": 1,
     "ABRA": 1,
@@ -860,8 +900,8 @@
     "Arcangel": 2,
     "Gorillaz": 1,
     "Eladio Carrion": 2,
-    "The Weeknd": 1,
     "Travis Scott": 1,
+    "The Weeknd": 1,
     "Drake": 1,
     "Feid": 1,
     "Young Miko": 1,
@@ -875,53 +915,12 @@
     "Chuwi": 1,
     "Los Pleneros de La Cresta": 1
   },
-  "Dua Lipa": {
-    "Bad Bunny": 1,
-    "Tainy": 1,
-    "J Balvin": 1,
-    "Angele": 1,
-    "Miley Cyrus": 1,
-    "Pop Smoke": 1,
-    "Elton John": 1,
-    "Sean Paul": 1,
-    "Megan Thee Stallion": 1,
-    "Calvin Harris": 2,
-    "Young Thug": 1
-  },
-  "Tainy": {
-    "Bad Bunny": 4,
-    "Dua Lipa": 1,
-    "J Balvin": 2,
-    "Shawn Mendes": 1,
-    "Julieta Venegas": 1,
-    "Arcangel": 1,
-    "Omar Courtz": 1,
-    "Jhayco": 1,
-    "Myke Towers": 1,
-    "Arca": 1
-  },
   "Lewis Capaldi": {},
   "BLACKPINK": {
     "Cardi B": 1
   },
   "Ava Max": {
     "Tiesto": 1
-  },
-  "SZA": {
-    "Ty Dolla $ign": 1,
-    "Megan Thee Stallion": 1,
-    "Doja Cat": 1,
-    "Summer Walker": 1,
-    "DJ Khaled": 1,
-    "Future": 2,
-    "Don Toliver": 1,
-    "Phoebe Bridgers": 1,
-    "Travis Scott": 2,
-    "Ol' Dirty Bastard": 1,
-    "Lizzo": 1,
-    "Drake": 2,
-    "Sexyy Red": 1,
-    "Kendrick Lamar": 3
   },
   "Ty Dolla $ign": {
     "SZA": 1,
@@ -931,19 +930,36 @@
     "Ariana Grande": 1,
     "YoungBoy Never Broke Again": 1,
     "Tyler, The Creator": 1,
-    "Blxst": 1,
     "Tyga": 1,
+    "Blxst": 1,
     "Drake": 1,
-    "Playboi Carti": 2,
+    "Playboi Carti": 3,
     "¥$: Ye": 16,
     "Rich The Kid": 1,
     "North West": 1,
     "Lil Durk": 1,
     "Bump J": 1,
     "Don Toliver": 1,
-    "¥$: Kanye West": 4,
     "Kodak Black": 1,
-    "Future": 1
+    "¥$: Kanye West": 4,
+    "Future": 1,
+    "Young Thug": 1
+  },
+  "SZA": {
+    "Ty Dolla $ign": 1,
+    "Megan Thee Stallion": 1,
+    "Doja Cat": 1,
+    "Summer Walker": 1,
+    "Future": 2,
+    "DJ Khaled": 1,
+    "Don Toliver": 1,
+    "Phoebe Bridgers": 1,
+    "Travis Scott": 2,
+    "Ol' Dirty Bastard": 1,
+    "Lizzo": 1,
+    "Drake": 2,
+    "Sexyy Red": 1,
+    "Kendrick Lamar": 3
   },
   "Future": {
     "Drake": 5,
@@ -952,11 +968,11 @@
     "42 Dugg": 1,
     "Migos": 1,
     "Pop Smoke": 1,
-    "Young Thug": 5,
+    "Young Thug": 6,
     "Gunna": 3,
     "Lil Durk": 1,
+    "Travis Scott": 7,
     "Southside": 1,
-    "Travis Scott": 5,
     "Tems": 1,
     "Kanye West": 1,
     "EST Gee": 1,
@@ -971,16 +987,17 @@
     "Justin Bieber": 1,
     "The Weeknd": 5,
     "Kendrick Lamar": 1,
-    "Playboi Carti": 1,
+    "Playboi Carti": 4,
     "Rick Ross": 1,
     "J. Cole": 1,
     "A$AP Rocky": 1,
     "¥$: Kanye West": 1,
-    "Ty Dolla $ign": 1
+    "Ty Dolla $ign": 1,
+    "LISA": 1
   },
   "50 Cent": {
-    "Roddy Ricch": 1,
-    "Pop Smoke": 1
+    "Pop Smoke": 1,
+    "Roddy Ricch": 1
   },
   "DJ Nelson Presenta Jay Wheeler": {
     "Myke Towers": 1
@@ -989,36 +1006,36 @@
     "Jhene Aiko": 1,
     "Doja Cat": 1,
     "Little Mix": 1,
-    "Charli XCX": 1,
     "Joel Corry": 1,
-    "Jax Jones": 1
-  },
-  "Powfu": {
-    "beabadoobee": 1
+    "Jax Jones": 1,
+    "Charli XCX": 1
   },
   "beabadoobee": {
     "Powfu": 1
   },
-  "Nomcebo Zikode": {
-    "Burna Boy": 1,
-    "Master KG": 1
-  },
-  "Burna Boy": {
-    "Nomcebo Zikode": 1,
-    "Master KG": 1,
-    "Justin Bieber": 1,
-    "Ed Sheeran": 1,
-    "Dave": 1,
-    "Metro Boomin": 1,
-    "21 Savage": 1,
-    "Little Simz": 1,
-    "Elyanna": 1,
-    "Coldplay": 1,
-    "TINI": 1
+  "Powfu": {
+    "beabadoobee": 1
   },
   "Master KG": {
     "Nomcebo Zikode": 1,
     "Burna Boy": 1
+  },
+  "Nomcebo Zikode": {
+    "Master KG": 1,
+    "Burna Boy": 1
+  },
+  "Burna Boy": {
+    "Master KG": 1,
+    "Nomcebo Zikode": 1,
+    "Justin Bieber": 1,
+    "Ed Sheeran": 1,
+    "Dave": 1,
+    "21 Savage": 1,
+    "Metro Boomin": 1,
+    "Coldplay": 1,
+    "Little Simz": 1,
+    "Elyanna": 1,
+    "TINI": 1
   },
   "Doja Cat": {
     "Sia": 1,
@@ -1035,7 +1052,9 @@
     "Post Malone": 1,
     "21 Savage": 1,
     "RAYE": 1,
-    "LISA": 1
+    "LISA": 1,
+    "Jack Harlow": 1,
+    "Don Toliver": 1
   },
   "Post Malone": {
     "Swae Lee": 1,
@@ -1043,9 +1062,9 @@
     "21 Savage": 1,
     "Ty Dolla $ign": 1,
     "DaBaby": 1,
-    "Lil Baby": 1,
     "DJ Khaled": 1,
     "Megan Thee Stallion": 1,
+    "Lil Baby": 1,
     "The Weeknd": 1,
     "Roddy Ricch": 1,
     "Doja Cat": 1,
@@ -1054,7 +1073,7 @@
     "Fleet Foxes": 1,
     "Beyonce": 1,
     "Taylor Swift": 1,
-    "Morgan Wallen": 1,
+    "Morgan Wallen": 2,
     "Blake Shelton": 1,
     "Luke Combs": 2,
     "Tim McGraw": 1,
@@ -1069,19 +1088,19 @@
   "Beyonce": {
     "Megan Thee Stallion": 1,
     "BEAM": 1,
-    "Tems": 1,
     "Grace Jones": 1,
+    "Tems": 1,
     "Kendrick Lamar": 1,
     "Travis Scott": 1,
     "Jay Z": 1,
     "Miley Cyrus": 1,
     "Post Malone": 1,
-    "Tiera Kennedy": 1,
-    "Tanner Adell": 1,
     "Brittney Spencer": 1,
+    "Tanner Adell": 1,
     "Reyna Roberts": 1,
-    "Linda Martell": 1,
+    "Tiera Kennedy": 1,
     "Shaboozey": 2,
+    "Linda Martell": 1,
     "Rumi Carter": 1,
     "Dolly Parton": 1,
     "Willie Jones": 1
@@ -1115,23 +1134,23 @@
   "Pinkfong": {},
   "Swae Lee": {
     "Post Malone": 1,
-    "Lil Tjay": 1,
     "Pop Smoke": 1,
+    "Lil Tjay": 1,
     "Metro Boomin": 2,
-    "A Boogie Wit da Hoodie": 1,
     "NAV": 1,
-    "Lil Wayne": 1,
+    "A Boogie Wit da Hoodie": 1,
     "Offset": 1,
-    "The Weeknd": 1,
+    "Lil Wayne": 1,
     "Travis Scott": 1,
+    "The Weeknd": 1,
     "French Montana": 1
   },
   "Justin Bieber": {
     "Ariana Grande": 1,
     "Quavo": 1,
     "Ed Sheeran": 1,
-    "Luis Fonsi": 1,
     "Daddy Yankee": 1,
+    "Luis Fonsi": 1,
     "Chance The Rapper": 1,
     "Dan + Shay": 1,
     "benny blanco": 1,
@@ -1143,18 +1162,24 @@
     "Burna Boy": 1,
     "Dominic Fike": 1,
     "BEAM": 1,
-    "DJ Khaled": 1,
     "21 Savage": 1,
+    "DJ Khaled": 1,
     "Wizkid": 1,
     "Tems": 1,
-    "Skrillex": 1,
     "Don Toliver": 3,
+    "Skrillex": 1,
     "TroyBoi": 1,
     "Juice WRLD": 1,
     "Omah Lay": 1,
     "Kehlani": 1,
     "Future": 1,
-    "DJ Snake": 1
+    "DJ Snake": 1,
+    "Gunna": 1,
+    "Dijon": 1,
+    "Sexyy Red": 1,
+    "Cash Cobain": 1,
+    "Eddie Benjamin": 1,
+    "Lil B": 1
   },
   "Ed Sheeran": {
     "Justin Bieber": 1,
@@ -1171,37 +1196,37 @@
     "Luke Combs": 1
   },
   "Lil Mosey": {},
-  "ATR Son Son": {
-    "Rod Wave": 1
-  },
   "Rod Wave": {
     "ATR Son Son": 1,
     "Polo G": 2,
-    "Lil Durk": 2,
     "Lil Baby": 2,
+    "Lil Durk": 2,
     "YoungBoy Never Broke Again": 1,
     "Jack Harlow": 1,
     "21 Savage": 1,
     "Wet": 1,
     "Rylo Rodriguez": 1
   },
+  "ATR Son Son": {
+    "Rod Wave": 1
+  },
   "Travis Scott": {
     "Big Sean": 1,
     "Rosalia": 1,
     "THE SCOTTS": 1,
     "Kid Cudi": 2,
-    "M.I.A.": 1,
     "Young Thug": 5,
+    "M.I.A.": 1,
     "HVME": 1,
     "Gunna": 1,
     "Baby Keem": 1,
-    "Lil Durk": 1,
     "Lil Baby": 3,
+    "Lil Durk": 1,
     "Drake": 3,
-    "Don Toliver": 2,
+    "Don Toliver": 4,
     "Young Thug With Drake": 1,
+    "Future": 7,
     "Southside": 1,
-    "Future": 5,
     "NAV": 1,
     "DJ Khaled": 1,
     "21 Savage": 6,
@@ -1210,9 +1235,9 @@
     "SZA": 2,
     "Yak Gotti": 1,
     "Lil Uzi Vert": 1,
-    "Bad Bunny": 1,
     "The Weeknd": 3,
-    "Playboi Carti": 2,
+    "Bad Bunny": 1,
+    "Playboi Carti": 7,
     "Rob49": 1,
     "Teezo Touchdown": 1,
     "Beyonce": 1,
@@ -1224,7 +1249,8 @@
     "Offset": 1,
     "Mustard": 1,
     "Asake": 1,
-    "Florence + The Machine": 1
+    "Florence + The Machine": 1,
+    "Sheck Wes": 1
   },
   "Big Sean": {
     "Travis Scott": 1,
@@ -1236,12 +1262,12 @@
     "Eminem": 1,
     "BabyTron": 1
   },
+  "Ozuna + J.Rey Soul": {
+    "Black Eyed Peas": 1
+  },
   "Black Eyed Peas": {
     "Ozuna + J.Rey Soul": 1,
     "Shakira + David Guetta": 1
-  },
-  "Ozuna + J.Rey Soul": {
-    "Black Eyed Peas": 1
   },
   "Calvin Harris X The Weeknd": {},
   "StaySolidRocky": {},
@@ -1261,7 +1287,8 @@
   "Maroon 5": {
     "Cardi B": 1,
     "Megan Thee Stallion": 1,
-    "Wiz Khalifa": 1
+    "Wiz Khalifa": 1,
+    "LISA": 1
   },
   "Lil Nas X": {
     "Billy Ray Cyrus": 1,
@@ -1307,11 +1334,11 @@
     "Sech": 2,
     "Maluma": 2,
     "Feid": 1,
-    "J Balvin": 1,
     "Nicky Jam": 1,
+    "J Balvin": 1,
     "Lenny Tavarez": 3,
-    "Chimbala X Zion": 1,
     "Lennox": 1,
+    "Chimbala X Zion": 1,
     "Blessd": 1,
     "Karol G": 1,
     "Angel Dior": 1,
@@ -1323,28 +1350,28 @@
     "Justin Quiles": 1,
     "Sech": 1,
     "Maluma": 2,
-    "J Balvin": 2,
     "Nicky Jam": 1,
-    "Alejo": 1,
+    "J Balvin": 2,
     "ROBI": 1,
+    "Alejo": 1,
     "Mora": 2,
     "Ozuna": 1,
     "Yandel": 2,
     "Young Miko": 2,
     "Sean Paul": 1,
-    "Sky Rompiendo": 1,
     "Myke Towers": 1,
+    "Sky Rompiendo": 1,
     "Quevedo": 1,
     "Saiko": 1,
     "Daddy Yankee": 1,
     "Bad Bunny": 1,
     "ATL Jacob": 1,
     "Maisak": 1,
-    "Karol G": 1,
+    "Blessd": 1,
+    "DFZM": 1,
+    "Karol G": 2,
     "Ryan Castro": 1,
     "Ovy On The Drums": 1,
-    "DFZM": 1,
-    "Blessd": 1,
     "Rauw Alejandro": 1
   },
   "Nicky Jam": {
@@ -1353,11 +1380,11 @@
     "Maluma": 1,
     "Feid": 1,
     "J Balvin": 2,
-    "Shander": 1,
-    "Karol G": 1,
-    "Totoy El Frio": 1,
     "Natan": 1,
     "Crissin": 1,
+    "Totoy El Frio": 1,
+    "Karol G": 1,
+    "Shander": 1,
     "Bizarrap": 1
   },
   "YOASOBI": {},
@@ -1371,8 +1398,8 @@
     "BTS": 1,
     "Machine Gun Kelly": 1,
     "Justin Timberlake": 1,
-    "Calvin Harris": 1,
     "Pharrell": 1,
+    "Calvin Harris": 1,
     "SUGA Of BTS": 1
   },
   "Labrinth": {
@@ -1394,28 +1421,35 @@
     "Roddy Ricch": 1,
     "Future": 1,
     "Tyler, The Creator": 1,
-    "21 Savage": 1,
     "Pop Smoke": 1,
+    "21 Savage": 1,
     "Veeze": 1
   },
   "Trevor Daniel": {},
   "BORNS": {},
   "Lenny Tavarez X Rauw Alejandro X Dalex X Dimelo Flow": {},
-  "Nicki Nicole": {
-    "Bizarrap": 2,
-    "Taiu": 1,
-    "Trueno": 1,
+  "Trueno": {
+    "Nicki Nicole": 1,
+    "Bizarrap": 1,
     "Tatool": 1,
+    "Taiu": 1,
+    "Tiago PZK": 1
+  },
+  "Nicki Nicole": {
+    "Trueno": 1,
+    "Bizarrap": 2,
+    "Tatool": 1,
+    "Taiu": 1,
     "Tiago PZK": 1,
-    "LIT killa": 1,
     "Maria Becerra": 1,
+    "LIT killa": 1,
     "Duki": 1
   },
   "Bizarrap": {
-    "Nicki Nicole": 2,
-    "Taiu": 1,
     "Trueno": 1,
+    "Nicki Nicole": 2,
     "Tatool": 1,
+    "Taiu": 1,
     "Nathy Peluso": 1,
     "L-Gante": 1,
     "Eladio Carrion": 1,
@@ -1435,24 +1469,17 @@
     "Young Miko": 1,
     "Natanael Cano": 2
   },
-  "Taiu": {
-    "Nicki Nicole": 1,
-    "Bizarrap": 1,
-    "Trueno": 1,
-    "Tatool": 1
-  },
-  "Trueno": {
-    "Nicki Nicole": 1,
-    "Bizarrap": 1,
-    "Taiu": 1,
-    "Tatool": 1,
-    "Tiago PZK": 1
-  },
   "Tatool": {
+    "Trueno": 1,
     "Nicki Nicole": 1,
     "Bizarrap": 1,
-    "Taiu": 1,
-    "Trueno": 1
+    "Taiu": 1
+  },
+  "Taiu": {
+    "Trueno": 1,
+    "Nicki Nicole": 1,
+    "Bizarrap": 1,
+    "Tatool": 1
   },
   "Sia": {
     "Doja Cat": 1,
@@ -1471,8 +1498,8 @@
   "Nicki Minaj": {
     "Karol G": 1,
     "Sada Baby": 1,
-    "Mike WiLL Made-It": 1,
     "YoungBoy Never Broke Again": 1,
+    "Mike WiLL Made-It": 1,
     "Drake": 2,
     "Lil Wayne": 1,
     "Skillibeng": 1,
@@ -1481,8 +1508,8 @@
     "Jesy Nelson": 1,
     "Coi Leray": 1,
     "Fivio Foreign": 1,
-    "Maluma": 1,
     "Myriam Fares": 1,
+    "Maluma": 1,
     "Ice Spice": 1,
     "Kim Petras": 1,
     "Ice Spice With Aqua": 1,
@@ -1497,94 +1524,95 @@
     "Chris Stapleton": 1,
     "Lil Durk": 2,
     "ERNEST": 2,
-    "Eric Church": 1,
-    "HARDY": 1,
-    "Post Malone": 1,
-    "Moneybagg Yo": 1
-  },
-  "Kofs": {
-    "Solda": 1,
-    "Naps": 1,
-    "SCH": 1,
-    "Elams": 1,
-    "Soso Maness": 1,
-    "Houari": 1,
-    "Jul": 1
-  },
-  "Solda": {
-    "Kofs": 1,
-    "Naps": 1,
-    "SCH": 1,
-    "Elams": 1,
-    "Soso Maness": 1,
-    "Houari": 1,
-    "Jul": 1
-  },
-  "Naps": {
-    "Kofs": 1,
-    "Solda": 1,
-    "SCH": 1,
-    "Elams": 1,
-    "Soso Maness": 1,
-    "Houari": 1,
-    "Jul": 1,
-    "Ninha": 1,
-    "Alonzo": 1
-  },
-  "SCH": {
-    "Kofs": 1,
-    "Solda": 1,
-    "Naps": 1,
-    "Elams": 1,
-    "Soso Maness": 1,
-    "Houari": 1,
-    "Jul": 1
-  },
-  "Elams": {
-    "Kofs": 1,
-    "Solda": 1,
-    "Naps": 1,
-    "SCH": 1,
-    "Soso Maness": 1,
-    "Houari": 1,
-    "Jul": 1
-  },
-  "Soso Maness": {
-    "Kofs": 1,
-    "Solda": 1,
-    "Naps": 1,
-    "SCH": 1,
-    "Elams": 1,
-    "Houari": 1,
-    "Jul": 1,
-    "PLK": 1
+    "Eric Church": 2,
+    "HARDY": 2,
+    "Post Malone": 2,
+    "Moneybagg Yo": 1,
+    "Tate McRae": 1
   },
   "Houari": {
-    "Kofs": 1,
+    "Jul": 1,
     "Solda": 1,
-    "Naps": 1,
-    "SCH": 1,
-    "Elams": 1,
     "Soso Maness": 1,
-    "Jul": 1
+    "Naps": 1,
+    "Kofs": 1,
+    "SCH": 1,
+    "Elams": 1
   },
   "Jul": {
+    "Houari": 1,
+    "Solda": 1,
+    "Soso Maness": 1,
+    "Naps": 1,
     "Kofs": 1,
+    "SCH": 1,
+    "Elams": 1
+  },
+  "Solda": {
+    "Houari": 1,
+    "Jul": 1,
+    "Soso Maness": 1,
+    "Naps": 1,
+    "Kofs": 1,
+    "SCH": 1,
+    "Elams": 1
+  },
+  "Soso Maness": {
+    "Houari": 1,
+    "Jul": 1,
     "Solda": 1,
     "Naps": 1,
+    "Kofs": 1,
     "SCH": 1,
     "Elams": 1,
+    "PLK": 1
+  },
+  "Naps": {
+    "Houari": 1,
+    "Jul": 1,
+    "Solda": 1,
     "Soso Maness": 1,
-    "Houari": 1
+    "Kofs": 1,
+    "SCH": 1,
+    "Elams": 1,
+    "Alonzo": 1,
+    "Ninha": 1
+  },
+  "Kofs": {
+    "Houari": 1,
+    "Jul": 1,
+    "Solda": 1,
+    "Soso Maness": 1,
+    "Naps": 1,
+    "SCH": 1,
+    "Elams": 1
+  },
+  "SCH": {
+    "Houari": 1,
+    "Jul": 1,
+    "Solda": 1,
+    "Soso Maness": 1,
+    "Naps": 1,
+    "Kofs": 1,
+    "Elams": 1
+  },
+  "Elams": {
+    "Houari": 1,
+    "Jul": 1,
+    "Solda": 1,
+    "Soso Maness": 1,
+    "Naps": 1,
+    "Kofs": 1,
+    "SCH": 1
   },
   "Polo G": {
-    "Lil Tecca": 1,
     "Lil Durk": 4,
+    "Lil Tecca": 1,
     "King Von": 1,
     "YUNGBLUD": 1,
     "KSI": 1,
-    "Lil Tjay": 1,
     "Fivio Foreign": 2,
+    "Lil Tjay": 1,
     "Rod Wave": 2,
     "Moneybagg Yo": 1,
     "Lil Wayne": 1,
@@ -1597,9 +1625,9 @@
     "Scorey": 1,
     "Stunna Gambino": 1,
     "Trippie Redd": 2,
-    "Mozzy": 1,
     "Skylar Grey": 1,
     "Eminem": 1,
+    "Mozzy": 1,
     "NLE Choppa": 1,
     "Lil Baby": 1,
     "Juice WRLD": 1
@@ -1608,38 +1636,38 @@
     "Big Sean": 1,
     "JAY-Z": 1
   },
-  "Natti Natashi": {
-    "KHEA": 1,
-    "Lenny Santos": 1,
-    "Prince Royce": 1
-  },
-  "KHEA": {
-    "Natti Natashi": 1,
-    "Lenny Santos": 1,
-    "Prince Royce": 1,
-    "Bhavi": 1,
-    "Milo j": 1,
-    "Tiago PZK": 1,
-    "Neo Pistea": 1,
-    "Seven Kayne": 1
-  },
-  "Lenny Santos": {
-    "Natti Natashi": 1,
-    "KHEA": 1,
-    "Prince Royce": 1
-  },
   "Prince Royce": {
     "Natti Natashi": 1,
-    "KHEA": 1,
-    "Lenny Santos": 1
+    "Lenny Santos": 1,
+    "KHEA": 1
+  },
+  "Natti Natashi": {
+    "Prince Royce": 1,
+    "Lenny Santos": 1,
+    "KHEA": 1
+  },
+  "Lenny Santos": {
+    "Prince Royce": 1,
+    "Natti Natashi": 1,
+    "KHEA": 1
+  },
+  "KHEA": {
+    "Prince Royce": 1,
+    "Natti Natashi": 1,
+    "Lenny Santos": 1,
+    "Seven Kayne": 1,
+    "Bhavi": 1,
+    "Tiago PZK": 1,
+    "Neo Pistea": 1,
+    "Milo j": 1
   },
   "RAYE": {
     "Regard": 1,
     "070 Shake": 1,
-    "D-Block Europe": 1,
     "casso": 1,
-    "Doja Cat": 1,
-    "LISA": 1
+    "D-Block Europe": 1,
+    "LISA": 1,
+    "Doja Cat": 1
   },
   "iTZY": {},
   "Curtis Waters": {
@@ -1657,13 +1685,13 @@
   "A Boogie Wit da Hoodie": {
     "Pop Smoke": 1,
     "Lil Durk": 1,
+    "Swae Lee": 1,
     "Metro Boomin": 1,
-    "NAV": 1,
-    "Swae Lee": 1
+    "NAV": 1
   },
   "Luis Fonsi": {
-    "Daddy Yankee": 1,
-    "Justin Bieber": 1
+    "Justin Bieber": 1,
+    "Daddy Yankee": 1
   },
   "Queen": {},
   "Niack": {},
@@ -1684,20 +1712,20 @@
   },
   "Eminem": {
     "Juice WRLD": 2,
-    "Cordae": 1,
     "Jack Harlow": 1,
+    "Cordae": 1,
     "EPMD": 1,
     "Nas": 1,
-    "Mozzy": 1,
     "Skylar Grey": 2,
     "Polo G": 1,
+    "Mozzy": 1,
     "Dr. Dre": 2,
     "Nate Dogg": 1,
     "Dido": 1,
     "Rihanna": 1,
     "Snoop Dogg": 1,
-    "DJ Khaled": 1,
     "Kanye West": 1,
+    "DJ Khaled": 1,
     "benny blanco": 1,
     "BabyTron": 1,
     "Big Sean": 1,
@@ -1711,32 +1739,32 @@
   "John Legend": {
     "Stevie Wonder": 1,
     "Carrie Underwood": 1,
-    "Fridayy": 1,
-    "JAY-Z": 1,
     "Rick Ross": 1,
+    "JAY-Z": 1,
     "Lil Wayne": 1,
     "DJ Khaled": 1,
+    "Fridayy": 1,
     "Metro Boomin": 1
   },
   "NEA": {},
-  "Falsetto": {
-    "Super Yei": 1,
-    "Saammy": 1,
-    "Towy X Osquel X Beltito": 1
-  },
   "Super Yei": {
-    "Falsetto": 1,
+    "Towy X Osquel X Beltito": 1,
     "Saammy": 1,
-    "Towy X Osquel X Beltito": 1
-  },
-  "Saammy": {
-    "Falsetto": 1,
-    "Super Yei": 1,
-    "Towy X Osquel X Beltito": 1
+    "Falsetto": 1
   },
   "Towy X Osquel X Beltito": {
-    "Falsetto": 1,
     "Super Yei": 1,
+    "Saammy": 1,
+    "Falsetto": 1
+  },
+  "Saammy": {
+    "Super Yei": 1,
+    "Towy X Osquel X Beltito": 1,
+    "Falsetto": 1
+  },
+  "Falsetto": {
+    "Super Yei": 1,
+    "Towy X Osquel X Beltito": 1,
     "Saammy": 1
   },
   "Giveon": {
@@ -1773,24 +1801,24 @@
     "Drake": 16,
     "Young Thug": 5,
     "Young Nudy": 3,
-    "DJ Khaled": 2,
     "Justin Bieber": 1,
+    "DJ Khaled": 2,
     "J. Cole": 1,
     "Morray": 1,
-    "42 Dugg": 1,
     "Pop Smoke": 1,
+    "42 Dugg": 1,
     "Project Pat": 1,
     "Lil Durk": 4,
-    "Nardo Wick": 1,
     "G Herbo": 1,
-    "Roddy Ricch": 2,
+    "Nardo Wick": 1,
     "Kodak Black": 1,
+    "Roddy Ricch": 2,
     "Gunna": 1,
-    "JID": 1,
     "Baby Tate": 1,
+    "JID": 1,
     "King Von": 1,
-    "Pharrell Williams": 1,
     "Tyler, The Creator": 1,
+    "Pharrell Williams": 1,
     "Travis Scott": 6,
     "The Weeknd": 2,
     "Mustafa": 1,
@@ -1798,8 +1826,8 @@
     "Rob49": 1,
     "James Blake": 1,
     "Rod Wave": 1,
-    "Diddy": 1,
     "French Montana": 1,
+    "Diddy": 1,
     "Doja Cat": 1,
     "Summer Walker": 1,
     "Brent Faiyaz": 1,
@@ -1818,21 +1846,23 @@
     "Sech": 1,
     "Dalex": 1,
     "De La Ghetto": 2,
-    "Beele": 1,
     "Manuel Turizo": 1,
+    "Beele": 1,
     "Bad Bunny": 2,
     "Bizarrap": 1,
-    "Tainy": 1,
-    "Omar Courtz": 1,
     "Jhayco": 1,
-    "Myke Towers": 1,
+    "Omar Courtz": 1,
     "Arca": 1,
+    "Tainy": 1,
+    "Myke Towers": 1,
     "Nengo Flow": 1
   },
   "Jhene Aiko": {
     "Ty Dolla $ign": 1,
     "Big Sean": 1,
-    "Saweetie": 1
+    "Saweetie": 1,
+    "Playboi Carti": 1,
+    "Kendrick Lamar": 1
   },
   "Tae": {
     "Maddie": 1
@@ -1847,8 +1877,8 @@
     "Justin Quiles": 3,
     "Maluma": 1,
     "Blessd": 1,
-    "Sech": 1,
     "Dalex": 1,
+    "Sech": 1,
     "Dimelo Flow": 1,
     "Myke Towers": 1
   },
@@ -1856,26 +1886,22 @@
   "Coldplay": {
     "The Chainsmokers": 1,
     "BTS": 1,
+    "Burna Boy": 1,
     "Little Simz": 1,
     "Elyanna": 1,
-    "Burna Boy": 1,
     "TINI": 1
   },
   "Black Eyed Peas X J Balvin": {},
-  "Clean Bandit": {
-    "24kGoldn": 1,
-    "Mabel": 1
-  },
   "Mabel": {
     "24kGoldn": 1,
     "Clean Bandit": 1
   },
+  "Clean Bandit": {
+    "24kGoldn": 1,
+    "Mabel": 1
+  },
   "blackbear": {
     "G-Eazy": 1
-  },
-  "OneRepublic": {
-    "Kygo": 1,
-    "David Guetta": 1
   },
   "Kygo": {
     "OneRepublic": 1,
@@ -1883,10 +1909,14 @@
     "Zoe Wees": 1,
     "DNCE": 1
   },
+  "OneRepublic": {
+    "Kygo": 1,
+    "David Guetta": 1
+  },
   "Moneybagg Yo": {
     "Future": 1,
-    "Lil Tjay": 1,
     "Offset": 1,
+    "Lil Tjay": 1,
     "BIG30": 1,
     "Lil Durk": 1,
     "Polo G": 1,
@@ -1900,10 +1930,10 @@
     "Kid Cudi": 1
   },
   "Kid Cudi": {
-    "THE SCOTTS": 1,
     "Travis Scott": 2,
-    "Skepta": 1,
+    "THE SCOTTS": 1,
     "Pop Smoke": 1,
+    "Skepta": 1,
     "Trippie Redd": 1,
     "David Guetta": 1,
     "Drake": 1,
@@ -1919,13 +1949,13 @@
   "Kendrick Lamar": {
     "Jay Rock": 1,
     "Baby Keem": 3,
-    "Amanda Reifer": 1,
     "Blxst": 1,
+    "Amanda Reifer": 1,
     "Sampha": 1,
     "Kodak Black": 1,
     "Taylour Paige": 1,
-    "Ghostface Killah": 1,
     "Summer Walker": 1,
+    "Ghostface Killah": 1,
     "Sam Dew": 1,
     "Tanna Leone": 1,
     "Beth Gibbons": 1,
@@ -1936,14 +1966,17 @@
     "SZA": 3,
     "Lefty Gunplay": 1,
     "Dody6": 1,
-    "Roddy Ricch": 1,
     "Wallie the Sensei": 1,
     "Siete7x": 1,
+    "Roddy Ricch": 1,
     "AzChike": 1,
-    "Hitta J3": 1,
     "Peysoh": 1,
     "YoungThreat": 1,
-    "Zacari": 1
+    "Hitta J3": 1,
+    "Zacari": 1,
+    "Playboi Carti": 2,
+    "Jhene Aiko": 1,
+    "Clipse": 1
   },
   "Eito": {},
   "Gucci Mane": {
@@ -1988,8 +2021,8 @@
     "Rod Wave": 1
   },
   "Chencho Corleone": {
-    "Ozuna": 1,
     "J Balvin": 1,
+    "Ozuna": 1,
     "Rauw Alejandro": 1,
     "Bad Bunny": 1,
     "Chris Jedi": 1,
@@ -1997,8 +2030,8 @@
     "Anuel AA": 1
   },
   "Kendo Kaponi": {
-    "Anuel AA": 1,
-    "Daddy Yankee": 1
+    "Daddy Yankee": 1,
+    "Anuel AA": 1
   },
   "David Guetta": {
     "Sia": 1,
@@ -2008,8 +2041,8 @@
     "Becky Hill": 2,
     "Ella Henderson": 1,
     "Bebe Rexha": 1,
-    "Anne-Marie": 1,
     "Coi Leray": 1,
+    "Anne-Marie": 1,
     "OneRepublic": 1
   },
   "Ritt Momney": {},
@@ -2017,7 +2050,8 @@
   "Luke Combs": {
     "Amanda Shires": 1,
     "Ed Sheeran": 1,
-    "Post Malone": 2
+    "Post Malone": 2,
+    "Bailey Zimmerman": 1
   },
   "Ashnikko": {
     "Princess Nokia": 1
@@ -2037,10 +2071,10 @@
   "Anitta": {
     "Cardi B": 1,
     "Myke Towers": 1,
-    "Luisa Sonza": 1,
     "Pabllo Vittar": 1,
-    "Becky G": 1,
+    "Luisa Sonza": 1,
     "TINI": 1,
+    "Becky G": 1,
     "TOMORROW X TOGETHER": 1,
     "Peso Pluma": 1,
     "The Weeknd": 1
@@ -2067,80 +2101,84 @@
     "Yung Kayo": 1,
     "Young Thug": 1,
     "Gunna": 1,
-    "Internet Money": 1,
     "Don Toliver": 3,
-    "Pharrell Williams": 1,
+    "Internet Money": 1,
     "Tyler, The Creator": 1,
+    "Pharrell Williams": 1,
     "Trippie Redd": 1,
     "YNW Melly": 1,
     "Meek Mill": 1,
     "Pusha T": 1,
     "Metro Boomin": 2,
     "Nicki Minaj": 2,
-    "Travis Scott": 1
+    "Travis Scott": 1,
+    "Playboi Carti": 2
   },
   "Stray Kids": {
     "Charlie Puth": 1
   },
   "TREASURE": {},
-  "Nengo Flow": {
-    "Bad Bunny": 3,
+  "Jowell": {
+    "Nengo Flow": 1,
     "Randy": 1,
+    "Bad Bunny": 1
+  },
+  "Nengo Flow": {
     "Jowell": 1,
+    "Randy": 1,
+    "Bad Bunny": 3,
     "Chris Jedi": 1,
-    "Chencho Corleone": 1,
     "Anuel AA": 1,
+    "Chencho Corleone": 1,
     "Arcangel": 1,
     "De La Ghetto": 1
   },
   "Randy": {
-    "Bad Bunny": 1,
+    "Jowell": 1,
     "Nengo Flow": 1,
-    "Jowell": 1
-  },
-  "Jowell": {
-    "Bad Bunny": 1,
-    "Nengo Flow": 1,
-    "Randy": 1
+    "Bad Bunny": 1
   },
   "Dalex": {
-    "Arcangel": 1,
     "De La Ghetto": 1,
-    "Beele": 1,
     "Manuel Turizo": 1,
+    "Beele": 1,
+    "Arcangel": 1,
     "Justin Quiles": 1,
-    "Lenny Tavarez": 1,
     "Sech": 1,
+    "Lenny Tavarez": 1,
     "Dimelo Flow": 1,
     "Myke Towers": 1
   },
   "De La Ghetto": {
-    "Arcangel": 2,
     "Dalex": 1,
-    "Beele": 1,
     "Manuel Turizo": 1,
+    "Beele": 1,
+    "Arcangel": 2,
     "Quevedo": 1,
     "DuKi": 1,
-    "Bad Bunny": 1,
-    "Nengo Flow": 1
-  },
-  "Beele": {
-    "Arcangel": 1,
-    "Dalex": 1,
-    "De La Ghetto": 1,
-    "Manuel Turizo": 2,
-    "Sebastian Yatra": 1,
-    "Ovy On The Drums": 1
+    "Nengo Flow": 1,
+    "Bad Bunny": 1
   },
   "Manuel Turizo": {
-    "Arcangel": 1,
     "Dalex": 1,
     "De La Ghetto": 1,
     "Beele": 2,
-    "Rauw Alejandro": 1,
+    "Arcangel": 1,
     "Myke Towers": 1,
+    "Rauw Alejandro": 1,
     "Marshmello": 1,
-    "Sebastian Yatra": 1
+    "Sebastian Yatra": 1,
+    "Xavi": 1
+  },
+  "Beele": {
+    "Dalex": 1,
+    "De La Ghetto": 1,
+    "Manuel Turizo": 2,
+    "Arcangel": 1,
+    "Sebastian Yatra": 1,
+    "Ovy On The Drums": 3,
+    "W Sound": 1,
+    "Quevedo": 1
   },
   "Dan + Shay": {
     "Justin Bieber": 1
@@ -2197,18 +2235,18 @@
     "A$AP Rocky": 3,
     "Takeoff": 1,
     "Gunna": 1,
-    "A Boogie Wit da Hoodie": 1,
-    "NAV": 1,
     "Swae Lee": 2,
-    "Lil Wayne": 1,
+    "NAV": 1,
+    "A Boogie Wit da Hoodie": 1,
     "Offset": 1,
+    "Lil Wayne": 1,
     "Roisee": 1,
     "Coi Leray": 1,
     "Lil Uzi Vert": 2,
     "James Blake": 1,
-    "Toian": 1,
-    "BEAM": 1,
     "Wizkid": 1,
+    "BEAM": 1,
+    "Toian": 1,
     "Lil Durk": 1,
     "Burna Boy": 1,
     "Kendrick Lamar": 1,
@@ -2219,13 +2257,13 @@
   },
   "Bryson Tiller": {
     "Drake": 1,
+    "Lil Baby": 1,
     "Roddy Ricch": 1,
-    "DJ Khaled": 1,
-    "Lil Baby": 1
+    "DJ Khaled": 1
   },
   "Young Nudy": {
-    "Metro Boomin": 2,
-    "21 Savage": 3
+    "21 Savage": 3,
+    "Metro Boomin": 2
   },
   "Van Halen": {},
   "Linkin Park": {},
@@ -2244,25 +2282,25 @@
     "Jhay Cortez": 1
   },
   "Wisin": {
-    "Los Legendarios": 2,
     "Myke Towers": 1,
+    "Los Legendarios": 2,
     "Jhay Cortez": 1,
     "Yandel + Rosalia": 1
   },
   "HARDY": {
-    "Lauren Alaina": 1,
     "Devin Dawson": 1,
+    "Lauren Alaina": 1,
     "Lainey Wilson": 1,
-    "Morgan Wallen": 1,
+    "Morgan Wallen": 2,
     "Post Malone": 1
-  },
-  "Lauren Alaina": {
-    "HARDY": 1,
-    "Devin Dawson": 1
   },
   "Devin Dawson": {
     "HARDY": 1,
     "Lauren Alaina": 1
+  },
+  "Lauren Alaina": {
+    "HARDY": 1,
+    "Devin Dawson": 1
   },
   "Adele": {},
   "benny blanco": {
@@ -2274,8 +2312,8 @@
     "BTS": 1,
     "Eminem": 1,
     "Myke Towers": 1,
-    "Selena Gomez": 1,
-    "Gracie Abrams": 1
+    "Gracie Abrams": 1,
+    "Selena Gomez": 5
   },
   "Yung Bleu": {
     "Drake": 1,
@@ -2284,8 +2322,8 @@
   },
   "G-Eazy": {
     "blackbear": 1,
-    "Chris Brown": 1,
-    "Mark Morrison": 1
+    "Mark Morrison": 1,
+    "Chris Brown": 1
   },
   "Lana Del Rey": {
     "Taylor Swift": 1,
@@ -2316,13 +2354,13 @@
   "H.E.R.": {
     "Jazmine Sullivan": 1,
     "Chris Brown": 1,
-    "DJ Khaled": 1,
-    "Migos": 1
+    "Migos": 1,
+    "DJ Khaled": 1
   },
   "Michael Jackson": {},
   "CJ": {
-    "El Cherry Scom": 1,
     "El Alfa": 1,
+    "El Cherry Scom": 1,
     "Chael Produciendo": 1
   },
   "Nelly Furtado": {
@@ -2354,47 +2392,47 @@
   },
   "Bobby \"Boris\" Pickett And The Crypt-Kickers": {},
   "Ray Parker Jr.": {},
-  "Lexie Liu": {
-    "DA With Madison Beer": 1,
+  "K": {
+    "(G)I-DLE": 1,
     "Jaira Burns": 1,
-    "(G)I-DLE": 1,
     "Seraphine": 1,
-    "K": 1
-  },
-  "DA With Madison Beer": {
     "Lexie Liu": 1,
-    "Jaira Burns": 1,
-    "(G)I-DLE": 1,
-    "Seraphine": 1,
-    "K": 1
-  },
-  "Jaira Burns": {
-    "Lexie Liu": 1,
-    "DA With Madison Beer": 1,
-    "(G)I-DLE": 1,
-    "Seraphine": 1,
-    "K": 1
+    "DA With Madison Beer": 1
   },
   "(G)I-DLE": {
-    "Lexie Liu": 1,
-    "DA With Madison Beer": 1,
+    "K": 1,
     "Jaira Burns": 1,
     "Seraphine": 1,
-    "K": 1
+    "Lexie Liu": 1,
+    "DA With Madison Beer": 1
+  },
+  "Jaira Burns": {
+    "K": 1,
+    "(G)I-DLE": 1,
+    "Seraphine": 1,
+    "Lexie Liu": 1,
+    "DA With Madison Beer": 1
   },
   "Seraphine": {
-    "Lexie Liu": 1,
-    "DA With Madison Beer": 1,
-    "Jaira Burns": 1,
+    "K": 1,
     "(G)I-DLE": 1,
-    "K": 1
+    "Jaira Burns": 1,
+    "Lexie Liu": 1,
+    "DA With Madison Beer": 1
   },
-  "K": {
-    "Lexie Liu": 1,
-    "DA With Madison Beer": 1,
-    "Jaira Burns": 1,
+  "Lexie Liu": {
+    "K": 1,
     "(G)I-DLE": 1,
-    "Seraphine": 1
+    "Jaira Burns": 1,
+    "Seraphine": 1,
+    "DA With Madison Beer": 1
+  },
+  "DA With Madison Beer": {
+    "K": 1,
+    "(G)I-DLE": 1,
+    "Jaira Burns": 1,
+    "Seraphine": 1,
+    "Lexie Liu": 1
   },
   "Myke Towers + Natti Natasha + Anuel AA": {},
   "Mariah Carey": {
@@ -2416,8 +2454,11 @@
   "The Citizens of Halloween": {},
   "Skepta": {
     "Octavian": 1,
+    "Pop Smoke": 1,
     "Kid Cudi": 1,
-    "Pop Smoke": 1
+    "Playboi Carti": 1,
+    "Fred again..": 1,
+    "PlaqueBoyMax": 1
   },
   "Octavian": {
     "Skepta": 1
@@ -2426,27 +2467,24 @@
     "YoungBoy Never Broke Again": 1,
     "Nicki Minaj": 1
   },
-  "La Hungara": {
+  "C. Tangana": {
     "Nino de Elche": 1,
-    "C. Tangana": 1
+    "La Hungara": 1,
+    "Nathy Peluso": 1,
+    "Mora": 1
   },
   "Nino de Elche": {
-    "La Hungara": 1,
-    "C. Tangana": 1
+    "C. Tangana": 1,
+    "La Hungara": 1
   },
-  "C. Tangana": {
-    "La Hungara": 1,
-    "Nino de Elche": 1,
-    "Nathy Peluso": 1
+  "La Hungara": {
+    "C. Tangana": 1,
+    "Nino de Elche": 1
   },
   "King Von": {
     "Polo G": 1,
     "Lil Durk": 2,
     "21 Savage": 1
-  },
-  "YoungBoy Never Brok Again": {
-    "Internet Money": 1,
-    "The Kid LAROI": 1
   },
   "The Kid LAROI": {
     "YoungBoy Never Brok Again": 1,
@@ -2462,6 +2500,10 @@
     "Jung Kook": 1,
     "Central Cee": 1,
     "Tate McRae": 1
+  },
+  "YoungBoy Never Brok Again": {
+    "The Kid LAROI": 1,
+    "Internet Money": 1
   },
   "NAV With Gunna": {},
   "Wham!": {
@@ -2479,20 +2521,20 @@
     "Ava Max": 1,
     "Charli XCX": 1,
     "Tate McRae": 1,
-    "Dido": 1,
     "W": 1,
     "Dimitri Vegas": 1,
+    "Dido": 1,
     "Like Mike": 1
   },
   "System Of A Down": {},
   "Brenda Lee": {},
-  "Angela Aguilar": {
-    "Christian Nodal": 1,
-    "Yuridia": 1
-  },
   "Christian Nodal": {
     "Angela Aguilar": 1,
     "Peso Pluma": 1
+  },
+  "Angela Aguilar": {
+    "Christian Nodal": 1,
+    "Yuridia": 1
   },
   "Bobby Helms": {},
   "Maggie": {
@@ -2513,34 +2555,49 @@
   "Masaki Suda": {},
   "MC Davi": {
     "MC Ryan SP": 2,
-    "Alok": 1,
     "MC Hariel": 1,
     "Salvador da Rima": 1,
-    "MC Don Juan": 2,
+    "Alok": 1,
     "MC Pedrinho": 1,
-    "MC IG": 1,
-    "MC Kadu": 1,
-    "DJ GBR": 1,
-    "MC Luki": 1,
-    "MC PH": 1,
-    "MC GH Do7": 1,
+    "MC Don Juan": 2,
     "Traplaudo": 1,
-    "MC GP": 1
+    "MC PH": 1,
+    "MC IG": 1,
+    "MC Luki": 1,
+    "MC GH Do7": 1,
+    "MC Kadu": 1,
+    "MC GP": 1,
+    "DJ GBR": 1,
+    "J.Eskine": 1,
+    "DG E Batidao Stronda": 1,
+    "MC G15": 1
   },
   "MC Ryan SP": {
     "MC Davi": 2,
-    "Alok": 1,
     "MC Hariel": 1,
     "Salvador da Rima": 1,
+    "Alok": 1,
+    "Traplaudo": 1,
+    "MC PH": 1,
     "MC IG": 1,
-    "MC Kadu": 1,
-    "DJ GBR": 1,
     "MC Don Juan": 1,
     "MC Luki": 1,
-    "MC PH": 1,
     "MC GH Do7": 1,
-    "Traplaudo": 1,
-    "MC GP": 1
+    "MC Kadu": 1,
+    "MC GP": 1,
+    "DJ GBR": 1
+  },
+  "MC Hariel": {
+    "MC Davi": 1,
+    "MC Ryan SP": 1,
+    "Salvador da Rima": 1,
+    "Alok": 1
+  },
+  "Salvador da Rima": {
+    "MC Davi": 1,
+    "MC Ryan SP": 1,
+    "MC Hariel": 1,
+    "Alok": 1
   },
   "Alok": {
     "MC Davi": 1,
@@ -2549,25 +2606,13 @@
     "Salvador da Rima": 1,
     "MC Don Juan E DJ GBR": 1
   },
-  "MC Hariel": {
-    "MC Davi": 1,
-    "MC Ryan SP": 1,
-    "Alok": 1,
-    "Salvador da Rima": 1
-  },
-  "Salvador da Rima": {
-    "MC Davi": 1,
-    "MC Ryan SP": 1,
-    "Alok": 1,
-    "MC Hariel": 1
-  },
   "aespa": {},
   "Jose Feliciano": {},
   "Justin Timberlake": {
     "Jack Harlow": 1,
-    "Calvin Harris": 1,
     "Halsey": 1,
-    "Pharrell": 1
+    "Pharrell": 1,
+    "Calvin Harris": 1
   },
   "The Ronettes": {},
   "Nat \"King\" Cole": {},
@@ -2590,41 +2635,41 @@
   "Perry Como And The Fontane Sisters With Mitchell Ayres And His Orchestra": {},
   "Nicky Jam X Myke Towers": {},
   "City Girls": {
-    "Hot Girl Meg": 1,
-    "Megan Thee Stallion": 1
+    "Megan Thee Stallion": 1,
+    "Hot Girl Meg": 1
   },
   "Hot Girl Meg": {
-    "City Girls": 1,
-    "Megan Thee Stallion": 1
+    "Megan Thee Stallion": 1,
+    "City Girls": 1
+  },
+  "Ofenbach": {
+    "Quarterhead": 1,
+    "Norma Jean Martine": 2,
+    "Lagique": 1
+  },
+  "Quarterhead": {
+    "Ofenbach": 1,
+    "Norma Jean Martine": 1
   },
   "Norma Jean Martine": {
     "Ofenbach": 2,
     "Quarterhead": 1
   },
-  "Ofenbach": {
-    "Norma Jean Martine": 2,
-    "Quarterhead": 1,
-    "Lagique": 1
-  },
-  "Quarterhead": {
-    "Norma Jean Martine": 1,
-    "Ofenbach": 1
-  },
   "ABRA": {
     "Bad Bunny": 1
   },
   "Chris Rea": {},
+  "John": {
+    "Yoko": 1,
+    "The Plastic Ono Band With The Harlem Community Choir": 1
+  },
+  "Yoko": {
+    "John": 1,
+    "The Plastic Ono Band With The Harlem Community Choir": 1
+  },
   "The Plastic Ono Band With The Harlem Community Choir": {
     "John": 1,
     "Yoko": 1
-  },
-  "John": {
-    "The Plastic Ono Band With The Harlem Community Choir": 1,
-    "Yoko": 1
-  },
-  "Yoko": {
-    "The Plastic Ono Band With The Harlem Community Choir": 1,
-    "John": 1
   },
   "Chuck Berry": {},
   "Elvis Presley": {},
@@ -2634,11 +2679,11 @@
     "The Pinafores": 1
   },
   "Shakin' Stevens": {},
-  "Chorus Of Gordon Jenkins": {
-    "Frank Sinatra With The Orchestra": 1
-  },
   "Frank Sinatra With The Orchestra": {
     "Chorus Of Gordon Jenkins": 1
+  },
+  "Chorus Of Gordon Jenkins": {
+    "Frank Sinatra With The Orchestra": 1
   },
   "The Pinafores": {
     "Gene Autry": 1
@@ -2660,11 +2705,11 @@
   "The Andrews Sisters": {
     "Bing Crosby": 1
   },
-  "The Pogues": {
-    "Kirsty MacColl": 1
-  },
   "Kirsty MacColl": {
     "The Pogues": 1
+  },
+  "The Pogues": {
+    "Kirsty MacColl": 1
   },
   "Eartha Kitt With Henri Rene And His Orchestra": {},
   "Brett Eldredge": {
@@ -2690,12 +2735,12 @@
     "Mila": 1
   },
   "Black Eyed Peas X Shakira": {},
-  "Gwen Stefani": {
-    "Blake Shelton": 1
-  },
   "Blake Shelton": {
     "Gwen Stefani": 1,
     "Post Malone": 1
+  },
+  "Gwen Stefani": {
+    "Blake Shelton": 1
   },
   "Jonas Brothers": {
     "TOMORROW X TOGETHER": 1
@@ -2704,17 +2749,17 @@
   "Vince Guaraldi Trio": {},
   "El Alfa": {
     "Camilo": 1,
-    "El Cherry Scom": 1,
     "CJ": 1,
+    "El Cherry Scom": 1,
     "Chael Produciendo": 1,
     "Becky G": 1,
     "Peso Pluma": 1
   },
-  "Grover Washington": {
-    "Jr. With Bill Withers": 1
-  },
   "Jr. With Bill Withers": {
     "Grover Washington": 1
+  },
+  "Grover Washington": {
+    "Jr. With Bill Withers": 1
   },
   "Jimmy Durante": {},
   "Carrie Underwood": {
@@ -2767,28 +2812,33 @@
   "Playboi Carti": {
     "Kanye West": 1,
     "Trippie Redd": 1,
-    "The Weeknd": 2,
+    "The Weeknd": 3,
     "Madonna": 1,
-    "Travis Scott": 2,
+    "Travis Scott": 7,
+    "Ty Dolla $ign": 3,
     "¥$: Ye": 1,
     "Rich The Kid": 1,
-    "Ty Dolla $ign": 2,
     "Metro Boomin": 1,
-    "Future": 1,
+    "Future": 4,
     "Camila Cabello": 1,
     "Don Toliver": 1,
+    "Kodak Black": 1,
     "¥$: Kanye West": 1,
-    "Kodak Black": 1
-  },
-  "Luisa Sonza": {
-    "Anitta": 1,
-    "Pabllo Vittar": 1
+    "Kendrick Lamar": 2,
+    "Jhene Aiko": 1,
+    "Skepta": 1,
+    "Lil Uzi Vert": 2,
+    "Young Thug": 1
   },
   "Pabllo Vittar": {
     "Anitta": 1,
     "Luisa Sonza": 1,
-    "Sevdaliza": 1,
-    "Yseult": 1
+    "Yseult": 1,
+    "Sevdaliza": 1
+  },
+  "Luisa Sonza": {
+    "Anitta": 1,
+    "Pabllo Vittar": 1
   },
   "HVME": {
     "Travis Scott": 1
@@ -2799,18 +2849,18 @@
   },
   "Kanye West": {
     "Playboi Carti": 1,
-    "Pusha T": 4,
     "Pop Smoke": 1,
+    "Pusha T": 4,
     "The Game": 1,
-    "Fivio Foreign": 1,
     "Alicia Keys": 1,
+    "Fivio Foreign": 1,
     "Kid Cudi": 1,
     "Future": 1,
     "XXXTENTACION": 1,
     "Eminem": 1,
     "DJ Khaled": 1,
-    "Rihanna": 1,
     "Jay-Z": 1,
+    "Rihanna": 1,
     "Dwele": 1
   },
   "Popp Hunna": {},
@@ -2854,12 +2904,12 @@
   "Ben Burgess": {
     "Morgan Wallen": 1
   },
+  "Pink Sweat$": {
+    "Kehlani": 1
+  },
   "Kehlani": {
     "Pink Sweat$": 1,
     "Justin Bieber": 1
-  },
-  "Pink Sweat$": {
-    "Kehlani": 1
   },
   "Jazmine Sullivan": {
     "H.E.R.": 1
@@ -2868,8 +2918,8 @@
   "Selena Gomez": {
     "DJ Snake": 1,
     "Rema": 1,
-    "benny blanco": 1,
-    "Gracie Abrams": 1
+    "Gracie Abrams": 1,
+    "benny blanco": 5
   },
   "Pooh Shiesty": {
     "Lil Durk": 2,
@@ -2879,16 +2929,8 @@
     "Lil Baby": 1
   },
   "Digital Farm Animals": {
-    "Anne-Marie": 1,
-    "KSI": 1
-  },
-  "Anne-Marie": {
-    "Digital Farm Animals": 1,
     "KSI": 1,
-    "Niall Horan": 1,
-    "Little Mix": 1,
-    "David Guetta": 1,
-    "Coi Leray": 1
+    "Anne-Marie": 1
   },
   "KSI": {
     "Digital Farm Animals": 1,
@@ -2897,6 +2939,14 @@
     "Polo G": 1,
     "Lil Wayne": 1,
     "Trippie Redd": 1
+  },
+  "Anne-Marie": {
+    "Digital Farm Animals": 1,
+    "KSI": 1,
+    "Niall Horan": 1,
+    "Little Mix": 1,
+    "Coi Leray": 1,
+    "David Guetta": 1
   },
   "KASIMIR1441 X badmomzjay X WILDBWOYS": {},
   "Ado": {},
@@ -2918,26 +2968,23 @@
     "DJ Ivis": 1
   },
   "Wesley Safadao e Os Baroes da Pisadinha": {},
-  "Pooh Shiesty Or DaBaby": {
-    "SpotemGottem": 1
-  },
   "SpotemGottem": {
     "Pooh Shiesty Or DaBaby": 1
+  },
+  "Pooh Shiesty Or DaBaby": {
+    "SpotemGottem": 1
   },
   "Selena Gomez With Rauw Alejandro": {},
   "IU": {
     "Agust D": 1
   },
-  "Brent Faiyaz": {
-    "Tyler, The Creator": 2,
-    "DJ Dahi": 1,
-    "Fana Hues": 1,
-    "Drake": 1,
-    "21 Savage": 1
+  "DJ Dahi": {
+    "Tyler, The Creator": 1,
+    "Brent Faiyaz": 1
   },
   "Tyler, The Creator": {
-    "Brent Faiyaz": 2,
     "DJ Dahi": 1,
+    "Brent Faiyaz": 2,
     "YoungBoy Never Broke Again": 1,
     "Ty Dolla $ign": 1,
     "Pharrell Williams": 2,
@@ -2953,44 +3000,48 @@
     "21 Savage": 1,
     "Kali Uchis": 1,
     "Daniel Caesar": 2,
-    "Sexyy Red": 1,
     "GloRilla": 1,
-    "ScHoolboy Q": 1,
+    "Sexyy Red": 1,
     "Santigold": 1,
+    "ScHoolboy Q": 1,
     "Latoiya Williams": 1,
     "Lola Young": 1,
-    "Doechii": 1
+    "Doechii": 1,
+    "Clipse": 1
   },
-  "DJ Dahi": {
-    "Brent Faiyaz": 1,
-    "Tyler, The Creator": 1
+  "Brent Faiyaz": {
+    "DJ Dahi": 1,
+    "Tyler, The Creator": 2,
+    "Fana Hues": 1,
+    "Drake": 1,
+    "21 Savage": 1
   },
   "Vance Joy": {
-    "benny blanco": 1,
-    "Marshmello": 1
+    "Marshmello": 1,
+    "benny blanco": 1
   },
   "DJ Ivis": {
     "Tarcisio do Acordeon": 1
   },
   "Niko Moon": {},
-  "Bryant Myers": {
-    "Kevin Roldan": 1,
-    "Lyanno": 1,
-    "Dei V": 1,
-    "Jay Wheeler": 1,
-    "Hades66": 1,
-    "Anuel AA": 1,
-    "Bad Bunny": 1
-  },
   "Kevin Roldan": {
     "Bryant Myers": 1,
     "Lyanno": 1
   },
-  "Lyanno": {
-    "Bryant Myers": 1,
+  "Bryant Myers": {
     "Kevin Roldan": 1,
-    "Rauw Alejandro": 1,
-    "Brray": 1
+    "Lyanno": 1,
+    "Dei V": 1,
+    "Hades66": 1,
+    "Jay Wheeler": 1,
+    "Anuel AA": 1,
+    "Bad Bunny": 1
+  },
+  "Lyanno": {
+    "Kevin Roldan": 1,
+    "Bryant Myers": 1,
+    "Brray": 1,
+    "Rauw Alejandro": 1
   },
   "J. Cole": {
     "21 Savage": 1,
@@ -2999,11 +3050,11 @@
     "Bas": 5,
     "6LACK": 1,
     "Joyner Lucas": 1,
-    "Amber Coffman": 1,
     "The Cults": 1,
+    "Amber Coffman": 1,
     "Benny The Butcher": 1,
-    "YG": 1,
     "Moneybagg Yo": 1,
+    "YG": 1,
     "Sheck Wes": 1,
     "JID": 1,
     "Kenny Mason": 1,
@@ -3038,24 +3089,24 @@
     "A7S": 1,
     "Topic": 1
   },
-  "Gotye": {
-    "Kimbra": 1
-  },
   "Kimbra": {
     "Gotye": 1
+  },
+  "Gotye": {
+    "Kimbra": 1
   },
   "Twenty One Pilots": {},
   "JAY-Z": {
     "Nipsey Hussle": 1,
     "James Fauntleroy": 1,
-    "DJ Khaled": 2,
     "Nas": 1,
+    "DJ Khaled": 2,
     "Drake": 1,
     "Pusha T": 1,
     "Pharrell Williams": 1,
-    "Fridayy": 1,
     "Rick Ross": 1,
     "Lil Wayne": 1,
+    "Fridayy": 1,
     "John Legend": 1
   },
   "P!nk + Willow Sage Hart": {},
@@ -3078,11 +3129,11 @@
     "ROSE": 1,
     "Sexyy Red": 1
   },
-  "Neha Kakkar": {
-    "Yo Yo Honey Singh": 1
-  },
   "Yo Yo Honey Singh": {
     "Neha Kakkar": 1
+  },
+  "Neha Kakkar": {
+    "Yo Yo Honey Singh": 1
   },
   "Christina Perri": {},
   "Kali Uchis": {
@@ -3091,7 +3142,9 @@
     "Amaarae": 1,
     "Tyler, The Creator": 1,
     "Karol G": 1,
-    "Peso Pluma": 1
+    "Peso Pluma": 1,
+    "JENNIE": 1,
+    "Childish Gambino": 1
   },
   "NF": {
     "Hopsin": 1
@@ -3104,17 +3157,17 @@
     "Anne-Marie": 1,
     "Metro Boomin": 1
   },
+  "Riton X Nightcrawlers": {
+    "Hypeman": 1,
+    "Mufasa": 1
+  },
+  "Hypeman": {
+    "Riton X Nightcrawlers": 1,
+    "Mufasa": 1
+  },
   "Mufasa": {
     "Riton X Nightcrawlers": 1,
     "Hypeman": 1
-  },
-  "Riton X Nightcrawlers": {
-    "Mufasa": 1,
-    "Hypeman": 1
-  },
-  "Hypeman": {
-    "Mufasa": 1,
-    "Riton X Nightcrawlers": 1
   },
   "Awesome City Club": {},
   "Rai Saia Rodada": {},
@@ -3129,24 +3182,24 @@
     "Jack Harlow": 1,
     "21 Savage": 1,
     "Travis Scott": 1,
-    "Speedy": 1,
+    "Don Toliver": 1,
     "j-hope": 1,
-    "Don Toliver": 1
+    "Speedy": 1
   },
   "Clinton Kane": {},
   "Kodak Black": {
     "Lil Yachty": 1,
-    "Roddy Ricch": 1,
     "21 Savage": 1,
+    "Roddy Ricch": 1,
     "Gunna": 1,
     "Future": 1,
     "Kendrick Lamar": 1,
     "Nardo Wick": 1,
     "DJ Khaled": 1,
-    "NLE Choppa": 1,
-    "JVKE": 1,
     "Muni Long": 1,
     "Jimin": 1,
+    "JVKE": 1,
+    "NLE Choppa": 1,
     "Doechii": 1,
     "Don Toliver": 2,
     "Playboi Carti": 1,
@@ -3175,17 +3228,17 @@
   },
   "Silk Sonic (Bruno Mars": {
     "Anderson .Paak)": 8,
-    "Bootsy Collins": 1,
-    "Anderson .Paak) With Thundercat": 1
+    "Anderson .Paak) With Thundercat": 1,
+    "Bootsy Collins": 1
   },
   "Rick Ross": {
     "Drake": 2,
-    "The-Dream": 1,
     "Pop Smoke": 1,
+    "The-Dream": 1,
     "Lil Wayne": 2,
-    "Fridayy": 1,
     "JAY-Z": 1,
     "DJ Khaled": 1,
+    "Fridayy": 1,
     "John Legend": 1,
     "Metro Boomin": 1,
     "Future": 1
@@ -3198,36 +3251,37 @@
   "DJ Snake": {
     "Selena Gomez": 1,
     "Megan Thee Stallion": 1,
-    "Ozuna": 1,
     "Lisa": 1,
+    "Ozuna": 1,
     "Jung Kook": 1,
     "Justin Bieber": 1
   },
   "Rusherking X Tiago pzk X KHEA X Duki X Maria Becerra X Lit killah": {},
   "Camilo y Evaluna Montaner": {},
   "Mooski": {},
-  "Booba": {
-    "JSX": 1
-  },
   "JSX": {
     "Booba": 1
   },
+  "Booba": {
+    "JSX": 1
+  },
   "Joel Corry X RAYE X David Guetta": {},
   "ROSE": {
-    "Bruno Mars": 1
-  },
-  "Rodolffo": {
-    "Israel": 2,
-    "Ana Castela": 1
+    "Bruno Mars": 1,
+    "Alex Warren": 1
   },
   "Israel": {
     "Rodolffo": 2,
     "Ana Castela": 1
   },
+  "Rodolffo": {
+    "Israel": 2,
+    "Ana Castela": 1
+  },
   "Nio Garcia X Casper Magico X Ozuna X Wisin X Yandel X Myke Towers X Flow La Movie": {},
   "YUNGBLUD": {
-    "KSI": 1,
-    "Polo G": 1
+    "Polo G": 1,
+    "KSI": 1
   },
   "Patrick Stump": {
     "Gym Class Heroes": 1
@@ -3250,25 +3304,25 @@
     "TINI": 1
   },
   "Daniel Caesar": {
-    "Giveon": 1,
     "Justin Bieber": 1,
+    "Giveon": 1,
     "Tyler, The Creator": 2,
     "Latoiya Williams": 1
   },
   "Fivio Foreign": {
-    "Lil Tjay": 2,
     "Polo G": 2,
-    "ZT (3x3)": 1,
+    "Lil Tjay": 2,
     "Tion Wayne X Russ Millions": 1,
+    "Bugzy Malone": 1,
+    "ZT (3x3)": 1,
+    "E1 (3x3)": 1,
     "Buni": 1,
     "ArrDee": 1,
     "Darkoo": 1,
-    "Bugzy Malone": 1,
-    "E1 (3x3)": 1,
     "Pop Smoke": 1,
     "Kay Flock": 1,
-    "Kanye West": 1,
     "Alicia Keys": 1,
+    "Kanye West": 1,
     "Nicki Minaj": 1
   },
   "Dominic Fike": {
@@ -3279,20 +3333,20 @@
   "BEAM": {
     "Justin Bieber": 1,
     "Beyonce": 1,
-    "Metro Boomin": 1,
-    "Toian": 1,
+    "Wizkid": 1,
     "Don Toliver": 1,
-    "Wizkid": 1
+    "Metro Boomin": 1,
+    "Toian": 1
   },
   "Mariah Angeliq": {
     "Karol G": 1
   },
   "Offset": {
-    "Lil Tjay": 1,
     "Moneybagg Yo": 1,
+    "Lil Tjay": 1,
+    "Swae Lee": 1,
     "Metro Boomin": 1,
     "Lil Wayne": 1,
-    "Swae Lee": 1,
     "JID": 1,
     "Cardi B": 1,
     "Travis Scott": 1,
@@ -3327,38 +3381,38 @@
   },
   "ONE OK ROCK": {},
   "Yung Kayo": {
-    "Lil Uzi Vert": 1,
-    "Young Thug": 1
+    "Young Thug": 1,
+    "Lil Uzi Vert": 1
   },
   "Rowdy Rebel": {
     "Young Thug": 1
   },
   "YTB Trench": {
     "Gunna": 1,
-    "Young Thug": 1,
-    "Lil Baby": 1
+    "Lil Baby": 1,
+    "Young Thug": 1
   },
   "Troye Sivan": {
-    "Tate McRae": 1,
     "Regard": 1,
+    "Tate McRae": 1,
     "Charli xcx": 1
   },
   "DJ Guuga E DJ Ivis": {},
   "Yak Gotti": {
     "Gunna": 1,
-    "Lil Duke": 1,
     "Young Thug": 2,
+    "Lil Duke": 1,
     "21 Savage": 1,
     "Travis Scott": 1
   },
   "Lil Duke": {
     "Gunna": 1,
-    "Yak Gotti": 1,
-    "Young Thug": 1
+    "Young Thug": 1,
+    "Yak Gotti": 1
   },
   "Sebastian Yatra X Myke Towers": {},
   "Eric Church": {
-    "Morgan Wallen": 1
+    "Morgan Wallen": 2
   },
   "MC Don Juan E DJ GBR": {
     "Alok": 1
@@ -3376,73 +3430,73 @@
     "Ofenbach": 1
   },
   "Majestic X Boney M.": {},
-  "ZT (3x3)": {
-    "Tion Wayne X Russ Millions": 1,
-    "Buni": 1,
-    "ArrDee": 1,
-    "Darkoo": 1,
-    "Bugzy Malone": 1,
-    "E1 (3x3)": 1,
-    "Fivio Foreign": 1
-  },
   "Tion Wayne X Russ Millions": {
+    "Bugzy Malone": 1,
     "ZT (3x3)": 1,
+    "E1 (3x3)": 1,
     "Buni": 1,
     "ArrDee": 1,
     "Darkoo": 1,
-    "Bugzy Malone": 1,
-    "E1 (3x3)": 1,
-    "Fivio Foreign": 1
-  },
-  "Buni": {
-    "ZT (3x3)": 1,
-    "Tion Wayne X Russ Millions": 1,
-    "ArrDee": 1,
-    "Darkoo": 1,
-    "Bugzy Malone": 1,
-    "E1 (3x3)": 1,
-    "Fivio Foreign": 1
-  },
-  "ArrDee": {
-    "ZT (3x3)": 1,
-    "Tion Wayne X Russ Millions": 1,
-    "Buni": 1,
-    "Darkoo": 1,
-    "Bugzy Malone": 1,
-    "E1 (3x3)": 1,
-    "Fivio Foreign": 1
-  },
-  "Darkoo": {
-    "ZT (3x3)": 1,
-    "Tion Wayne X Russ Millions": 1,
-    "Buni": 1,
-    "ArrDee": 1,
-    "Bugzy Malone": 1,
-    "E1 (3x3)": 1,
     "Fivio Foreign": 1
   },
   "Bugzy Malone": {
-    "ZT (3x3)": 1,
     "Tion Wayne X Russ Millions": 1,
+    "ZT (3x3)": 1,
+    "E1 (3x3)": 1,
     "Buni": 1,
     "ArrDee": 1,
     "Darkoo": 1,
+    "Fivio Foreign": 1
+  },
+  "ZT (3x3)": {
+    "Tion Wayne X Russ Millions": 1,
+    "Bugzy Malone": 1,
     "E1 (3x3)": 1,
+    "Buni": 1,
+    "ArrDee": 1,
+    "Darkoo": 1,
     "Fivio Foreign": 1
   },
   "E1 (3x3)": {
-    "ZT (3x3)": 1,
     "Tion Wayne X Russ Millions": 1,
+    "Bugzy Malone": 1,
+    "ZT (3x3)": 1,
     "Buni": 1,
     "ArrDee": 1,
     "Darkoo": 1,
+    "Fivio Foreign": 1
+  },
+  "Buni": {
+    "Tion Wayne X Russ Millions": 1,
     "Bugzy Malone": 1,
+    "ZT (3x3)": 1,
+    "E1 (3x3)": 1,
+    "ArrDee": 1,
+    "Darkoo": 1,
+    "Fivio Foreign": 1
+  },
+  "ArrDee": {
+    "Tion Wayne X Russ Millions": 1,
+    "Bugzy Malone": 1,
+    "ZT (3x3)": 1,
+    "E1 (3x3)": 1,
+    "Buni": 1,
+    "Darkoo": 1,
+    "Fivio Foreign": 1
+  },
+  "Darkoo": {
+    "Tion Wayne X Russ Millions": 1,
+    "Bugzy Malone": 1,
+    "ZT (3x3)": 1,
+    "E1 (3x3)": 1,
+    "Buni": 1,
+    "ArrDee": 1,
     "Fivio Foreign": 1
   },
   "James Fauntleroy": {
     "JAY-Z": 1,
-    "DJ Khaled": 1,
-    "Nas": 1
+    "Nas": 1,
+    "DJ Khaled": 1
   },
   "Nas": {
     "James Fauntleroy": 1,
@@ -3450,8 +3504,8 @@
     "DJ Khaled": 1,
     "Eminem": 1,
     "EPMD": 1,
-    "The Weeknd": 1,
-    "Belly": 1
+    "Belly": 1,
+    "The Weeknd": 1
   },
   "Baby Keem": {
     "Travis Scott": 1,
@@ -3484,44 +3538,44 @@
     "Juice WRLD": 1,
     "Pop Smoke": 1
   },
-  "Florida Georgia Line": {
-    "Nelly": 1
-  },
   "Nelly": {
     "Florida Georgia Line": 1
   },
-  "NCT DREAM": {},
-  "MC Don Juan": {
-    "MC Davi": 2,
-    "MC Pedrinho": 1,
-    "MC IG": 1,
-    "MC Ryan SP": 1,
-    "MC Kadu": 1,
-    "DJ GBR": 1,
-    "MC Luki": 1,
-    "MC PH": 1,
-    "MC GH Do7": 1,
-    "Traplaudo": 1,
-    "MC GP": 1
+  "Florida Georgia Line": {
+    "Nelly": 1
   },
+  "NCT DREAM": {},
   "MC Pedrinho": {
-    "MC Davi": 1,
     "MC Don Juan": 1,
+    "MC Davi": 1,
     "Pedro Sampaio": 1
+  },
+  "MC Don Juan": {
+    "MC Pedrinho": 1,
+    "MC Davi": 2,
+    "Traplaudo": 1,
+    "MC PH": 1,
+    "MC IG": 1,
+    "MC Luki": 1,
+    "MC GH Do7": 1,
+    "MC Kadu": 1,
+    "MC GP": 1,
+    "DJ GBR": 1,
+    "MC Ryan SP": 1
   },
   "Official HIGE DANdism": {},
   "Fujii Kaze": {},
-  "Coolio": {
-    "L.V.": 1
-  },
   "L.V.": {
     "Coolio": 1
+  },
+  "Coolio": {
+    "L.V.": 1
   },
   "Rauw Alejandro X Mr. Naisgai": {},
   "The Police": {},
   "Morray": {
-    "J. Cole": 1,
-    "21 Savage": 1
+    "21 Savage": 1,
+    "J. Cole": 1
   },
   "Bas": {
     "J. Cole": 5,
@@ -3533,12 +3587,12 @@
   },
   "Shander": {
     "Crissin X Totoy El Frio X Natan": 1,
-    "Karol G": 1,
-    "Totoy El Frio": 1,
     "Natan": 1,
-    "J Balvin": 1,
+    "Nicky Jam": 1,
     "Crissin": 1,
-    "Nicky Jam": 1
+    "Totoy El Frio": 1,
+    "Karol G": 1,
+    "J Balvin": 1
   },
   "Crissin X Totoy El Frio X Natan": {
     "Shander": 1
@@ -3547,8 +3601,11 @@
   "Sam Hunt": {},
   "Skillibeng": {
     "Nicki Minaj": 1,
+    "Tyla": 1,
     "Gunna": 1,
-    "Tyla": 1
+    "Silent Addy": 1,
+    "Shenseea": 1,
+    "MOLIY": 1
   },
   "Natti Natasha": {
     "Becky G": 1
@@ -3561,14 +3618,14 @@
     "Peso Pluma": 1
   },
   "El Cherry Scom": {
-    "CJ": 1,
     "El Alfa": 1,
+    "CJ": 1,
     "Chael Produciendo": 1
   },
   "Chael Produciendo": {
-    "El Cherry Scom": 1,
+    "El Alfa": 1,
     "CJ": 1,
-    "El Alfa": 1
+    "El Cherry Scom": 1
   },
   "Maneskin": {},
   "Galantis": {
@@ -3584,43 +3641,44 @@
   "Sangiovanni": {},
   "Mora": {
     "Jhay Cortez": 1,
-    "Bad Bunny": 2,
     "Sech": 2,
+    "Bad Bunny": 2,
     "Feid": 2,
     "Quevedo": 2,
-    "Saiko": 2
+    "Saiko": 2,
+    "C. Tangana": 1
   },
   "back number": {},
   "Cordae": {
-    "Jack Harlow": 1,
     "Eminem": 1,
+    "Jack Harlow": 1,
     "Lyrical Lemonade": 1,
     "Juice WRLD": 1
   },
   "Maria Becerra": {
     "J Balvin": 1,
+    "Nicki Nicole": 1,
     "Tiago PZK": 1,
     "LIT killa": 1,
-    "Nicki Nicole": 1,
-    "Tiago pzk": 1,
     "LIT killah": 1,
-    "FMK": 1,
-    "Rusherking": 1,
-    "Duki": 1,
     "Big One": 1,
-    "Emilia": 1
-  },
-  "Cochise": {
-    "$NOT": 1
+    "FMK": 1,
+    "Emilia": 1,
+    "Duki": 1,
+    "Tiago pzk": 1,
+    "Rusherking": 1
   },
   "$NOT": {
     "Cochise": 1,
     "A$AP Rocky": 1
   },
+  "Cochise": {
+    "$NOT": 1
+  },
   "Luar La L": {
     "Bad Bunny": 2,
-    "Lunay": 1,
-    "Gaby Music": 1
+    "Gaby Music": 1,
+    "Lunay": 1
   },
   "TOMORROW X TOGETHER": {
     "Seori": 1,
@@ -3634,14 +3692,15 @@
   "EXO": {},
   "Calvin Harris": {
     "Tom Grennan": 1,
-    "Young Thug": 1,
     "Dua Lipa": 2,
+    "Young Thug": 1,
     "Justin Timberlake": 1,
     "Halsey": 1,
     "Pharrell": 1,
     "Rihanna": 1,
     "Ellie Goulding": 1,
-    "Sam Smith": 1
+    "Sam Smith": 1,
+    "Clementine Douglas.": 1
   },
   "John Mayer": {
     "Zach Bryan": 1
@@ -3666,9 +3725,9 @@
   "Trinidad Cardona": {},
   "G Herbo": {
     "Polo G": 1,
+    "21 Savage": 1,
     "Lil Durk": 1,
     "Nardo Wick": 1,
-    "21 Savage": 1,
     "Gunna": 1
   },
   "Eladio Carrion": {
@@ -3679,58 +3738,58 @@
   "Scorey": {
     "Polo G": 1
   },
-  "Totoy El Frio": {
-    "Shander": 1,
-    "Karol G": 1,
-    "Natan": 1,
-    "J Balvin": 1,
-    "Crissin": 1,
-    "Nicky Jam": 1
-  },
   "Natan": {
-    "Shander": 1,
-    "Karol G": 1,
-    "Totoy El Frio": 1,
-    "J Balvin": 1,
+    "Nicky Jam": 1,
     "Crissin": 1,
-    "Nicky Jam": 1
+    "Totoy El Frio": 1,
+    "Karol G": 1,
+    "Shander": 1,
+    "J Balvin": 1
   },
   "Crissin": {
-    "Shander": 1,
-    "Karol G": 1,
-    "Totoy El Frio": 1,
     "Natan": 1,
-    "J Balvin": 1,
-    "Nicky Jam": 1
+    "Nicky Jam": 1,
+    "Totoy El Frio": 1,
+    "Karol G": 1,
+    "Shander": 1,
+    "J Balvin": 1
+  },
+  "Totoy El Frio": {
+    "Natan": 1,
+    "Nicky Jam": 1,
+    "Crissin": 1,
+    "Karol G": 1,
+    "Shander": 1,
+    "J Balvin": 1
   },
   "Vegedream": {},
   "Walker Hayes": {},
+  "Bono": {
+    "The Edge": 1,
+    "Martin Garrix": 1
+  },
+  "The Edge": {
+    "Bono": 1,
+    "Martin Garrix": 1
+  },
   "Martin Garrix": {
     "Bono": 1,
     "The Edge": 1
-  },
-  "Bono": {
-    "Martin Garrix": 1,
-    "The Edge": 1
-  },
-  "The Edge": {
-    "Martin Garrix": 1,
-    "Bono": 1
   },
   "Chris Young + Kane Brown": {},
   "Tate McRae X Khalid": {},
   "Surf Curse": {},
   "Fedez": {
-    "Orietta Berti": 1,
-    "Achille Lauro": 1
-  },
-  "Orietta Berti": {
-    "Fedez": 1,
-    "Achille Lauro": 1
+    "Achille Lauro": 1,
+    "Orietta Berti": 1
   },
   "Achille Lauro": {
     "Fedez": 1,
     "Orietta Berti": 1
+  },
+  "Orietta Berti": {
+    "Fedez": 1,
+    "Achille Lauro": 1
   },
   "SEVENTEEN": {
     "DJ Khaled": 1
@@ -3740,8 +3799,8 @@
     "Tyler, The Creator": 1
   },
   "Fana Hues": {
-    "Brent Faiyaz": 1,
-    "Tyler, The Creator": 1
+    "Tyler, The Creator": 1,
+    "Brent Faiyaz": 1
   },
   "Teezo Touchdown": {
     "Tyler, The Creator": 2,
@@ -3755,10 +3814,6 @@
     "Tyler, The Creator": 1
   },
   "PASHANIM": {},
-  "MYA": {
-    "DuKi": 1,
-    "TINI": 1
-  },
   "DuKi": {
     "MYA": 1,
     "TINI": 1,
@@ -3766,17 +3821,21 @@
     "De La Ghetto": 1,
     "Myke Towers": 1
   },
-  "TINI": {
-    "MYA": 1,
+  "MYA": {
     "DuKi": 1,
+    "TINI": 1
+  },
+  "TINI": {
+    "DuKi": 1,
+    "MYA": 1,
     "L-Gante": 1,
     "Anitta": 1,
     "Becky G": 1,
     "Emilia": 1,
-    "Little Simz": 1,
-    "Elyanna": 1,
     "Coldplay": 1,
-    "Burna Boy": 1
+    "Burna Boy": 1,
+    "Little Simz": 1,
+    "Elyanna": 1
   },
   "Bo Burnham": {},
   "Shouse": {},
@@ -3784,21 +3843,21 @@
     "Doja Cat": 1,
     "21 Savage": 1,
     "Baby Tate": 1,
-    "J. Cole": 1,
     "Sheck Wes": 1,
+    "J. Cole": 1,
     "Kenny Mason": 1,
     "Offset": 1,
     "Eminem": 1
   },
-  "Aastha Gill": {
-    "Badshah": 2,
-    "Sahdev Dirdo": 1,
-    "Rico": 1
-  },
   "Badshah": {
     "Aastha Gill": 2,
-    "Sahdev Dirdo": 1,
-    "Rico": 1
+    "Rico": 1,
+    "Sahdev Dirdo": 1
+  },
+  "Aastha Gill": {
+    "Badshah": 2,
+    "Rico": 1,
+    "Sahdev Dirdo": 1
   },
   "Aaron Lewis": {},
   "Big Red Machine": {
@@ -3809,68 +3868,68 @@
     "J Balvin": 1,
     "Justin Bieber": 1,
     "Don Toliver": 1,
-    "Flowdan": 1,
-    "Fred again..": 1
+    "Fred again..": 1,
+    "Flowdan": 1
+  },
+  "Marc Segui": {
+    "Rauw Alejandro": 1,
+    "Pol Granch": 1
   },
   "Pol Granch": {
     "Rauw Alejandro": 1,
     "Marc Segui": 1
   },
-  "Marc Segui": {
-    "Pol Granch": 1,
-    "Rauw Alejandro": 1
-  },
   "Mari Fernandez": {
     "Marcynho Sensacao": 1,
     "Gustavo Mioto": 1
   },
-  "The Lightning Seeds": {
+  "Baddiel": {
     "Skinner": 1,
-    "Baddiel": 1
+    "The Lightning Seeds": 1
   },
   "Skinner": {
-    "The Lightning Seeds": 1,
-    "Baddiel": 1
+    "Baddiel": 1,
+    "The Lightning Seeds": 1
   },
-  "Baddiel": {
-    "The Lightning Seeds": 1,
+  "The Lightning Seeds": {
+    "Baddiel": 1,
     "Skinner": 1
   },
-  "Bandido": {
-    "Rei": 1,
-    "Tiago pzk": 1,
-    "Duki": 1
-  },
-  "Rei": {
-    "Bandido": 1,
-    "Tiago pzk": 1,
-    "Duki": 1
-  },
-  "Tiago pzk": {
-    "Bandido": 1,
-    "Rei": 1,
-    "Duki": 2,
-    "Bizarrap": 1,
-    "LIT killah": 1,
-    "FMK": 1,
-    "Rusherking": 1,
-    "Maria Becerra": 1,
-    "Big One": 1,
-    "Emilia": 1
-  },
   "Duki": {
-    "Bandido": 1,
     "Rei": 1,
     "Tiago pzk": 2,
+    "Bandido": 1,
     "Nicki Nicole": 1,
     "Bizarrap": 2,
     "Paulo Londra": 1,
     "LIT killah": 1,
-    "FMK": 1,
-    "Rusherking": 1,
-    "Maria Becerra": 1,
     "Big One": 1,
-    "Emilia": 1
+    "Maria Becerra": 1,
+    "FMK": 1,
+    "Emilia": 1,
+    "Rusherking": 1
+  },
+  "Rei": {
+    "Duki": 1,
+    "Tiago pzk": 1,
+    "Bandido": 1
+  },
+  "Tiago pzk": {
+    "Duki": 2,
+    "Rei": 1,
+    "Bandido": 1,
+    "Bizarrap": 1,
+    "LIT killah": 1,
+    "Big One": 1,
+    "Maria Becerra": 1,
+    "FMK": 1,
+    "Emilia": 1,
+    "Rusherking": 1
+  },
+  "Bandido": {
+    "Duki": 1,
+    "Rei": 1,
+    "Tiago pzk": 1
   },
   "B-Praak": {},
   "BIA": {
@@ -3880,45 +3939,45 @@
     "Luciano": 1
   },
   "Kane Brown X blackbear": {},
-  "Lil TJay": {
-    "Bas With J. Cole": 1
-  },
   "Bas With J. Cole": {
     "Lil TJay": 1
+  },
+  "Lil TJay": {
+    "Bas With J. Cole": 1
   },
   "Wizkid": {
     "Justin Bieber": 1,
     "Tems": 1,
-    "Metro Boomin": 1,
-    "Toian": 1,
+    "Don Toliver": 1,
     "BEAM": 1,
-    "Don Toliver": 1
+    "Metro Boomin": 1,
+    "Toian": 1
   },
   "Tems": {
-    "Wizkid": 1,
     "Justin Bieber": 1,
+    "Wizkid": 1,
     "Drake": 2,
     "Future": 1,
-    "Beyonce": 1,
-    "Grace Jones": 1
-  },
-  "Stormzy": {
-    "Dave": 1
+    "Grace Jones": 1,
+    "Beyonce": 1
   },
   "Dave": {
     "Stormzy": 1,
     "Central Cee": 2,
     "Burna Boy": 1
   },
-  "Chimbala X Zion": {
-    "Justin Quiles": 1,
-    "Lennox": 1
+  "Stormzy": {
+    "Dave": 1
   },
   "Lennox": {
     "Justin Quiles": 1,
     "Chimbala X Zion": 1,
     "Daddy Yankee": 1,
     "Zion": 1
+  },
+  "Chimbala X Zion": {
+    "Justin Quiles": 1,
+    "Lennox": 1
   },
   "Elle King": {
     "Miranda Lambert": 1
@@ -3927,20 +3986,20 @@
     "Elle King": 1
   },
   "Pusha T": {
-    "Kanye West": 4,
     "Pop Smoke": 2,
-    "Beam": 1,
-    "The Neptunes": 1,
+    "Kanye West": 4,
     "TRAVI": 1,
-    "Lil Uzi Vert": 1,
+    "The Neptunes": 1,
+    "Beam": 1,
     "Don Toliver": 1,
+    "Lil Uzi Vert": 1,
     "Kid Cudi": 1,
     "JAY-Z": 1,
     "Pharrell Williams": 1
   },
   "The-Dream": {
-    "Rick Ross": 1,
-    "Pop Smoke": 1
+    "Pop Smoke": 1,
+    "Rick Ross": 1
   },
   "millennium parade": {
     "Belle": 1
@@ -3955,48 +4014,49 @@
     "Pop Smoke": 1
   },
   "Tiago PZK": {
-    "LIT killa": 1,
-    "Maria Becerra": 1,
     "Nicki Nicole": 1,
+    "Maria Becerra": 1,
+    "LIT killa": 1,
     "Trueno": 1,
+    "Seven Kayne": 1,
     "Bhavi": 1,
-    "KHEA": 1,
-    "Milo j": 1,
     "Neo Pistea": 1,
-    "Seven Kayne": 1
+    "KHEA": 1,
+    "Milo j": 1
   },
   "LIT killa": {
+    "Nicki Nicole": 1,
     "Tiago PZK": 1,
-    "Maria Becerra": 1,
-    "Nicki Nicole": 1
+    "Maria Becerra": 1
   },
   "Sleepy Hallow": {
-    "347aidan": 1
+    "347aidan": 1,
+    "Doechii": 1
   },
   "Takeoff": {
     "Pop Smoke": 1,
     "Quavo": 2,
     "DJ Khaled": 1,
-    "Metro Boomin": 1,
-    "A$AP Rocky": 1
-  },
-  "Beam": {
-    "Pusha T": 1,
-    "The Neptunes": 1,
-    "TRAVI": 1,
-    "Pop Smoke": 1
-  },
-  "The Neptunes": {
-    "Pusha T": 1,
-    "Beam": 1,
-    "TRAVI": 1,
-    "Pop Smoke": 1,
-    "Pharrell Williams": 1,
-    "Summer Walker": 1
+    "A$AP Rocky": 1,
+    "Metro Boomin": 1
   },
   "TRAVI": {
     "Pusha T": 1,
+    "The Neptunes": 1,
+    "Pop Smoke": 1,
+    "Beam": 1
+  },
+  "The Neptunes": {
+    "Pusha T": 1,
+    "TRAVI": 1,
+    "Pop Smoke": 1,
     "Beam": 1,
+    "Summer Walker": 1,
+    "Pharrell Williams": 1
+  },
+  "Beam": {
+    "Pusha T": 1,
+    "TRAVI": 1,
     "The Neptunes": 1,
     "Pop Smoke": 1
   },
@@ -4009,8 +4069,8 @@
     "Drake": 1
   },
   "Belly": {
-    "The Weeknd": 2,
     "Young Thug": 1,
+    "The Weeknd": 2,
     "Nas": 1
   },
   "RAF Camora": {
@@ -4040,36 +4100,38 @@
     "Cardi B": 1,
     "SZA": 1
   },
-  "Sefo": {},
-  "Sahdev Dirdo": {
-    "Aastha Gill": 1,
-    "Rico": 1,
-    "Badshah": 1
+  "Sefo": {
+    "Demet Akalin": 1
   },
   "Rico": {
-    "Sahdev Dirdo": 1,
+    "Badshah": 1,
     "Aastha Gill": 1,
-    "Badshah": 1
+    "Sahdev Dirdo": 1
+  },
+  "Sahdev Dirdo": {
+    "Rico": 1,
+    "Badshah": 1,
+    "Aastha Gill": 1
   },
   "Red Velvet": {},
   "Sub Urban": {
     "Bella Poarch": 1
   },
   "Sueco": {},
+  "Tyga": {
+    "Ty Dolla $ign": 1,
+    "Blxst": 1,
+    "Justine Skye": 1
+  },
   "Blxst": {
     "Ty Dolla $ign": 1,
     "Tyga": 1,
-    "Kendrick Lamar": 1,
-    "Amanda Reifer": 1
-  },
-  "Tyga": {
-    "Blxst": 1,
-    "Ty Dolla $ign": 1,
-    "Justine Skye": 1
+    "Amanda Reifer": 1,
+    "Kendrick Lamar": 1
   },
   "Matue": {
-    "Teto": 1,
-    "WIU": 1
+    "WIU": 1,
+    "Teto": 1
   },
   "Steve Lacy": {},
   "Asees Kaur": {
@@ -4089,22 +4151,22 @@
     "Trippie Redd": 1
   },
   "John Amplificado": {},
+  "Joel Corry": {
+    "Jax Jones": 1,
+    "Saweetie": 1,
+    "Charli XCX": 1
+  },
+  "Jax Jones": {
+    "Joel Corry": 1,
+    "Saweetie": 1,
+    "Charli XCX": 1,
+    "MNEK": 1
+  },
   "Charli XCX": {
     "Joel Corry": 1,
     "Jax Jones": 1,
     "Saweetie": 1,
     "Tiesto": 1
-  },
-  "Joel Corry": {
-    "Charli XCX": 1,
-    "Jax Jones": 1,
-    "Saweetie": 1
-  },
-  "Jax Jones": {
-    "Charli XCX": 1,
-    "Joel Corry": 1,
-    "Saweetie": 1,
-    "MNEK": 1
   },
   "XXXTENTACION": {
     "Trippie Redd": 1,
@@ -4112,8 +4174,8 @@
   },
   "Capella Grey": {},
   "Project Pat": {
-    "Drake": 1,
-    "21 Savage": 1
+    "21 Savage": 1,
+    "Drake": 1
   },
   "Yebba": {
     "Drake": 2,
@@ -4134,27 +4196,29 @@
   "Oliver Tree": {
     "Robin Schulz": 1
   },
-  "Henrique": {
-    "Juliano": 1
-  },
   "Juliano": {
     "Henrique": 1
+  },
+  "Henrique": {
+    "Juliano": 1
   },
   "Night Lovell": {
     "CORPSE": 1
   },
   "LISA": {
     "Rosalia": 1,
+    "RAYE": 1,
     "Doja Cat": 1,
-    "RAYE": 1
+    "Future": 1,
+    "Maroon 5": 1
   },
   "CKay": {},
   "Chloe": {
     "Gunna": 1
   },
   "Rvssian": {
-    "Rauw Alejandro": 2,
     "Chris Brown": 1,
+    "Rauw Alejandro": 2,
     "Ayra Starr": 1
   },
   "DaBaby X Lil Wayne": {},
@@ -4162,17 +4226,17 @@
     "Calum Scott": 1,
     "Tom Odell": 1
   },
-  "Luke Bryan": {
-    "Jordan Davis": 1
-  },
   "Jordan Davis": {
     "Luke Bryan": 1
+  },
+  "Luke Bryan": {
+    "Jordan Davis": 1
   },
   "Calibre 50": {},
   "Luciano": {
     "RAF Camora": 2,
-    "Aitch": 1,
-    "BIA": 1
+    "BIA": 1,
+    "Aitch": 1
   },
   "Central Cee": {
     "Dave": 2,
@@ -4190,25 +4254,25 @@
   "$uicideboy$": {},
   "Eslabon Armado": {
     "DannyLux": 1,
-    "Peso Pluma": 1,
-    "Junior H": 1
+    "Junior H": 1,
+    "Peso Pluma": 1
   },
   "DannyLux": {
     "Eslabon Armado": 1
+  },
+  "Skylar Grey": {
+    "Eminem": 2,
+    "Polo G": 1,
+    "Mozzy": 1
   },
   "Mozzy": {
     "Skylar Grey": 1,
     "Eminem": 1,
     "Polo G": 1
   },
-  "Skylar Grey": {
-    "Mozzy": 1,
-    "Eminem": 2,
-    "Polo G": 1
-  },
   "Julieta Venegas": {
-    "Bad Bunny": 1,
-    "Tainy": 1
+    "Tainy": 1,
+    "Bad Bunny": 1
   },
   "DJ Adoni": {
     "Farruko": 1,
@@ -4218,13 +4282,13 @@
     "Farruko": 1,
     "DJ Adoni": 1
   },
-  "Amber Coffman": {
-    "J. Cole": 1,
-    "The Cults": 1
-  },
   "The Cults": {
     "J. Cole": 1,
     "Amber Coffman": 1
+  },
+  "Amber Coffman": {
+    "The Cults": 1,
+    "J. Cole": 1
   },
   "Ivan Cornejo": {
     "Peso Pluma": 1
@@ -4236,11 +4300,11 @@
     "Grupo Frontera": 1
   },
   "Nardo Wick": {
+    "21 Savage": 1,
     "Lil Durk": 1,
     "G Herbo": 1,
-    "21 Savage": 1,
-    "DJ Khaled": 1,
     "Kodak Black": 1,
+    "DJ Khaled": 1,
     "Lil Baby": 1
   },
   "Jesy Nelson": {
@@ -4268,9 +4332,6 @@
   "Coldplay X Selena Gomez": {},
   "Camilo y Evaluna": {},
   "NEIKED X Mae Muller X Polo G": {},
-  "Young Thug With Post Malone": {
-    "A$AP Rocky": 1
-  },
   "A$AP Rocky": {
     "Young Thug With Post Malone": 1,
     "$NOT": 1,
@@ -4278,6 +4339,9 @@
     "Takeoff": 1,
     "Roisee": 1,
     "Future": 1
+  },
+  "Young Thug With Post Malone": {
+    "A$AP Rocky": 1
   },
   "Summer Walker": {
     "JT": 1,
@@ -4288,19 +4352,19 @@
     "Pharrell Williams": 1,
     "The Neptunes": 1,
     "Omarion": 1,
-    "Kendrick Lamar": 1,
     "Ghostface Killah": 1,
+    "Kendrick Lamar": 1,
     "21 Savage": 1,
     "Bakar": 1
   },
   "JT": {
     "Summer Walker": 1
   },
-  "Young Thug With J. Cole": {
-    "T-Shyne": 1
-  },
   "T-Shyne": {
     "Young Thug With J. Cole": 1
+  },
+  "Young Thug With J. Cole": {
+    "T-Shyne": 1
   },
   "Rockwell": {},
   "Loza Alexander": {},
@@ -4313,27 +4377,27 @@
     "The Weeknd": 1
   },
   "Lisa": {
-    "Megan Thee Stallion": 1,
     "DJ Snake": 1,
+    "Megan Thee Stallion": 1,
     "Ozuna": 1
-  },
-  "Chandler Crump": {
-    "Bryson Gray": 1,
-    "Tyson James": 1
-  },
-  "Bryson Gray": {
-    "Chandler Crump": 1,
-    "Tyson James": 1
   },
   "Tyson James": {
     "Chandler Crump": 1,
     "Bryson Gray": 1
   },
+  "Chandler Crump": {
+    "Tyson James": 1,
+    "Bryson Gray": 1
+  },
+  "Bryson Gray": {
+    "Tyson James": 1,
+    "Chandler Crump": 1
+  },
   "Kay Flock": {
-    "Lil Tjay": 1,
     "Fivio Foreign": 1,
-    "Bory300": 1,
+    "Lil Tjay": 1,
     "Cardi B": 1,
+    "Bory300": 1,
     "Dougie B": 1
   },
   "Benson Boone": {},
@@ -4341,18 +4405,18 @@
   "Imagine Dragons X JID": {},
   "Andrew Gold": {},
   "Moliy": {
-    "Amaarae": 1,
-    "Kali Uchis": 1
+    "Kali Uchis": 1,
+    "Amaarae": 1
   },
   "Amaarae": {
-    "Moliy": 1,
-    "Kali Uchis": 1
-  },
-  "Acraze": {
-    "Cherish": 1
+    "Kali Uchis": 1,
+    "Moliy": 1
   },
   "Cherish": {
     "Acraze": 1
+  },
+  "Acraze": {
+    "Cherish": 1
   },
   "Vicente Garcia": {
     "Monsieur Perine": 1
@@ -4388,15 +4452,16 @@
     "Summer Walker": 1
   },
   "Gesaffelstein": {
-    "The Weeknd": 2
+    "The Weeknd": 2,
+    "Lady Gaga": 1
   },
   "zzoilo": {},
   "NLE Choppa": {
     "Polo G": 1,
-    "JVKE": 1,
+    "Kodak Black": 1,
     "Muni Long": 1,
     "Jimin": 1,
-    "Kodak Black": 1
+    "JVKE": 1
   },
   "Phoebe Bridgers": {
     "Taylor Swift": 1,
@@ -4406,20 +4471,20 @@
     "Taylor Swift": 1
   },
   "GAYLE": {},
-  "Bootsy Collins": {
-    "Silk Sonic (Bruno Mars": 1,
-    "Anderson .Paak) With Thundercat": 1
-  },
   "Anderson .Paak) With Thundercat": {
-    "Bootsy Collins": 1,
+    "Silk Sonic (Bruno Mars": 1,
+    "Bootsy Collins": 1
+  },
+  "Bootsy Collins": {
+    "Anderson .Paak) With Thundercat": 1,
     "Silk Sonic (Bruno Mars": 1
   },
   "Avril Lavigne": {},
-  "MC Danny E Marcynho Sensacao": {
-    "Paulo Pires": 1
-  },
   "Paulo Pires": {
     "MC Danny E Marcynho Sensacao": 1
+  },
+  "MC Danny E Marcynho Sensacao": {
+    "Paulo Pires": 1
   },
   "Adele With Erroll Garner": {},
   "Emmy Meli": {},
@@ -4427,13 +4492,13 @@
     "Justin Quiles": 1,
     "Lenny Tavarez": 1,
     "Peso Pluma": 1,
-    "Ovy On The Drums": 2,
-    "Karol G": 1,
+    "Ovy On The Drums": 3,
     "Maluma": 1,
-    "Feid": 1,
-    "Ryan Castro": 1,
-    "J Balvin": 1,
     "DFZM": 1,
+    "Karol G": 1,
+    "Ryan Castro": 1,
+    "Feid": 1,
+    "J Balvin": 1,
     "Anuel AA": 1
   },
   "Jaymes Young": {},
@@ -4455,8 +4520,8 @@
     "Rodrigo": 1
   },
   "Rodrigo": {
-    "George Henrique": 1,
-    "Marilia Mendonca": 1
+    "Marilia Mendonca": 1,
+    "George Henrique": 1
   },
   "Faith Hill": {},
   "V": {
@@ -4466,117 +4531,117 @@
   "Fireboy DML": {
     "Ed Sheeran": 1
   },
-  "Adassa": {
-    "Encanto Cast": 2,
+  "Rhenzy Feliz": {
     "Mauro Castillo": 1,
+    "Adassa": 1,
     "Diane Guerrero": 1,
-    "Stephanie Beatriz": 2,
     "Carolina Gaitan": 1,
-    "Rhenzy Feliz": 1,
-    "Maluma": 1,
-    "Olga Merediz": 1,
-    "John Leguizamo": 1
-  },
-  "Encanto Cast": {
-    "Adassa": 2,
-    "Mauro Castillo": 1,
-    "Diane Guerrero": 1,
-    "Stephanie Beatriz": 3,
-    "Carolina Gaitan": 1,
-    "Rhenzy Feliz": 1,
-    "Olga Merediz": 2,
-    "Maluma": 1,
-    "John Leguizamo": 1
+    "Encanto Cast": 1,
+    "Stephanie Beatriz": 1
   },
   "Mauro Castillo": {
+    "Rhenzy Feliz": 1,
     "Adassa": 1,
-    "Encanto Cast": 1,
     "Diane Guerrero": 1,
-    "Stephanie Beatriz": 1,
     "Carolina Gaitan": 1,
-    "Rhenzy Feliz": 1
+    "Encanto Cast": 1,
+    "Stephanie Beatriz": 1
+  },
+  "Adassa": {
+    "Rhenzy Feliz": 1,
+    "Mauro Castillo": 1,
+    "Diane Guerrero": 1,
+    "Carolina Gaitan": 1,
+    "Encanto Cast": 2,
+    "Stephanie Beatriz": 2,
+    "Maluma": 1,
+    "John Leguizamo": 1,
+    "Olga Merediz": 1
   },
   "Diane Guerrero": {
-    "Adassa": 1,
-    "Encanto Cast": 1,
-    "Mauro Castillo": 1,
-    "Stephanie Beatriz": 2,
-    "Carolina Gaitan": 1,
-    "Rhenzy Feliz": 1
-  },
-  "Stephanie Beatriz": {
-    "Adassa": 2,
-    "Encanto Cast": 3,
-    "Mauro Castillo": 1,
-    "Diane Guerrero": 2,
-    "Carolina Gaitan": 1,
     "Rhenzy Feliz": 1,
+    "Mauro Castillo": 1,
+    "Adassa": 1,
+    "Carolina Gaitan": 1,
+    "Encanto Cast": 1,
+    "Stephanie Beatriz": 2
+  },
+  "Carolina Gaitan": {
+    "Rhenzy Feliz": 1,
+    "Mauro Castillo": 1,
+    "Adassa": 1,
+    "Diane Guerrero": 1,
+    "Encanto Cast": 1,
+    "Stephanie Beatriz": 1
+  },
+  "Encanto Cast": {
+    "Rhenzy Feliz": 1,
+    "Mauro Castillo": 1,
+    "Adassa": 2,
+    "Diane Guerrero": 1,
+    "Carolina Gaitan": 1,
+    "Stephanie Beatriz": 3,
     "Olga Merediz": 2,
     "Maluma": 1,
     "John Leguizamo": 1
   },
-  "Carolina Gaitan": {
-    "Adassa": 1,
-    "Encanto Cast": 1,
+  "Stephanie Beatriz": {
+    "Rhenzy Feliz": 1,
     "Mauro Castillo": 1,
-    "Diane Guerrero": 1,
-    "Stephanie Beatriz": 1,
-    "Rhenzy Feliz": 1
-  },
-  "Rhenzy Feliz": {
-    "Adassa": 1,
-    "Encanto Cast": 1,
-    "Mauro Castillo": 1,
-    "Diane Guerrero": 1,
-    "Stephanie Beatriz": 1,
-    "Carolina Gaitan": 1
+    "Adassa": 2,
+    "Diane Guerrero": 2,
+    "Carolina Gaitan": 1,
+    "Encanto Cast": 3,
+    "Olga Merediz": 2,
+    "Maluma": 1,
+    "John Leguizamo": 1
   },
   "Jessica Darrow": {},
   "Ze Felipe": {
     "MC Danny": 1,
     "MC Mari": 1,
-    "MC Tuto": 1,
-    "Oruam": 1,
+    "MC Rodrigo do CN": 1,
+    "mc pl alves": 1,
     "MC K9": 1,
     "DJ LC da Roca": 1,
-    "MC Rodrigo do CN": 1,
-    "mc pl alves": 1
+    "MC Tuto": 1,
+    "Oruam": 1
   },
   "MC Danny": {
     "Ze Felipe": 1
   },
   "Xama": {
-    "Neo Beats": 1,
-    "Gustah": 1
-  },
-  "Neo Beats": {
-    "Xama": 1,
-    "Gustah": 1
+    "Gustah": 1,
+    "Neo Beats": 1
   },
   "Gustah": {
     "Xama": 1,
     "Neo Beats": 1
+  },
+  "Neo Beats": {
+    "Xama": 1,
+    "Gustah": 1
   },
   "Daryl Hall  John Oates": {},
   "Marcynho Sensacao": {
     "Mari Fernandez": 1
   },
   "Muni Long": {
-    "NLE Choppa": 1,
-    "JVKE": 1,
+    "Kodak Black": 1,
     "Jimin": 1,
-    "Kodak Black": 1
+    "JVKE": 1,
+    "NLE Choppa": 1
   },
   "Alesso": {
     "Katy Perry": 1
   },
   "Lauren Spencer Smith": {},
   "Olga Merediz": {
-    "Stephanie Beatriz": 2,
     "Encanto Cast": 2,
-    "Adassa": 1,
+    "Stephanie Beatriz": 2,
     "Maluma": 1,
-    "John Leguizamo": 1
+    "John Leguizamo": 1,
+    "Adassa": 1
   },
   "Sam Tompkins": {
     "JNR CHOI": 1
@@ -4587,24 +4652,24 @@
   "GOT The Beat": {},
   "The Black Eyed Peas": {},
   "Macklemore": {
-    "Ray Dalton": 1,
-    "Ryan Lewis": 1
-  },
-  "Ray Dalton": {
-    "Macklemore": 1,
-    "Ryan Lewis": 1
+    "Ryan Lewis": 1,
+    "Ray Dalton": 1
   },
   "Ryan Lewis": {
     "Macklemore": 1,
     "Ray Dalton": 1
   },
+  "Ray Dalton": {
+    "Macklemore": 1,
+    "Ryan Lewis": 1
+  },
   "Ratatat": {
-    "MGMT": 1,
-    "Kid Cudi": 1
+    "Kid Cudi": 1,
+    "MGMT": 1
   },
   "MGMT": {
-    "Ratatat": 1,
-    "Kid Cudi": 1
+    "Kid Cudi": 1,
+    "Ratatat": 1
   },
   "Natalia LaFourcade": {},
   "ERNEST": {
@@ -4616,9 +4681,9 @@
   "David Kushner": {},
   "Sid Sriram": {},
   "John Leguizamo": {
-    "Adassa": 1,
-    "Maluma": 1,
     "Encanto Cast": 1,
+    "Maluma": 1,
+    "Adassa": 1,
     "Olga Merediz": 1,
     "Stephanie Beatriz": 1
   },
@@ -4634,8 +4699,8 @@
   },
   "Gusttavo Lima": {},
   "Baby Tate": {
-    "JID": 1,
-    "21 Savage": 1
+    "21 Savage": 1,
+    "JID": 1
   },
   "Elley Duhe": {},
   "Ruth B.": {},
@@ -4652,35 +4717,35 @@
     "Luude": 1
   },
   "Carlos Vives": {},
-  "DJ Matt-D": {
-    "MC GP": 1,
-    "Vulgo FK": 1,
-    "Menor MC": 1
-  },
-  "MC GP": {
-    "DJ Matt-D": 1,
-    "Vulgo FK": 1,
-    "Menor MC": 1,
-    "MC Davi": 1,
-    "MC IG": 1,
-    "MC Ryan SP": 1,
-    "MC Kadu": 1,
-    "DJ GBR": 1,
-    "MC Don Juan": 1,
-    "MC Luki": 1,
-    "MC PH": 1,
-    "MC GH Do7": 1,
-    "Traplaudo": 1
-  },
-  "Vulgo FK": {
-    "DJ Matt-D": 1,
-    "MC GP": 1,
-    "Menor MC": 1
-  },
   "Menor MC": {
     "DJ Matt-D": 1,
     "MC GP": 1,
     "Vulgo FK": 1
+  },
+  "DJ Matt-D": {
+    "Menor MC": 1,
+    "MC GP": 1,
+    "Vulgo FK": 1
+  },
+  "MC GP": {
+    "Menor MC": 1,
+    "DJ Matt-D": 1,
+    "Vulgo FK": 1,
+    "Traplaudo": 1,
+    "MC PH": 1,
+    "MC IG": 1,
+    "MC Don Juan": 1,
+    "MC Luki": 1,
+    "MC GH Do7": 1,
+    "MC Davi": 1,
+    "MC Kadu": 1,
+    "DJ GBR": 1,
+    "MC Ryan SP": 1
+  },
+  "Vulgo FK": {
+    "Menor MC": 1,
+    "DJ Matt-D": 1,
+    "MC GP": 1
   },
   "Yung Lean": {
     "Travis Scott": 1,
@@ -4690,25 +4755,25 @@
   "Benny The Butcher": {
     "J. Cole": 1
   },
-  "BLANCO": {
-    "Mahmood": 1
-  },
   "Mahmood": {
     "BLANCO": 1
   },
+  "BLANCO": {
+    "Mahmood": 1
+  },
   "Ryan Castro": {
-    "Migrantes": 1,
     "Lil CaKe": 1,
+    "Migrantes": 1,
     "Ozuna": 1,
     "Pe$o Pluma": 1,
     "Karol G": 2,
     "Cris Mj": 1,
+    "Blessd": 1,
     "Maluma": 1,
-    "Feid": 1,
-    "Ovy On The Drums": 1,
-    "J Balvin": 1,
     "DFZM": 1,
-    "Blessd": 1
+    "Feid": 1,
+    "J Balvin": 1,
+    "Ovy On The Drums": 1
   },
   "Boza X Lunay X Lenny Tavarez X Juhn X Beele": {},
   "Nicki Minaj X Lil Baby": {},
@@ -4732,8 +4797,8 @@
     "Eminem": 2
   },
   "YG": {
-    "J. Cole": 1,
-    "Moneybagg Yo": 1
+    "Moneybagg Yo": 1,
+    "J. Cole": 1
   },
   "Bad Bunny X Daddy Yankee": {},
   "Becky G X Karol G": {},
@@ -4763,10 +4828,10 @@
   },
   "Dido": {
     "Eminem": 1,
+    "Tiesto": 1,
     "W": 1,
     "Dimitri Vegas": 1,
-    "Like Mike": 1,
-    "Tiesto": 1
+    "Like Mike": 1
   },
   "Rihanna": {
     "Eminem": 1,
@@ -4785,69 +4850,71 @@
   "Pedro Sampaio": {
     "MC Pedrinho": 1
   },
-  "Juseph": {
-    "Cruz Cafune": 1,
-    "Abhir Hathi": 1,
-    "El Ima": 1,
-    "Quevedo": 1,
-    "La Pantera": 1,
-    "Bejo": 1
-  },
   "Cruz Cafune": {
+    "Quevedo": 1,
+    "El Ima": 1,
+    "La Pantera": 1,
     "Juseph": 1,
     "Abhir Hathi": 1,
-    "El Ima": 1,
-    "Quevedo": 1,
-    "La Pantera": 1,
-    "Bejo": 1
-  },
-  "Abhir Hathi": {
-    "Juseph": 1,
-    "Cruz Cafune": 1,
-    "El Ima": 1,
-    "Quevedo": 1,
-    "La Pantera": 1,
-    "Bejo": 1
-  },
-  "El Ima": {
-    "Juseph": 1,
-    "Cruz Cafune": 1,
-    "Abhir Hathi": 1,
-    "Quevedo": 1,
-    "La Pantera": 1,
     "Bejo": 1
   },
   "Quevedo": {
-    "Juseph": 1,
     "Cruz Cafune": 1,
-    "Abhir Hathi": 1,
     "El Ima": 1,
     "La Pantera": 1,
+    "Juseph": 1,
+    "Abhir Hathi": 1,
     "Bejo": 1,
-    "De La Ghetto": 1,
     "DuKi": 1,
+    "De La Ghetto": 1,
     "Bizarrap": 1,
     "Mora": 2,
     "Mike Towers": 1,
     "Karol G": 1,
+    "Feid": 1,
     "Saiko": 2,
-    "Feid": 1
+    "Beele": 1,
+    "Ovy On The Drums": 1
+  },
+  "El Ima": {
+    "Cruz Cafune": 1,
+    "Quevedo": 1,
+    "La Pantera": 1,
+    "Juseph": 1,
+    "Abhir Hathi": 1,
+    "Bejo": 1
   },
   "La Pantera": {
-    "Juseph": 1,
     "Cruz Cafune": 1,
-    "Abhir Hathi": 1,
-    "El Ima": 1,
     "Quevedo": 1,
+    "El Ima": 1,
+    "Juseph": 1,
+    "Abhir Hathi": 1,
+    "Bejo": 1
+  },
+  "Juseph": {
+    "Cruz Cafune": 1,
+    "Quevedo": 1,
+    "El Ima": 1,
+    "La Pantera": 1,
+    "Abhir Hathi": 1,
+    "Bejo": 1
+  },
+  "Abhir Hathi": {
+    "Cruz Cafune": 1,
+    "Quevedo": 1,
+    "El Ima": 1,
+    "La Pantera": 1,
+    "Juseph": 1,
     "Bejo": 1
   },
   "Bejo": {
-    "Juseph": 1,
     "Cruz Cafune": 1,
-    "Abhir Hathi": 1,
-    "El Ima": 1,
     "Quevedo": 1,
-    "La Pantera": 1
+    "El Ima": 1,
+    "La Pantera": 1,
+    "Juseph": 1,
+    "Abhir Hathi": 1
   },
   "Mimi Webb": {},
   "Tyga X Doja Cat": {},
@@ -4870,12 +4937,12 @@
   "Omah Lay": {
     "Justin Bieber": 1
   },
+  "Ktlyn": {
+    "Russ": 1
+  },
   "Russ": {
     "Ktlyn": 1,
     "Ed Sheeran": 1
-  },
-  "Ktlyn": {
-    "Russ": 1
   },
   "Buju": {
     "Pheelz": 1
@@ -4902,11 +4969,11 @@
   },
   "Tulus": {},
   "Rammstein": {},
-  "AnnenMayKantereit": {
-    "Giant Rooks": 1
-  },
   "Giant Rooks": {
     "AnnenMayKantereit": 1
+  },
+  "AnnenMayKantereit": {
+    "Giant Rooks": 1
   },
   "4*TOWN (From Disney And Pixar's Turning Red)": {},
   "MC Frog": {
@@ -4921,12 +4988,12 @@
   },
   "UZI": {},
   "BoyWithUke X blackbear": {},
+  "ROBI": {
+    "Feid": 1,
+    "Alejo": 1
+  },
   "Alejo": {
     "ROBI": 1,
-    "Feid": 1
-  },
-  "ROBI": {
-    "Alejo": 1,
     "Feid": 1
   },
   "Willow Smith": {},
@@ -4943,31 +5010,33 @@
   },
   "BIGBANG": {},
   "Pailita": {
-    "Ak4:20": 1,
     "Cris Mj": 1,
+    "Ak4:20": 1,
     "Polima WestCoast": 1
   },
   "Ak4:20": {
-    "Pailita": 1,
-    "Cris Mj": 1
+    "Cris Mj": 1,
+    "Pailita": 1
   },
   "Sheck Wes": {
     "J. Cole": 1,
     "JID": 1,
-    "Kenny Mason": 1
+    "Kenny Mason": 1,
+    "Travis Scott": 1,
+    "Don Toliver": 1
   },
   "Kenny Mason": {
-    "J. Cole": 1,
     "Sheck Wes": 1,
+    "J. Cole": 1,
     "JID": 1
   },
   "Gen Hoshino": {},
-  "Teto": {
-    "WIU": 1,
-    "Matue": 1
-  },
   "WIU": {
     "Teto": 1,
+    "Matue": 1
+  },
+  "Teto": {
+    "WIU": 1,
     "Matue": 1
   },
   "Andriy Khlyvnyuk": {
@@ -4984,14 +5053,14 @@
     "Maroon 5": 1
   },
   "Bory300": {
-    "Kay Flock": 1,
     "Cardi B": 1,
-    "Dougie B": 1
+    "Dougie B": 1,
+    "Kay Flock": 1
   },
   "Dougie B": {
-    "Kay Flock": 1,
+    "Cardi B": 1,
     "Bory300": 1,
-    "Cardi B": 1
+    "Kay Flock": 1
   },
   "Felipe Amorim": {},
   "Cat Burns": {},
@@ -4999,10 +5068,10 @@
   "Jimin": {
     "HA SUNG WOON": 1,
     "TAEYANG": 1,
-    "NLE Choppa": 1,
-    "JVKE": 1,
-    "Muni Long": 1,
     "Kodak Black": 1,
+    "Muni Long": 1,
+    "JVKE": 1,
+    "NLE Choppa": 1,
     "Loco": 1,
     "Sofia Carson": 1
   },
@@ -5010,8 +5079,8 @@
     "Jimin": 1
   },
   "Southside": {
-    "Future": 1,
-    "Travis Scott": 1
+    "Travis Scott": 1,
+    "Future": 1
   },
   "Zach Bryan": {
     "Maggie Rogers": 1,
@@ -5033,16 +5102,16 @@
   },
   "Jessi": {},
   "T-Low": {
-    "Miksu": 1,
-    "Macloud": 1
-  },
-  "Miksu": {
-    "T-Low": 1,
-    "Macloud": 1
+    "Macloud": 1,
+    "Miksu": 1
   },
   "Macloud": {
     "T-Low": 1,
     "Miksu": 1
+  },
+  "Miksu": {
+    "T-Low": 1,
+    "Macloud": 1
   },
   "Goo Goo Dolls": {},
   "PSY": {
@@ -5069,8 +5138,8 @@
   },
   "Nate Smith": {},
   "Amanda Reifer": {
-    "Kendrick Lamar": 1,
-    "Blxst": 1
+    "Blxst": 1,
+    "Kendrick Lamar": 1
   },
   "Sampha": {
     "Kendrick Lamar": 1
@@ -5079,12 +5148,12 @@
     "Kendrick Lamar": 1
   },
   "Ghostface Killah": {
-    "Kendrick Lamar": 1,
-    "Summer Walker": 1
+    "Summer Walker": 1,
+    "Kendrick Lamar": 1
   },
   "Sam Dew": {
-    "Kendrick Lamar": 1,
-    "Baby Keem": 1
+    "Baby Keem": 1,
+    "Kendrick Lamar": 1
   },
   "Tanna Leone": {
     "Kendrick Lamar": 1
@@ -5106,19 +5175,22 @@
   },
   "Chris Jedi": {
     "Nengo Flow": 1,
-    "Chencho Corleone": 1,
-    "Anuel AA": 1
+    "Anuel AA": 1,
+    "Chencho Corleone": 1
   },
   "Jovem Dionisio": {},
-  "Ninha": {
-    "Naps": 1,
-    "Alonzo": 1
-  },
   "Alonzo": {
-    "Naps": 1,
-    "Ninha": 1
+    "Ninha": 1,
+    "Naps": 1
   },
-  "Bailey Zimmerman": {},
+  "Ninha": {
+    "Alonzo": 1,
+    "Naps": 1
+  },
+  "Bailey Zimmerman": {
+    "BigXthaPlug": 1,
+    "Luke Combs": 1
+  },
   "Nicky Youre": {
     "dazy": 1
   },
@@ -5147,8 +5219,8 @@
     "Sevdaliza": 1
   },
   "Veeze": {
-    "42 Dugg": 1,
-    "Lil Baby": 1
+    "Lil Baby": 1,
+    "42 Dugg": 1
   },
   "WizKid": {
     "Chris Brown": 1,
@@ -5158,11 +5230,11 @@
   "Shakira + David Guetta": {
     "Black Eyed Peas": 1
   },
-  "Miggy Dela Rosa": {
-    "James Hype": 1
-  },
   "James Hype": {
     "Miggy Dela Rosa": 1
+  },
+  "Miggy Dela Rosa": {
+    "James Hype": 1
   },
   "BYOR": {
     "Imanbek": 1
@@ -5182,9 +5254,11 @@
   "LF SYSTEM": {},
   "j-hope": {
     "Crush": 1,
-    "Speedy": 1,
+    "Don Toliver": 1,
     "Pharrell Williams": 1,
-    "Don Toliver": 1
+    "Speedy": 1,
+    "Miguel": 1,
+    "GloRilla": 1
   },
   "Metallica": {},
   "Ye": {
@@ -5197,36 +5271,36 @@
   },
   "Toto": {},
   "Yung Gravy": {},
-  "DJ Robin": {
-    "Schurze": 1
-  },
   "Schurze": {
     "DJ Robin": 1
   },
+  "DJ Robin": {
+    "Schurze": 1
+  },
   "Rosa Linn": {},
-  "Bianca": {
-    "L7nnon": 1,
-    "DJ Biel do Furduncinho": 1
-  },
-  "L7nnon": {
-    "Bianca": 1,
-    "DJ Biel do Furduncinho": 1
-  },
   "DJ Biel do Furduncinho": {
     "Bianca": 1,
     "L7nnon": 1
   },
+  "Bianca": {
+    "DJ Biel do Furduncinho": 1,
+    "L7nnon": 1
+  },
+  "L7nnon": {
+    "DJ Biel do Furduncinho": 1,
+    "Bianca": 1
+  },
   "Pharrell": {
     "Justin Timberlake": 1,
-    "Calvin Harris": 1,
     "Halsey": 1,
+    "Calvin Harris": 1,
     "Miley Cyrus": 1
   },
   "Ana Castela": {
     "DJ Chris No Beat": 1,
     "Melody": 1,
-    "Rodolffo": 1,
     "Israel": 1,
+    "Rodolffo": 1,
     "Luan": 1
   },
   "DJ Chris No Beat": {
@@ -5272,41 +5346,41 @@
     "Karol G": 1
   },
   "Fridayy": {
-    "JAY-Z": 1,
     "Rick Ross": 1,
+    "JAY-Z": 1,
     "Lil Wayne": 1,
     "DJ Khaled": 1,
     "John Legend": 1,
     "Lil Baby": 1
   },
   "JVKE": {
-    "NLE Choppa": 1,
+    "Kodak Black": 1,
     "Muni Long": 1,
     "Jimin": 1,
-    "Kodak Black": 1
+    "NLE Choppa": 1
   },
   "Seafret": {},
-  "Eliza Rose": {
-    "Interplanetary Criminal": 1
-  },
   "Interplanetary Criminal": {
     "Eliza Rose": 1
+  },
+  "Eliza Rose": {
+    "Interplanetary Criminal": 1
   },
   "Yeat": {
     "Drake": 1
   },
-  "Bootie Brown": {
-    "Gorillaz": 1,
-    "Tame Impala": 1
-  },
   "Gorillaz": {
-    "Bootie Brown": 1,
     "Tame Impala": 1,
+    "Bootie Brown": 1,
     "Bad Bunny": 1
   },
   "Tame Impala": {
-    "Bootie Brown": 1,
-    "Gorillaz": 1
+    "Gorillaz": 1,
+    "Bootie Brown": 1
+  },
+  "Bootie Brown": {
+    "Gorillaz": 1,
+    "Tame Impala": 1
   },
   "Oxlade": {},
   "Armani White": {},
@@ -5328,8 +5402,9 @@
     "Cardi B": 1,
     "Megan Thee Stallion": 1,
     "Sexyy Red": 2,
+    "Tyler, The Creator": 1,
     "Lil Wayne": 1,
-    "Tyler, The Creator": 1
+    "j-hope": 1
   },
   "Aitch": {
     "BIA": 1,
@@ -5343,20 +5418,20 @@
     "Peso Pluma": 1,
     "Grupo Firme": 1,
     "Tito Double P": 1,
-    "Fuerza Regida": 1
+    "Fuerza Regida": 2
   },
   "Rosa Walton": {},
   "Polima Westcoast": {
-    "Pablo Pesadilla": 1,
-    "Nicko OG": 1
-  },
-  "Pablo Pesadilla": {
-    "Polima Westcoast": 1,
-    "Nicko OG": 1
+    "Nicko OG": 1,
+    "Pablo Pesadilla": 1
   },
   "Nicko OG": {
     "Polima Westcoast": 1,
     "Pablo Pesadilla": 1
+  },
+  "Pablo Pesadilla": {
+    "Polima Westcoast": 1,
+    "Nicko OG": 1
   },
   "Cigarettes After Sex": {},
   "Mavzer Tabancas": {
@@ -5410,20 +5485,22 @@
   },
   "Ovy On The Drums": {
     "Karol G": 2,
-    "Blessd": 2,
+    "Blessd": 3,
     "Maluma": 1,
-    "Feid": 1,
-    "Ryan Castro": 1,
-    "J Balvin": 1,
     "DFZM": 1,
-    "Beele": 1
+    "Ryan Castro": 1,
+    "Feid": 1,
+    "J Balvin": 1,
+    "Beele": 3,
+    "W Sound": 1,
+    "Quevedo": 1
   },
   "Freshlyground": {
     "Shakira": 1
   },
   "Myriam Fares": {
-    "Maluma": 1,
-    "Nicki Minaj": 1
+    "Nicki Minaj": 1,
+    "Maluma": 1
   },
   "DJ ESCOBAR": {
     "MC MENOR HR E MC Menor SG": 1
@@ -5440,8 +5517,8 @@
   "Hotel Ugly": {},
   "RM With Youjeen": {},
   "Mustafa": {
-    "Metro Boomin": 1,
-    "21 Savage": 1
+    "21 Savage": 1,
+    "Metro Boomin": 1
   },
   "Mabel Matiz": {
     "Mert Demir": 1
@@ -5460,41 +5537,33 @@
   "Standly": {
     "Cris Mj": 1
   },
-  "Miguel": {},
+  "Miguel": {
+    "j-hope": 1
+  },
   "INTERWORLD": {},
   "Frank Sinatra": {},
   "Carin Leon X Grupo Frontera": {},
   "Fuerza Regida X Grupo Frontera": {},
   "King": {},
   "ThxSoMch": {},
-  "Whitney Houston": {
-    "P2J": 1
-  },
   "P2J": {
     "Whitney Houston": 1
+  },
+  "Whitney Houston": {
+    "P2J": 1
   },
   "Yandel": {
     "Feid": 2,
     "Daddy Yankee": 1
   },
   "Natanael Cano": {
-    "Gabito Ballesteros": 4,
     "Peso Pluma": 3,
+    "Gabito Ballesteros": 5,
     "Oscar Maydon": 1,
     "Bizarrap": 2,
     "Belinda": 1,
-    "Neton Vega": 1,
-    "Luis R Conriquez": 1
-  },
-  "Gabito Ballesteros": {
-    "Natanael Cano": 4,
-    "Peso Pluma": 4,
-    "Junior H": 2,
-    "Chino Pacas": 1,
-    "Oscar Maydon": 1,
-    "Neton Vega": 1,
     "Luis R Conriquez": 1,
-    "Tito Double P": 1
+    "Neton Vega": 1
   },
   "Peso Pluma": {
     "Natanael Cano": 3,
@@ -5507,8 +5576,8 @@
     "Jasiel Nunez": 3,
     "Bizarrap": 1,
     "El Alfa": 1,
-    "Edgardo Nunez": 1,
     "Los Dareyes de La Sierra": 1,
+    "Edgardo Nunez": 1,
     "Grupo Frontera": 1,
     "Karol G": 1,
     "Tito Double P": 4,
@@ -5520,15 +5589,28 @@
     "Eslabon Armado": 1,
     "Ivan Cornejo": 1,
     "Neton Vega": 2,
-    "Luis R Conriquez": 1
+    "Luis R Conriquez": 1,
+    "Estevan Plazola": 1
   },
-  "Flowdan": {
-    "Skrillex": 1,
-    "Fred again..": 1
+  "Gabito Ballesteros": {
+    "Natanael Cano": 5,
+    "Peso Pluma": 4,
+    "Junior H": 2,
+    "Oscar Maydon": 1,
+    "Chino Pacas": 1,
+    "Luis R Conriquez": 1,
+    "Neton Vega": 1,
+    "Tito Double P": 1
   },
   "Fred again..": {
     "Skrillex": 1,
-    "Flowdan": 1
+    "Flowdan": 1,
+    "Skepta": 1,
+    "PlaqueBoyMax": 1
+  },
+  "Flowdan": {
+    "Fred again..": 1,
+    "Skrillex": 1
   },
   "Beach House": {},
   "Justine Skye": {
@@ -5537,8 +5619,8 @@
   "TAEYANG": {
     "Jimin": 1,
     "LISA Of BLACKPINK": 1,
-    "G-DRAGON": 1,
-    "DAESUNG": 1
+    "DAESUNG": 1,
+    "G-DRAGON": 1
   },
   "Junior H X Oscar Maydon": {},
   "Libianca": {},
@@ -5553,11 +5635,11 @@
   "Mike Towers": {
     "Quevedo": 1
   },
-  "AYLIVA": {
-    "Mero": 1
-  },
   "Mero": {
     "AYLIVA": 1
+  },
+  "AYLIVA": {
+    "Mero": 1
   },
   "Wyclef Jean": {
     "Shakira": 1
@@ -5568,8 +5650,8 @@
   },
   "Mac DeMarco": {},
   "Ayra Starr": {
-    "Rauw Alejandro": 1,
-    "Rvssian": 1
+    "Rvssian": 1,
+    "Rauw Alejandro": 1
   },
   "Peso Pluma X Natanael Cano": {},
   "Maggie Rogers": {
@@ -5586,8 +5668,8 @@
   "Falling In Reverse": {},
   "Fuerza Regida X Natanael Cano": {},
   "Lil CaKe": {
-    "Migrantes": 1,
     "Ryan Castro": 1,
+    "Migrantes": 1,
     "Ozuna": 1
   },
   "Jay-Z": {
@@ -5603,10 +5685,10 @@
   },
   "Mr.Rain": {},
   "Chino Pacas": {
-    "Fuerza Regida": 1,
     "Calle 24": 1,
-    "Gabito Ballesteros": 1,
+    "Fuerza Regida": 1,
     "Oscar Maydon": 1,
+    "Gabito Ballesteros": 1,
     "Tito Double P": 1,
     "Drake": 1,
     "PARTYNEXTDOOR": 1
@@ -5622,8 +5704,8 @@
     "Karol G": 1
   },
   "Angel Dior": {
-    "Justin Quiles": 1,
-    "Karol G": 1
+    "Karol G": 1,
+    "Justin Quiles": 1
   },
   "Bad Gyal": {
     "Karol G": 1,
@@ -5636,11 +5718,11 @@
     "Peso Pluma": 1
   },
   "j-hope With J. Cole": {},
-  "La Kelly": {
-    "Cartel de Santa": 1
-  },
   "Cartel de Santa": {
     "La Kelly": 1
+  },
+  "La Kelly": {
+    "Cartel de Santa": 1
   },
   "DJ Luian": {
     "Anuel AA": 2,
@@ -5659,11 +5741,11 @@
   "Fifty Fifty": {},
   "Milo j": {
     "Bizarrap": 2,
+    "Seven Kayne": 1,
     "Bhavi": 1,
-    "KHEA": 1,
     "Tiago PZK": 1,
     "Neo Pistea": 1,
-    "Seven Kayne": 1
+    "KHEA": 1
   },
   "Junior H": {
     "Peso Pluma": 8,
@@ -5680,8 +5762,8 @@
   "Jisoo": {},
   "Young Miko": {
     "Feid": 2,
-    "Tokischa": 1,
     "Bad Gyal": 1,
+    "Tokischa": 1,
     "Karol G": 1,
     "Bad Bunny": 1,
     "Bizarrap": 1
@@ -5696,18 +5778,19 @@
   "Grupo Frontera X Bad Bunny": {},
   "Fuerza Regida": {
     "Peso Pluma": 1,
-    "Chino Pacas": 1,
     "Calle 24": 1,
+    "Chino Pacas": 1,
     "Marshmello": 1,
     "Oscar Maydon": 1,
-    "Grupo Frontera": 1,
-    "Jorsshh": 1
-  },
-  "milet": {
-    "MAN WITH A MISSION": 1
+    "Grupo Frontera": 2,
+    "Jorsshh": 1,
+    "Clave Especial": 1
   },
   "MAN WITH A MISSION": {
     "milet": 1
+  },
+  "milet": {
+    "MAN WITH A MISSION": 1
   },
   "Jasiel Nunez": {
     "Peso Pluma": 3,
@@ -5726,8 +5809,8 @@
   "Kaliii": {},
   "Florence + The Machine": {
     "Taylor Swift": 1,
-    "The Weeknd": 1,
-    "Travis Scott": 1
+    "Travis Scott": 1,
+    "The Weeknd": 1
   },
   "Loreen": {},
   "Kaarija": {},
@@ -5742,7 +5825,8 @@
   "Doechii": {
     "Kodak Black": 1,
     "Tyler, The Creator": 1,
-    "JENNIE": 1
+    "JENNIE": 1,
+    "Sleepy Hallow": 1
   },
   "Don Omar": {
     "Lucenzo": 1
@@ -5755,61 +5839,62 @@
     "Jessie Murph": 1,
     "Eminem": 1,
     "mgk": 1,
-    "Post Malone": 1
+    "Post Malone": 1,
+    "Brandon Lake": 1
   },
   "Madonna": {
     "Playboi Carti": 1,
     "The Weeknd": 1
   },
   "Roisee": {
-    "Metro Boomin": 1,
-    "A$AP Rocky": 1
+    "A$AP Rocky": 1,
+    "Metro Boomin": 1
   },
   "LIT killah": {
-    "Tiago pzk": 1,
+    "Big One": 1,
+    "Maria Becerra": 1,
     "FMK": 1,
-    "Rusherking": 1,
+    "Emilia": 1,
     "Duki": 1,
-    "Maria Becerra": 1,
-    "Big One": 1,
-    "Emilia": 1
-  },
-  "FMK": {
     "Tiago pzk": 1,
-    "LIT killah": 1,
-    "Rusherking": 1,
-    "Duki": 1,
-    "Maria Becerra": 1,
-    "Big One": 1,
-    "Emilia": 1
-  },
-  "Rusherking": {
-    "Tiago pzk": 1,
-    "LIT killah": 1,
-    "FMK": 1,
-    "Duki": 1,
-    "Maria Becerra": 1,
-    "Big One": 1,
-    "Emilia": 1
+    "Rusherking": 1
   },
   "Big One": {
-    "Tiago pzk": 1,
     "LIT killah": 1,
-    "FMK": 1,
-    "Rusherking": 1,
-    "Duki": 1,
     "Maria Becerra": 1,
-    "Emilia": 1
+    "FMK": 1,
+    "Emilia": 1,
+    "Duki": 1,
+    "Tiago pzk": 1,
+    "Rusherking": 1
+  },
+  "FMK": {
+    "LIT killah": 1,
+    "Big One": 1,
+    "Maria Becerra": 1,
+    "Emilia": 1,
+    "Duki": 1,
+    "Tiago pzk": 1,
+    "Rusherking": 1
   },
   "Emilia": {
-    "Tiago pzk": 1,
     "LIT killah": 1,
-    "FMK": 1,
-    "Rusherking": 1,
-    "Duki": 1,
-    "Maria Becerra": 1,
     "Big One": 1,
+    "Maria Becerra": 1,
+    "FMK": 1,
+    "Duki": 1,
+    "Tiago pzk": 1,
+    "Rusherking": 1,
     "TINI": 1
+  },
+  "Rusherking": {
+    "LIT killah": 1,
+    "Big One": 1,
+    "Maria Becerra": 1,
+    "FMK": 1,
+    "Emilia": 1,
+    "Duki": 1,
+    "Tiago pzk": 1
   },
   "DENNIS E MC Kevin O Chris": {
     "Karol G": 1,
@@ -5824,8 +5909,8 @@
   },
   "James Blake": {
     "Metro Boomin": 1,
-    "21 Savage": 1,
-    "Travis Scott": 1
+    "Travis Scott": 1,
+    "21 Savage": 1
   },
   "Semicenk": {
     "Dogu Swag": 1
@@ -5834,15 +5919,15 @@
     "Semicenk": 1
   },
   "Toian": {
-    "Metro Boomin": 1,
-    "BEAM": 1,
+    "Wizkid": 1,
     "Don Toliver": 1,
-    "Wizkid": 1
+    "BEAM": 1,
+    "Metro Boomin": 1
   },
   "Sachin-Jigar": {
     "Arijit Singh": 1,
-    "Divya Kumar": 2,
     "Madhubanti Bagchi": 1,
+    "Divya Kumar": 2,
     "Pawan Singh": 1,
     "Simran Choudhary": 1
   },
@@ -5856,68 +5941,69 @@
     "Mora": 2,
     "Feid": 1
   },
-  "Altamash Faridi": {
-    "Schin-Jigar": 1,
-    "Varun Jain": 1,
-    "Shadab Faridi": 1
-  },
-  "Schin-Jigar": {
-    "Altamash Faridi": 1,
-    "Varun Jain": 1,
-    "Shadab Faridi": 1
-  },
-  "Varun Jain": {
-    "Altamash Faridi": 1,
-    "Schin-Jigar": 1,
-    "Shadab Faridi": 1
-  },
   "Shadab Faridi": {
     "Altamash Faridi": 1,
     "Schin-Jigar": 1,
     "Varun Jain": 1
   },
+  "Altamash Faridi": {
+    "Shadab Faridi": 1,
+    "Schin-Jigar": 1,
+    "Varun Jain": 1
+  },
+  "Schin-Jigar": {
+    "Shadab Faridi": 1,
+    "Altamash Faridi": 1,
+    "Varun Jain": 1
+  },
+  "Varun Jain": {
+    "Shadab Faridi": 1,
+    "Altamash Faridi": 1,
+    "Schin-Jigar": 1
+  },
   "Ice Spice With Aqua": {
     "Nicki Minaj": 1
   },
+  "Los Dareyes de La Sierra": {
+    "Peso Pluma": 1,
+    "Edgardo Nunez": 1
+  },
   "Edgardo Nunez": {
     "Peso Pluma": 1,
-    "Los Dareyes de La Sierra": 1
-  },
-  "Los Dareyes de La Sierra": {
-    "Edgardo Nunez": 1,
-    "Peso Pluma": 1
+    "Los Dareyes de La Sierra": 1,
+    "Clave Especial": 1
   },
   "Rauw Alejandro X Bizarrap": {},
   "Peggy Gou": {},
   "Lyrical Lemonade": {
-    "Cordae": 1,
-    "Juice WRLD": 1
+    "Juice WRLD": 1,
+    "Cordae": 1
   },
   "Shakira X Manuel Turizo": {},
-  "Omar Courtz": {
-    "Arcangel": 1,
-    "Tainy": 1,
-    "Jhayco": 1,
-    "Myke Towers": 1,
-    "Arca": 1,
-    "De La Rose": 1,
-    "Bad Bunny": 1,
-    "Dei V": 1
-  },
   "Jhayco": {
-    "Arcangel": 1,
-    "Tainy": 1,
     "Omar Courtz": 1,
-    "Myke Towers": 1,
     "Arca": 1,
+    "Tainy": 1,
+    "Arcangel": 1,
+    "Myke Towers": 1,
     "iZaak": 1,
     "Anuel AA": 1
   },
-  "Arca": {
-    "Arcangel": 1,
-    "Tainy": 1,
-    "Omar Courtz": 1,
+  "Omar Courtz": {
     "Jhayco": 1,
+    "Arca": 1,
+    "Tainy": 1,
+    "Arcangel": 1,
+    "Myke Towers": 1,
+    "De La Rose": 1,
+    "Dei V": 1,
+    "Bad Bunny": 1
+  },
+  "Arca": {
+    "Jhayco": 1,
+    "Omar Courtz": 1,
+    "Tainy": 1,
+    "Arcangel": 1,
     "Myke Towers": 1
   },
   "Emir Can Igrek": {},
@@ -5937,40 +6023,34 @@
   },
   "ZEROBASEONE": {},
   "Lord Huron": {},
-  "DJ Matt D": {
-    "MC Livinho": 1
-  },
   "MC Livinho": {
     "DJ Matt D": 1
+  },
+  "DJ Matt D": {
+    "MC Livinho": 1
   },
   "Aqua": {},
   "Ryan Gosling": {},
   "Sinead O'Connor": {},
   "Rob49": {
-    "21 Savage": 1,
-    "Travis Scott": 1
+    "Travis Scott": 1,
+    "21 Savage": 1
   },
   "Westside Gunn": {
     "Travis Scott": 1
   },
   "Dave Chappelle": {
-    "Yung Lean": 1,
-    "Travis Scott": 1
+    "Travis Scott": 1,
+    "Yung Lean": 1
   },
   "Tyler Childers": {},
   "Dei V": {
+    "Hades66": 1,
     "Bryant Myers": 1,
     "Jay Wheeler": 1,
-    "Hades66": 1,
     "Anuel AA": 1,
-    "Bad Bunny": 1,
-    "Omar Courtz": 1
-  },
-  "Jay Wheeler": {
-    "Dei V": 1,
-    "Bryant Myers": 1,
-    "Hades66": 1,
-    "Anuel AA": 1
+    "Omar Courtz": 1,
+    "Bad Bunny": 1
   },
   "Hades66": {
     "Dei V": 1,
@@ -5978,31 +6058,40 @@
     "Jay Wheeler": 1,
     "Anuel AA": 1
   },
+  "Jay Wheeler": {
+    "Dei V": 1,
+    "Hades66": 1,
+    "Bryant Myers": 1,
+    "Anuel AA": 1
+  },
   "Tokischa": {
-    "Young Miko": 1,
     "Bad Gyal": 1,
+    "Young Miko": 1,
     "Villano Antillano": 1,
     "Sevdaliza": 1
   },
   "Kadu Martins": {},
-  "DJ Nk Da Serra": {
-    "Kevin O Chris": 1
-  },
   "Kevin O Chris": {
     "DJ Nk Da Serra": 1
   },
+  "DJ Nk Da Serra": {
+    "Kevin O Chris": 1
+  },
   "Oliver Anthony Music": {},
   "JHAYCO": {},
-  "D-Block Europe": {
-    "RAYE": 1,
-    "casso": 1
-  },
   "casso": {
-    "RAYE": 1,
-    "D-Block Europe": 1
+    "D-Block Europe": 1,
+    "RAYE": 1
+  },
+  "D-Block Europe": {
+    "casso": 1,
+    "RAYE": 1
   },
   "AP Dhillon": {},
-  "JIHYO": {},
+  "JIHYO": {
+    "CHAEYOUNG Of TWICE": 1,
+    "JEONGYEON": 1
+  },
   "Kacey Musgraves": {
     "Zach Bryan": 1
   },
@@ -6016,8 +6105,8 @@
     "Zach Bryan": 1
   },
   "Calle 24": {
-    "Chino Pacas": 1,
-    "Fuerza Regida": 1
+    "Fuerza Regida": 1,
+    "Chino Pacas": 1
   },
   "Kenya Grace": {},
   "Jimmy Buffett": {},
@@ -6038,8 +6127,8 @@
     "Arijit Singh": 1
   },
   "Kyla": {
-    "Drake": 1,
-    "WizKid": 1
+    "WizKid": 1,
+    "Drake": 1
   },
   "Tyla": {
     "Gunna": 1,
@@ -6048,113 +6137,113 @@
   "Wet": {
     "Rod Wave": 1
   },
-  "MC IG": {
-    "MC Davi": 1,
-    "MC Ryan SP": 1,
-    "MC Kadu": 1,
-    "DJ GBR": 1,
+  "Traplaudo": {
+    "MC PH": 1,
+    "MC IG": 1,
     "MC Don Juan": 1,
     "MC Luki": 1,
-    "MC PH": 1,
     "MC GH Do7": 1,
-    "Traplaudo": 1,
-    "MC GP": 1
-  },
-  "MC Kadu": {
     "MC Davi": 1,
-    "MC IG": 1,
-    "MC Ryan SP": 1,
-    "DJ GBR": 1,
-    "MC Don Juan": 1,
-    "MC Luki": 1,
-    "MC PH": 1,
-    "MC GH Do7": 1,
-    "Traplaudo": 1,
-    "MC GP": 1
-  },
-  "DJ GBR": {
-    "MC Davi": 1,
-    "MC IG": 1,
-    "MC Ryan SP": 1,
     "MC Kadu": 1,
-    "MC Don Juan": 1,
-    "MC Luki": 1,
-    "MC PH": 1,
-    "MC GH Do7": 1,
-    "Traplaudo": 1,
-    "MC GP": 1
-  },
-  "MC Luki": {
-    "MC Davi": 1,
-    "MC IG": 1,
-    "MC Ryan SP": 1,
-    "MC Kadu": 1,
+    "MC GP": 1,
     "DJ GBR": 1,
-    "MC Don Juan": 1,
-    "MC PH": 1,
-    "MC GH Do7": 1,
-    "Traplaudo": 1,
-    "MC GP": 1
+    "MC Ryan SP": 1
   },
   "MC PH": {
-    "MC Davi": 1,
+    "Traplaudo": 1,
     "MC IG": 1,
-    "MC Ryan SP": 1,
-    "MC Kadu": 1,
-    "DJ GBR": 1,
     "MC Don Juan": 1,
     "MC Luki": 1,
     "MC GH Do7": 1,
+    "MC Davi": 1,
+    "MC Kadu": 1,
+    "MC GP": 1,
+    "DJ GBR": 1,
+    "MC Ryan SP": 1
+  },
+  "MC IG": {
     "Traplaudo": 1,
-    "MC GP": 1
+    "MC PH": 1,
+    "MC Don Juan": 1,
+    "MC Luki": 1,
+    "MC GH Do7": 1,
+    "MC Davi": 1,
+    "MC Kadu": 1,
+    "MC GP": 1,
+    "DJ GBR": 1,
+    "MC Ryan SP": 1
+  },
+  "MC Luki": {
+    "Traplaudo": 1,
+    "MC PH": 1,
+    "MC IG": 1,
+    "MC Don Juan": 1,
+    "MC GH Do7": 1,
+    "MC Davi": 1,
+    "MC Kadu": 1,
+    "MC GP": 1,
+    "DJ GBR": 1,
+    "MC Ryan SP": 1
   },
   "MC GH Do7": {
-    "MC Davi": 1,
-    "MC IG": 1,
-    "MC Ryan SP": 1,
-    "MC Kadu": 1,
-    "DJ GBR": 1,
-    "MC Don Juan": 1,
-    "MC Luki": 1,
-    "MC PH": 1,
     "Traplaudo": 1,
-    "MC GP": 1
-  },
-  "Traplaudo": {
-    "MC Davi": 1,
+    "MC PH": 1,
     "MC IG": 1,
-    "MC Ryan SP": 1,
-    "MC Kadu": 1,
-    "DJ GBR": 1,
     "MC Don Juan": 1,
     "MC Luki": 1,
+    "MC Davi": 1,
+    "MC Kadu": 1,
+    "MC GP": 1,
+    "DJ GBR": 1,
+    "MC Ryan SP": 1
+  },
+  "MC Kadu": {
+    "Traplaudo": 1,
     "MC PH": 1,
+    "MC IG": 1,
+    "MC Don Juan": 1,
+    "MC Luki": 1,
     "MC GH Do7": 1,
-    "MC GP": 1
+    "MC Davi": 1,
+    "MC GP": 1,
+    "DJ GBR": 1,
+    "MC Ryan SP": 1
+  },
+  "DJ GBR": {
+    "Traplaudo": 1,
+    "MC PH": 1,
+    "MC IG": 1,
+    "MC Don Juan": 1,
+    "MC Luki": 1,
+    "MC GH Do7": 1,
+    "MC Davi": 1,
+    "MC Kadu": 1,
+    "MC GP": 1,
+    "MC Ryan SP": 1
   },
   "Teddy Swims": {
     "GIVEON": 1
   },
-  "Diddy": {
-    "The Weeknd": 1,
-    "French Montana": 1,
-    "21 Savage": 1
-  },
   "French Montana": {
-    "Diddy": 1,
-    "The Weeknd": 1,
     "21 Savage": 1,
+    "The Weeknd": 1,
+    "Diddy": 1,
     "Swae Lee": 1
+  },
+  "Diddy": {
+    "21 Savage": 1,
+    "The Weeknd": 1,
+    "French Montana": 1
   },
   "Michelle Maciel": {
     "Eden Munoz": 1
   },
-  "Dynamicduo": {
-    "Lee Young Ji": 1
-  },
   "Lee Young Ji": {
     "Dynamicduo": 1,
     "D.O.": 1
+  },
+  "Dynamicduo": {
+    "Lee Young Ji": 1
   },
   "Shakira X Fuerza Regida": {},
   "Noah Kahan": {
@@ -6167,15 +6256,19 @@
   "BENNETT": {},
   "JENNIE": {
     "Dominic Fike": 1,
-    "Doechii": 1
+    "Doechii": 1,
+    "Dua Lipa": 1,
+    "Kali Uchis": 1,
+    "Childish Gambino": 1
   },
   "Sexyy Red": {
     "Drake": 2,
     "SZA": 1,
     "GloRilla": 2,
-    "Lil Wayne": 1,
     "Tyler, The Creator": 1,
-    "Bruno Mars": 1
+    "Lil Wayne": 1,
+    "Bruno Mars": 1,
+    "Justin Bieber": 1
   },
   "PARTYNEXTDOOR": {
     "Drake": 14,
@@ -6195,14 +6288,14 @@
   },
   "Gabito Ballesteros X Natanael Cano": {},
   "Paul Russell": {},
-  "Lily-Rose Depp": {
-    "The Weeknd": 1,
-    "Jennie": 1
-  },
   "Jennie": {
     "The Weeknd": 1,
     "Lily-Rose Depp": 1,
     "ZICO": 1
+  },
+  "Lily-Rose Depp": {
+    "The Weeknd": 1,
+    "Jennie": 1
   },
   "The Beatles": {},
   "Dani Flow": {
@@ -6224,7 +6317,9 @@
   },
   "BABYMONSTER": {},
   "Bhupinder Babbal": {},
-  "Xavi": {},
+  "Xavi": {
+    "Manuel Turizo": 1
+  },
   "ATL Jacob": {
     "Feid": 1
   },
@@ -6235,8 +6330,8 @@
   "Laufey": {},
   "Lauana Prado": {},
   "Oscar Maydon": {
-    "Peso Pluma": 1,
     "Junior H": 2,
+    "Peso Pluma": 1,
     "Natanael Cano": 1,
     "Chino Pacas": 1,
     "Gabito Ballesteros": 1,
@@ -6258,23 +6353,23 @@
   "Xavi X Tony Aguirre": {},
   "Yame": {},
   "MC Meno Dani": {
-    "DJ F7": 1,
+    "Silva MC": 1,
     "JC no Beat": 1,
-    "Silva MC": 1
-  },
-  "DJ F7": {
-    "MC Meno Dani": 1,
-    "JC no Beat": 1,
-    "Silva MC": 1
-  },
-  "JC no Beat": {
-    "MC Meno Dani": 1,
-    "DJ F7": 1,
-    "Silva MC": 1
+    "DJ F7": 1
   },
   "Silva MC": {
     "MC Meno Dani": 1,
-    "DJ F7": 1,
+    "JC no Beat": 1,
+    "DJ F7": 1
+  },
+  "JC no Beat": {
+    "MC Meno Dani": 1,
+    "Silva MC": 1,
+    "DJ F7": 1
+  },
+  "DJ F7": {
+    "MC Meno Dani": 1,
+    "Silva MC": 1,
     "JC no Beat": 1
   },
   "Mesita X NICKI NICOLE X Tiago PZK X Emilia": {},
@@ -6295,13 +6390,13 @@
   "Eugenio Esquivel X Grupo Marca Registrada X Sebastian Esquivel": {},
   "Kygo With Ava Max": {},
   "tuki.": {},
-  "Lunay": {
-    "Gaby Music": 1,
-    "Luar La L": 1
-  },
   "Gaby Music": {
-    "Lunay": 1,
-    "Luar La L": 1
+    "Luar La L": 1,
+    "Lunay": 1
+  },
+  "Lunay": {
+    "Luar La L": 1,
+    "Gaby Music": 1
   },
   "Luck Ra X KHEA": {},
   "4batz": {
@@ -6316,37 +6411,37 @@
   "Toby Keith": {},
   "¥$: Ye": {
     "Playboi Carti": 1,
-    "Rich The Kid": 1,
     "Ty Dolla $ign": 16,
+    "Rich The Kid": 1,
     "North West": 1,
     "Lil Durk": 1,
     "Bump J": 1
   },
   "Rich The Kid": {
     "Playboi Carti": 1,
-    "¥$: Ye": 1,
-    "Ty Dolla $ign": 1
+    "Ty Dolla $ign": 1,
+    "¥$: Ye": 1
   },
   "North West": {
-    "¥$: Ye": 1,
-    "Ty Dolla $ign": 1
+    "Ty Dolla $ign": 1,
+    "¥$: Ye": 1
   },
   "Bump J": {
     "Lil Durk": 1,
-    "¥$: Ye": 1,
-    "Ty Dolla $ign": 1
-  },
-  "Lil Jon": {
-    "Usher": 1,
-    "Ludacris": 1
-  },
-  "Usher": {
-    "Lil Jon": 1,
-    "Ludacris": 1,
-    "Pitbull": 1
+    "Ty Dolla $ign": 1,
+    "¥$: Ye": 1
   },
   "Ludacris": {
+    "Usher": 1,
+    "Lil Jon": 1
+  },
+  "Usher": {
+    "Ludacris": 1,
     "Lil Jon": 1,
+    "Pitbull": 1
+  },
+  "Lil Jon": {
+    "Ludacris": 1,
     "Usher": 1
   },
   "Geolier": {},
@@ -6365,9 +6460,9 @@
   },
   "Pitbull": {
     "Usher": 1,
-    "Afrojack": 1,
+    "Ne-Yo": 1,
     "Nayer": 1,
-    "Ne-Yo": 1
+    "Afrojack": 1
   },
   "Djo": {},
   "BIBI": {},
@@ -6377,11 +6472,11 @@
   "7:WITH:US": {
     "TWS: 24": 1
   },
-  "The Wailers": {
-    "Bob Marley": 1
-  },
   "Bob Marley": {
     "The Wailers": 1
+  },
+  "The Wailers": {
+    "Bob Marley": 1
   },
   "Julion Alvarez": {},
   "Richy Mitch And The Coal Miners": {},
@@ -6404,62 +6499,62 @@
   "Zeynep Bastik": {},
   "Pressure 9X19 X Hades 66 X Yovngchimi X C Dobleta X Luar La L X Anuel AA": {},
   "W": {
-    "Dido": 1,
+    "Tiesto": 1,
     "Dimitri Vegas": 1,
-    "Like Mike": 1,
-    "Tiesto": 1
+    "Dido": 1,
+    "Like Mike": 1
   },
   "Dimitri Vegas": {
-    "Dido": 1,
+    "Tiesto": 1,
     "W": 1,
-    "Like Mike": 1,
-    "Tiesto": 1
+    "Dido": 1,
+    "Like Mike": 1
   },
   "Like Mike": {
-    "Dido": 1,
+    "Tiesto": 1,
     "W": 1,
     "Dimitri Vegas": 1,
-    "Tiesto": 1
+    "Dido": 1
   },
   "CYRIL": {},
   "Artemas": {},
   "Joel de La P": {
-    "Tito Double P": 1,
-    "Peso Pluma": 1
+    "Peso Pluma": 1,
+    "Tito Double P": 1
   },
   "ILLIT": {},
   "Omoinotake": {},
-  "Tiera Kennedy": {
-    "Tanner Adell": 1,
-    "Brittney Spencer": 1,
-    "Beyonce": 1,
-    "Reyna Roberts": 1
-  },
-  "Tanner Adell": {
-    "Tiera Kennedy": 1,
-    "Brittney Spencer": 1,
-    "Beyonce": 1,
-    "Reyna Roberts": 1
-  },
   "Brittney Spencer": {
-    "Tiera Kennedy": 1,
     "Tanner Adell": 1,
-    "Beyonce": 1,
-    "Reyna Roberts": 1
-  },
-  "Reyna Roberts": {
+    "Reyna Roberts": 1,
     "Tiera Kennedy": 1,
-    "Tanner Adell": 1,
-    "Brittney Spencer": 1,
     "Beyonce": 1
   },
-  "Linda Martell": {
-    "Beyonce": 1,
-    "Shaboozey": 1
+  "Tanner Adell": {
+    "Brittney Spencer": 1,
+    "Reyna Roberts": 1,
+    "Tiera Kennedy": 1,
+    "Beyonce": 1
+  },
+  "Reyna Roberts": {
+    "Brittney Spencer": 1,
+    "Tanner Adell": 1,
+    "Tiera Kennedy": 1,
+    "Beyonce": 1
+  },
+  "Tiera Kennedy": {
+    "Brittney Spencer": 1,
+    "Tanner Adell": 1,
+    "Reyna Roberts": 1,
+    "Beyonce": 1
   },
   "Shaboozey": {
     "Beyonce": 2,
     "Linda Martell": 1
+  },
+  "Linda Martell": {
+    "Beyonce": 1,
+    "Shaboozey": 1
   },
   "Rumi Carter": {
     "Beyonce": 1
@@ -6481,9 +6576,9 @@
   "Jungle": {},
   "Dimelo Flow": {
     "Justin Quiles": 1,
-    "Lenny Tavarez": 1,
-    "Sech": 1,
     "Dalex": 1,
+    "Sech": 1,
+    "Lenny Tavarez": 1,
     "Myke Towers": 1
   },
   "Young Dro": {
@@ -6504,67 +6599,67 @@
     "Ab-Soul": 1
   },
   "Ab-Soul": {
-    "J. Cole": 1,
-    "Daylyt": 1
+    "Daylyt": 1,
+    "J. Cole": 1
   },
   "Disturbed": {},
   "Foster The People": {},
-  "Agatino Romero": {
-    "Jaxomy": 1,
-    "Raffaella Carra": 1
-  },
-  "Jaxomy": {
-    "Agatino Romero": 1,
-    "Raffaella Carra": 1
-  },
   "Raffaella Carra": {
     "Agatino Romero": 1,
     "Jaxomy": 1
   },
+  "Agatino Romero": {
+    "Raffaella Carra": 1,
+    "Jaxomy": 1
+  },
+  "Jaxomy": {
+    "Raffaella Carra": 1,
+    "Agatino Romero": 1
+  },
   "Lay Bankz": {},
   "Chappell Roan": {},
   "Mrs. GREEN APPLE": {},
-  "Neton Vega": {
-    "Luis R Conriquez": 2,
-    "Peso Pluma": 2,
-    "Natanael Cano": 1,
-    "Gabito Ballesteros": 1
-  },
   "Luis R Conriquez": {
     "Neton Vega": 2,
     "Natanael Cano": 1,
     "Gabito Ballesteros": 1,
     "Peso Pluma": 1
   },
+  "Neton Vega": {
+    "Luis R Conriquez": 2,
+    "Peso Pluma": 2,
+    "Natanael Cano": 1,
+    "Gabito Ballesteros": 1
+  },
   "iZaak": {
-    "Anuel AA": 1,
-    "Jhayco": 1
+    "Jhayco": 1,
+    "Anuel AA": 1
   },
   "The Outfield": {},
-  "Bhavi": {
-    "KHEA": 1,
-    "Milo j": 1,
-    "Tiago PZK": 1,
-    "Neo Pistea": 1,
-    "Seven Kayne": 1
-  },
-  "Neo Pistea": {
-    "Bhavi": 1,
-    "KHEA": 1,
-    "Milo j": 1,
-    "Tiago PZK": 1,
-    "Seven Kayne": 1
-  },
   "Seven Kayne": {
     "Bhavi": 1,
-    "KHEA": 1,
-    "Milo j": 1,
     "Tiago PZK": 1,
-    "Neo Pistea": 1
+    "Neo Pistea": 1,
+    "KHEA": 1,
+    "Milo j": 1
+  },
+  "Bhavi": {
+    "Seven Kayne": 1,
+    "Tiago PZK": 1,
+    "Neo Pistea": 1,
+    "KHEA": 1,
+    "Milo j": 1
+  },
+  "Neo Pistea": {
+    "Seven Kayne": 1,
+    "Bhavi": 1,
+    "Tiago PZK": 1,
+    "KHEA": 1,
+    "Milo j": 1
   },
   "Sevdaliza": {
-    "Tokischa": 1,
     "Villano Antillano": 1,
+    "Tokischa": 1,
     "Yseult": 1,
     "Pabllo Vittar": 1
   },
@@ -6604,33 +6699,33 @@
     "Jessie Murph": 1
   },
   "The White Stripes": {},
-  "MC Leozin": {
-    "DJ Topo": 1,
-    "Seu Jorge": 1
-  },
   "DJ Topo": {
     "MC Leozin": 1,
     "Seu Jorge": 1
   },
+  "MC Leozin": {
+    "DJ Topo": 1,
+    "Seu Jorge": 1
+  },
   "Seu Jorge": {
-    "MC Leozin": 1,
-    "DJ Topo": 1
+    "DJ Topo": 1,
+    "MC Leozin": 1
   },
   "WALK THE MOON": {},
-  "Afrojack": {
-    "Pitbull": 1,
+  "Ne-Yo": {
     "Nayer": 1,
-    "Ne-Yo": 1
+    "Afrojack": 1,
+    "Pitbull": 1
   },
   "Nayer": {
-    "Pitbull": 1,
+    "Ne-Yo": 1,
     "Afrojack": 1,
-    "Ne-Yo": 1
+    "Pitbull": 1
   },
-  "Ne-Yo": {
-    "Pitbull": 1,
-    "Afrojack": 1,
-    "Nayer": 1
+  "Afrojack": {
+    "Ne-Yo": 1,
+    "Nayer": 1,
+    "Pitbull": 1
   },
   "ECLIPSE": {},
   "Gracie Abrams": {
@@ -6638,26 +6733,30 @@
     "benny blanco": 1,
     "Selena Gomez": 1
   },
-  "Tinashe": {},
+  "Tinashe": {
+    "Disco Lines": 1
+  },
   "CoComelon": {},
   "Stryv": {
-    "Adam Port": 1,
-    "Malachiii": 1
-  },
-  "Adam Port": {
-    "Stryv": 1,
-    "Malachiii": 1
+    "Malachiii": 1,
+    "Adam Port": 1
   },
   "Malachiii": {
     "Stryv": 1,
     "Adam Port": 1
   },
-  "Charlie Wilson": {
-    "Cash Cobain": 1,
-    "Don Toliver": 1
+  "Adam Port": {
+    "Stryv": 1,
+    "Malachiii": 1
   },
   "Cash Cobain": {
+    "Don Toliver": 1,
     "Charlie Wilson": 1,
+    "Justin Bieber": 1,
+    "Eddie Benjamin": 1
+  },
+  "Charlie Wilson": {
+    "Cash Cobain": 1,
     "Don Toliver": 1
   },
   "D.O.": {
@@ -6676,8 +6775,8 @@
     "Jimin": 1
   },
   "Yseult": {
-    "Sevdaliza": 1,
-    "Pabllo Vittar": 1
+    "Pabllo Vittar": 1,
+    "Sevdaliza": 1
   },
   "Kelsea Ballerini": {
     "Noah Kahan": 1
@@ -6734,15 +6833,15 @@
   "Hank Williams Jr.": {
     "Post Malone": 1
   },
+  "Madhubanti Bagchi": {
+    "Sachin-Jigar": 1,
+    "Divya Kumar": 1
+  },
   "Divya Kumar": {
     "Madhubanti Bagchi": 1,
     "Sachin-Jigar": 2,
     "Pawan Singh": 1,
     "Simran Choudhary": 1
-  },
-  "Madhubanti Bagchi": {
-    "Divya Kumar": 1,
-    "Sachin-Jigar": 1
   },
   "Brad Paisley": {
     "Post Malone": 1
@@ -6752,28 +6851,30 @@
     "Feid": 1
   },
   "Little Simz": {
-    "Elyanna": 1,
     "Coldplay": 1,
     "Burna Boy": 1,
+    "Elyanna": 1,
     "TINI": 1
   },
   "Elyanna": {
-    "Little Simz": 1,
     "Coldplay": 1,
     "Burna Boy": 1,
+    "Little Simz": 1,
     "TINI": 1
   },
   "Gigi Perez": {},
-  "Alex Warren": {},
+  "Alex Warren": {
+    "ROSE": 1
+  },
   "Pawan Singh": {
-    "Divya Kumar": 1,
+    "Sachin-Jigar": 1,
     "Simran Choudhary": 1,
-    "Sachin-Jigar": 1
+    "Divya Kumar": 1
   },
   "Simran Choudhary": {
     "Pawan Singh": 1,
-    "Divya Kumar": 1,
-    "Sachin-Jigar": 1
+    "Sachin-Jigar": 1,
+    "Divya Kumar": 1
   },
   "Addison Rae": {},
   "KATSEYE": {},
@@ -6793,13 +6894,13 @@
   },
   "Crowded House": {},
   "KARINA": {},
-  "ScHoolboy Q": {
-    "Tyler, The Creator": 1,
-    "Santigold": 1
-  },
   "Santigold": {
     "Tyler, The Creator": 1,
     "ScHoolboy Q": 1
+  },
+  "ScHoolboy Q": {
+    "Tyler, The Creator": 1,
+    "Santigold": 1
   },
   "Latoiya Williams": {
     "Tyler, The Creator": 1,
@@ -6808,31 +6909,32 @@
   "Lola Young": {
     "Tyler, The Creator": 1
   },
-  "MC Tuto": {
-    "DJ Glenner": 1,
-    "Oruam": 1,
-    "Ze Felipe": 1,
-    "MC K9": 1,
-    "DJ LC da Roca": 1,
-    "MC Rodrigo do CN": 1,
-    "mc pl alves": 1
-  },
   "DJ Glenner": {
     "MC Tuto": 1
   },
+  "MC Tuto": {
+    "DJ Glenner": 1,
+    "MC Rodrigo do CN": 1,
+    "mc pl alves": 1,
+    "MC K9": 1,
+    "DJ LC da Roca": 1,
+    "Ze Felipe": 1,
+    "Oruam": 1
+  },
   "G-DRAGON": {
-    "TAEYANG": 1,
     "DAESUNG": 1,
+    "TAEYANG": 1,
     "Anderson .Paak": 1
   },
   "DFZM": {
-    "Karol G": 1,
+    "Blessd": 1,
     "Maluma": 1,
-    "Feid": 1,
+    "Karol G": 1,
     "Ryan Castro": 1,
-    "Ovy On The Drums": 1,
+    "Feid": 1,
     "J Balvin": 1,
-    "Blessd": 1
+    "Ovy On The Drums": 1,
+    "Jombriel": 1
   },
   "Paris Paloma": {},
   "Aleyna Tilki": {
@@ -6851,14 +6953,14 @@
     "Kendrick Lamar": 1
   },
   "Wallie the Sensei": {
+    "Siete7x": 1,
     "Roddy Ricch": 1,
-    "Kendrick Lamar": 1,
-    "Siete7x": 1
+    "Kendrick Lamar": 1
   },
   "Siete7x": {
+    "Wallie the Sensei": 1,
     "Roddy Ricch": 1,
-    "Kendrick Lamar": 1,
-    "Wallie the Sensei": 1
+    "Kendrick Lamar": 1
   },
   "AzChike": {
     "Kendrick Lamar": 1
@@ -6870,20 +6972,20 @@
     "G-DRAGON": 1,
     "TAEYANG": 1
   },
-  "Hitta J3": {
-    "Kendrick Lamar": 1,
-    "Peysoh": 1,
-    "YoungThreat": 1
-  },
   "Peysoh": {
+    "YoungThreat": 1,
     "Hitta J3": 1,
-    "Kendrick Lamar": 1,
-    "YoungThreat": 1
+    "Kendrick Lamar": 1
   },
   "YoungThreat": {
+    "Peysoh": 1,
     "Hitta J3": 1,
-    "Kendrick Lamar": 1,
-    "Peysoh": 1
+    "Kendrick Lamar": 1
+  },
+  "Hitta J3": {
+    "Peysoh": 1,
+    "YoungThreat": 1,
+    "Kendrick Lamar": 1
   },
   "Cynthia Erivo": {
     "Ariana Grande": 2
@@ -6892,11 +6994,11 @@
   "V With Park Hyo Shin": {},
   "Gazo": {},
   "Natanael Cano X Nueva H": {},
-  "Sam Barber": {
-    "Avery Anna": 1
-  },
   "Avery Anna": {
     "Sam Barber": 1
+  },
+  "Sam Barber": {
+    "Avery Anna": 1
   },
   "Chezile": {},
   "yung kai": {},
@@ -6914,60 +7016,60 @@
   "Chorus": {
     "Bing Crosby With Ralph Carmichael Orchestra": 1
   },
-  "Oruam": {
-    "MC Tuto": 1,
-    "Ze Felipe": 1,
-    "MC K9": 1,
-    "DJ LC da Roca": 1,
-    "MC Rodrigo do CN": 1,
-    "mc pl alves": 1
-  },
-  "MC K9": {
-    "MC Tuto": 1,
-    "Oruam": 1,
-    "Ze Felipe": 1,
-    "DJ LC da Roca": 1,
-    "MC Rodrigo do CN": 1,
-    "mc pl alves": 1
-  },
-  "DJ LC da Roca": {
-    "MC Tuto": 1,
-    "Oruam": 1,
-    "Ze Felipe": 1,
-    "MC K9": 1,
-    "MC Rodrigo do CN": 1,
-    "mc pl alves": 1
-  },
   "MC Rodrigo do CN": {
-    "MC Tuto": 1,
-    "Oruam": 1,
-    "Ze Felipe": 1,
+    "mc pl alves": 1,
     "MC K9": 1,
     "DJ LC da Roca": 1,
-    "mc pl alves": 1
+    "MC Tuto": 1,
+    "Ze Felipe": 1,
+    "Oruam": 1
   },
   "mc pl alves": {
-    "MC Tuto": 1,
-    "Oruam": 1,
-    "Ze Felipe": 1,
+    "MC Rodrigo do CN": 1,
     "MC K9": 1,
     "DJ LC da Roca": 1,
-    "MC Rodrigo do CN": 1
+    "MC Tuto": 1,
+    "Ze Felipe": 1,
+    "Oruam": 1
+  },
+  "MC K9": {
+    "MC Rodrigo do CN": 1,
+    "mc pl alves": 1,
+    "DJ LC da Roca": 1,
+    "MC Tuto": 1,
+    "Ze Felipe": 1,
+    "Oruam": 1
+  },
+  "DJ LC da Roca": {
+    "MC Rodrigo do CN": 1,
+    "mc pl alves": 1,
+    "MC K9": 1,
+    "MC Tuto": 1,
+    "Ze Felipe": 1,
+    "Oruam": 1
+  },
+  "Oruam": {
+    "MC Rodrigo do CN": 1,
+    "mc pl alves": 1,
+    "MC K9": 1,
+    "DJ LC da Roca": 1,
+    "MC Tuto": 1,
+    "Ze Felipe": 1
   },
   "Naughty Boy": {
     "Sam Smith": 1
   },
+  "DJ Ari SL": {
+    "Brenno": 1,
+    "Matheus": 1
+  },
+  "Brenno": {
+    "DJ Ari SL": 1,
+    "Matheus": 1
+  },
   "Matheus": {
     "DJ Ari SL": 1,
     "Brenno": 1
-  },
-  "DJ Ari SL": {
-    "Matheus": 1,
-    "Brenno": 1
-  },
-  "Brenno": {
-    "Matheus": 1,
-    "DJ Ari SL": 1
   },
   "Alleh": {
     "Yorghaki": 1
@@ -6975,25 +7077,25 @@
   "Yorghaki": {
     "Alleh": 1
   },
-  "MC Paiva": {
-    "DJ Di Marques": 1,
-    "Kyo": 1,
-    "Nilo": 1
-  },
-  "DJ Di Marques": {
-    "MC Paiva": 1,
-    "Kyo": 1,
-    "Nilo": 1
-  },
-  "Kyo": {
-    "MC Paiva": 1,
-    "DJ Di Marques": 1,
-    "Nilo": 1
-  },
   "Nilo": {
     "MC Paiva": 1,
     "DJ Di Marques": 1,
     "Kyo": 1
+  },
+  "MC Paiva": {
+    "Nilo": 1,
+    "DJ Di Marques": 1,
+    "Kyo": 1
+  },
+  "DJ Di Marques": {
+    "Nilo": 1,
+    "MC Paiva": 1,
+    "Kyo": 1
+  },
+  "Kyo": {
+    "Nilo": 1,
+    "MC Paiva": 1,
+    "DJ Di Marques": 1
   },
   "RaiNao": {
     "Bad Bunny": 1
@@ -7029,14 +7131,14 @@
   "PLAVE": {},
   "Olly": {},
   "Pimmie": {
-    "PARTYNEXTDOOR": 1,
-    "Drake": 1
+    "Drake": 1,
+    "PARTYNEXTDOOR": 1
   },
   "Giorgia": {},
   "Speedy": {
+    "Don Toliver": 1,
     "j-hope": 1,
-    "Pharrell Williams": 1,
-    "Don Toliver": 1
+    "Pharrell Williams": 1
   },
   "sakanaction": {},
   "Oimara": {},
@@ -7044,5 +7146,268 @@
     "G-DRAGON": 1
   },
   "Leon Thomas": {},
-  "Victor Valverde X JR Torres": {}
+  "Victor Valverde X JR Torres": {},
+  "Tate McRae Featauring The Kid LAROI": {},
+  "Jombriel X Ryan Castro X Jotta X Alex Krack": {},
+  "W Sound": {
+    "Beele": 1,
+    "Ovy On The Drums": 1
+  },
+  "Bhad Bhabie": {},
+  "timelesz": {},
+  "WizTheMc": {},
+  "Jombriel": {
+    "DFZM": 1
+  },
+  "Empire Of The Sun": {},
+  "Childish Gambino": {
+    "Kali Uchis": 1,
+    "JENNIE": 1
+  },
+  "J.Eskine": {
+    "DG E Batidao Stronda": 1,
+    "MC Davi": 1,
+    "MC G15": 1
+  },
+  "DG E Batidao Stronda": {
+    "J.Eskine": 1,
+    "MC Davi": 1,
+    "MC G15": 1
+  },
+  "MC G15": {
+    "J.Eskine": 1,
+    "DG E Batidao Stronda": 1,
+    "MC Davi": 1
+  },
+  "Sleep Token": {},
+  "Cazzu": {},
+  "Ravyn Lenae": {},
+  "sombr": {},
+  "ATLXS": {},
+  "BLOK3": {
+    "Ati242": 1
+  },
+  "Ati242": {
+    "BLOK3": 1
+  },
+  "BigXthaPlug": {
+    "Bailey Zimmerman": 1,
+    "Jay Jones": 1,
+    "Lil Wayne": 1
+  },
+  "MXZI": {},
+  "Malcolm Todd": {},
+  "HANA": {},
+  "Cup Of Joe": {},
+  "NIKI": {},
+  "Evanescence": {
+    "Paul McCoy": 1
+  },
+  "Paul McCoy": {
+    "Evanescence": 1
+  },
+  "Esau Ortiz": {},
+  "Maanu X Annural Khalid": {},
+  "Clave Especial": {
+    "Fuerza Regida": 1,
+    "Edgardo Nunez": 1
+  },
+  "Parampara Tandon": {},
+  "Estevan Plazola": {
+    "Peso Pluma": 1
+  },
+  "Dareyes de La Sierra X Tito Double P": {},
+  "Afusic": {},
+  "Silent Addy": {
+    "Skillibeng": 1,
+    "Shenseea": 1,
+    "MOLIY": 1
+  },
+  "Shenseea": {
+    "Silent Addy": 1,
+    "Skillibeng": 1,
+    "MOLIY": 1
+  },
+  "MOLIY": {
+    "Silent Addy": 1,
+    "Skillibeng": 1,
+    "Shenseea": 1
+  },
+  "Brandon Lake": {
+    "Jelly Roll": 1
+  },
+  "Oscar Maydon X Neton Vega": {},
+  "Colby O'Donis": {
+    "Lady Gaga": 1
+  },
+  "TABLO X RM": {},
+  "Fourtwnty": {
+    "Charita Utami": 1
+  },
+  "Charita Utami": {
+    "Fourtwnty": 1
+  },
+  "Clementine Douglas.": {
+    "Calvin Harris": 1
+  },
+  "Connie Francis": {},
+  "Sayfalse": {
+    "Ariis": 1,
+    "Yb Wasg'Ood": 1
+  },
+  "Ariis": {
+    "Sayfalse": 1,
+    "Yb Wasg'Ood": 1,
+    "Yb Wasg'ood": 1
+  },
+  "Yb Wasg'Ood": {
+    "Sayfalse": 1,
+    "Ariis": 1
+  },
+  "Jin": {},
+  "Tynna": {
+    "Abor": 1
+  },
+  "Abor": {
+    "Tynna": 1
+  },
+  "Tommy Cash": {},
+  "KAJ": {},
+  "Yb Wasg'ood": {
+    "Ariis": 1
+  },
+  "JJ": {},
+  "Alex Warren With Jelly Roll": {},
+  "Jay Jones": {
+    "BigXthaPlug": 1,
+    "Lil Wayne": 1
+  },
+  "i wanna be a jack-o-lantern": {
+    "wifiskeleton": 1
+  },
+  "wifiskeleton": {
+    "i wanna be a jack-o-lantern": 1
+  },
+  "Sanju Rathod": {},
+  "Audrey Nuna": {
+    "HUNTR": 4,
+    "X: EJAE": 4,
+    "REI AMI": 4
+  },
+  "HUNTR": {
+    "Audrey Nuna": 4,
+    "X: EJAE": 4,
+    "REI AMI": 4
+  },
+  "X: EJAE": {
+    "Audrey Nuna": 4,
+    "HUNTR": 4,
+    "REI AMI": 4
+  },
+  "REI AMI": {
+    "Audrey Nuna": 4,
+    "HUNTR": 4,
+    "X: EJAE": 4
+  },
+  "Marco Antonio Solis": {
+    "Karol G": 1
+  },
+  "Saja Boys: Andrew Choi": {
+    "Danny Chung": 2,
+    "Neckwav": 2,
+    "Kevin Woo": 2,
+    "samUIL Lee": 2
+  },
+  "Danny Chung": {
+    "Saja Boys: Andrew Choi": 2,
+    "Neckwav": 2,
+    "Kevin Woo": 2,
+    "samUIL Lee": 2
+  },
+  "Neckwav": {
+    "Saja Boys: Andrew Choi": 2,
+    "Danny Chung": 2,
+    "Kevin Woo": 2,
+    "samUIL Lee": 2
+  },
+  "Kevin Woo": {
+    "Saja Boys: Andrew Choi": 2,
+    "Danny Chung": 2,
+    "Neckwav": 2,
+    "samUIL Lee": 2
+  },
+  "samUIL Lee": {
+    "Saja Boys: Andrew Choi": 2,
+    "Danny Chung": 2,
+    "Neckwav": 2,
+    "Kevin Woo": 2
+  },
+  "ALLDAY PROJECT": {},
+  "Megan Moroney": {},
+  "PlaqueBoyMax": {
+    "Fred again..": 1,
+    "Skepta": 1
+  },
+  "JINU": {
+    "EJAE": 1,
+    "Andrew Choi": 1,
+    "Rumi": 1
+  },
+  "EJAE": {
+    "JINU": 1,
+    "Andrew Choi": 1,
+    "Rumi": 1
+  },
+  "Andrew Choi": {
+    "JINU": 1,
+    "EJAE": 1,
+    "Rumi": 1
+  },
+  "Rumi": {
+    "JINU": 1,
+    "EJAE": 1,
+    "Andrew Choi": 1
+  },
+  "Greeicy": {
+    "Karol G": 1
+  },
+  "Nakama": {
+    "MC Staff": 1
+  },
+  "MC Staff": {
+    "Nakama": 1
+  },
+  "Eddy Lover": {
+    "Karol G": 1
+  },
+  "Dareyes de La Sierra": {},
+  "CHAEYOUNG Of TWICE": {
+    "JIHYO": 1,
+    "JEONGYEON": 1
+  },
+  "JEONGYEON": {
+    "CHAEYOUNG Of TWICE": 1,
+    "JIHYO": 1
+  },
+  "Demet Akalin": {
+    "Sefo": 1
+  },
+  "Disco Lines": {
+    "Tinashe": 1
+  },
+  "Lynyrd Skynyrd": {},
+  "Dijon": {
+    "Justin Bieber": 1
+  },
+  "Clipse": {
+    "Kendrick Lamar": 1,
+    "Tyler, The Creator": 1
+  },
+  "Eddie Benjamin": {
+    "Justin Bieber": 1,
+    "Cash Cobain": 1
+  },
+  "Lil B": {
+    "Justin Bieber": 1
+  }
 }

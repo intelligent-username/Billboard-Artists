@@ -72,6 +72,8 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
     console.log(`Dynamic Logical Size: ${logicalSize} (for ${nodeCount} nodes)`);
 
     const svg = d3.select(svgRef.current);
+    svg.attr('width', width).attr('height', height);
+    svg.attr('viewBox', `0 0 ${width} ${height}`);
     svg.selectAll('*').remove();
 
     // Initial node spread

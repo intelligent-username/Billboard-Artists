@@ -2,28 +2,32 @@ import { NextResponse } from "next/server"
 import fs from "fs"
 import path from "path"
 
-export async function GET() {
+export function getLastUpdate() {
   try {
-    const csvPath = path.join(process.cwd(), "data", "billboard_global_200.csv")
+    const csvPath = path.join(process.cwd(), "backend", "data", "billboard_global_200.csv")
 
     if (!fs.existsSync(csvPath)) {
-      return NextResponse.json({ lastUpdate: null })
+      return { lastUpdate: null }
     }
 
     const csvContent = fs.readFileSync(csvPath, "utf-8")
     const lines = csvContent.trim().split("\n")
 
     if (lines.length < 2) {
-      return NextResponse.json({ lastUpdate: null })
+      return { lastUpdate: null }
     }
 
-    // Get the last line and extract the date (first column)
-    const lastLine = lines[lines.length - 1]
-    const lastDate = lastLine.split(",")[0]
+    // Get the second last line and extract the date (first column)
+    const secondLastLine = lines[lines.length - 2]
+    const lastDate = secondLastLine.split(",")[0]
 
-    return NextResponse.json({ lastUpdate: lastDate })
+    return { lastUpdate: lastDate }
   } catch (error) {
     console.error("Error reading last update:", error)
-    return NextResponse.json({ lastUpdate: null })
+    return { lastUpdate: null }
   }
+}
+
+export async function GET() {
+  return NextResponse.json(getLastUpdate())
 }

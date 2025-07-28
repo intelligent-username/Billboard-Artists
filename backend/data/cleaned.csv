@@ -294,7 +294,7 @@ position,track,artist,featured_artists
 167,Things Change,Bryson Tiller,N/A
 172,Inhale,Bryson Tiller,N/A
 186,Next To You,Bryson Tiller,N/A
-142,The Chain,Fleetwood Mac,N/A
+141,The Chain,Fleetwood Mac,N/A
 102,Sofia,Clairo,N/A
 56,"Baby, I'm Jealous",Bebe Rexha,Doja Cat
 8,Homura,LiSA,N/A
@@ -302,7 +302,7 @@ position,track,artist,featured_artists
 150,Shot In The Dark,AC/DC,N/A
 59,La Nota,"Manuel Turizo, Myke Towers & Rauw Alejandro",N/A
 99,Deep End,Foushee,N/A
-144,Thunderstruck,AC/DC,N/A
+122,Thunderstruck,AC/DC,N/A
 191,Back In Black,AC/DC,N/A
 73,Gurenge,LiSA,N/A
 82,Mi Nina,"Los Legendarios, Wisin & Myke Towers",N/A
@@ -684,7 +684,7 @@ position,track,artist,featured_artists
 37,Your Love (9PM),ATB x Topic x A7S,N/A
 97,Call Out My Name,The Weeknd,N/A
 185,Heartless,The Weeknd,N/A
-141,Somebody That I Used To Know,Gotye,Kimbra
+129,Somebody That I Used To Know,Gotye,Kimbra
 141,Stressed Out,Twenty One Pilots,N/A
 2,Calling My Phone,Lil Tjay,6LACK
 7,Love Story (Taylor's Version),Taylor Swift,N/A
@@ -696,7 +696,7 @@ position,track,artist,featured_artists
 39,Ella No Es Tuya,Rochy RD X Myke Towers X Nicki Nicole,N/A
 159,Facas,Diego & Victor Hugo E Bruno & Marrone,N/A
 69,Just The Way You Are,Bruno Mars,N/A
-186,Photograph,Ed Sheeran,N/A
+173,Photograph,Ed Sheeran,N/A
 188,Saiyaan Ji,Yo Yo Honey Singh,Neha Kakkar
 192,A Thousand Years,Christina Perri,N/A
 10,Telepatia,Kali Uchis,N/A
@@ -1773,7 +1773,7 @@ position,track,artist,featured_artists
 150,Tomorrow Me,Luke Combs,N/A
 93,ZOOM,Jessi,N/A
 178,We Made It,T-Low & Miksu / Macloud,N/A
-56,Iris,Goo Goo Dolls,N/A
+30,Iris,Goo Goo Dolls,N/A
 200,Si Quieren Frontear,"Quevedo, DuKi & De La Ghetto",N/A
 2,Wait For U,Future,Drake & Tems
 5,That That,PSY,SUGA
@@ -1969,7 +1969,7 @@ position,track,artist,featured_artists
 137,Separate Ways (Worlds Apart) (Bryce Miller/Alloy Tracks Remix),Journey,N/A
 66,Ojos Marrones,Lasso,N/A
 3,Calm Down,Rema & Selena Gomez,N/A
-156,Africa,Toto,N/A
+142,Africa,Toto,N/A
 1,"Bzrp Music Sessions, Vol. 52",Bizarrap & Quevedo,N/A
 42,Girls,aespa,N/A
 52,For My Hand,Burna Boy,Ed Sheeran
@@ -2097,7 +2097,7 @@ position,track,artist,featured_artists
 48,Forget Me,Lewis Capaldi,N/A
 62,Thank God,Kane Brown With Katelyn Brown,N/A
 159,Static,Steve Lacy,N/A
-166,The Scientist,Coldplay,N/A
+110,The Scientist,Coldplay,N/A
 118,Shinunoga E-Wa,Fujii Kaze,N/A
 1,Shut Down,BLACKPINK,N/A
 16,Typa Girl,BLACKPINK,N/A
@@ -2523,7 +2523,7 @@ position,track,artist,featured_artists
 192,Erro Gostoso,Simone Mendes,N/A
 72,Mejor Que Yo,"Anuel AA, Mambo Kingz & DJ Luian",N/A
 73,Curtains,Ed Sheeran,N/A
-56,Creep,Radiohead,N/A
+47,Creep,Radiohead,N/A
 125,Boat,Ed Sheeran,N/A
 58,Area Codes,Kaliii,N/A
 70,Spicy,aespa,N/A
@@ -2995,7 +2995,7 @@ position,track,artist,featured_artists
 154,Goat,Number_i,N/A
 163,Modo DND,Xavi X Tony Aguirre,N/A
 170,Becane,Yame,N/A
-130,Poker Face,Lady Gaga,N/A
+45,Poker Face,Lady Gaga,N/A
 153,Maria Mariah,"Silva MC, DJ F7, JC no Beat & MC Meno Dani",N/A
 46,Una Foto,Mesita X NICKI NICOLE X Tiago PZK X Emilia,N/A
 196,Flashing Lights,Kanye West,Dwele
@@ -3109,7 +3109,7 @@ position,track,artist,featured_artists
 14,Supernatural,Ariana Grande,N/A
 17,Don't Wanna Break Up Again,Ariana Grande,N/A
 18,True Story,Ariana Grande,N/A
-24,Intro (End Of The World),Ariana Grande,N/A
+19,Intro (End Of The World),Ariana Grande,N/A
 25,Imperfect For You,Ariana Grande,N/A
 29,I Wish I Hated You,Ariana Grande,N/A
 47,Ordinary Things,Ariana Grande,Nonna
@@ -3221,7 +3221,7 @@ position,track,artist,featured_artists
 97,Red Leather,"Future, Metro Boomin & J. Cole",N/A
 118,Drink N Dance,Future & Metro Boomin,N/A
 73,Lilac,Mrs. GREEN APPLE,N/A
-138,Feel It,d4vd,N/A
+87,Feel It,d4vd,N/A
 149,Jealous,Future & Metro Boomin,N/A
 152,"Sayonara, Mata Itsuka! - Sayonara",Kenshi Yonezu,N/A
 34,Si No Quieres No,Luis R Conriquez x Neton Vega,N/A
@@ -3335,7 +3335,7 @@ position,track,artist,featured_artists
 151,The Craving,Twenty One Pilots,N/A
 166,Shut Up And Dance,WALK THE MOON,N/A
 176,Think I'm In Love With You,Chris Stapleton,N/A
-170,Give Me Everything,Pitbull,"Ne-Yo, Afrojack & Nayer"
+106,Give Me Everything,Pitbull,"Ne-Yo, Afrojack & Nayer"
 167,Sudden Shower,ECLIPSE,N/A
 1,Houdini,Eminem,N/A
 69,Volver Al Futuro,Oscar Maydon & Junior H,N/A
@@ -3477,7 +3477,7 @@ position,track,artist,featured_artists
 50,We Pray,Coldplay,"Little Simz, Burna Boy, Elyanna & TINI"
 10,Sailor Song,Gigi Perez,N/A
 157,Los Cuadros,Peso Pluma & Tito Double P,N/A
-162,Carry You Home,Alex Warren,N/A
+82,Carry You Home,Alex Warren,N/A
 92,Don't Look Back In Anger,Oasis,N/A
 17,Crazy,LE SSERAFIM,N/A
 127,Tailor Swif,A$AP Rocky,N/A
@@ -3495,7 +3495,7 @@ position,track,artist,featured_artists
 58,Touch,KATSEYE,N/A
 183,Disco,Surf Curse,N/A
 184,One Step Closer,Linkin Park,N/A
-148,I Adore You,HUGEL X Topic X Arash,Daecolm
+89,I Adore You,HUGEL X Topic X Arash,Daecolm
 55,Escapate,Tito Double P & Chino Pacas,N/A
 194,Can't Stop,Red Hot Chili Peppers,N/A
 199,You Shook Me All Night Long,AC/DC,N/A
@@ -3503,7 +3503,7 @@ position,track,artist,featured_artists
 10,Dancing In The Flames,The Weeknd,N/A
 16,All Red,Playboi Carti,N/A
 19,It's Ok I'm Ok,Tate McRae,N/A
-31,Bad Dreams,Teddy Swims,N/A
+26,Bad Dreams,Teddy Swims,N/A
 91,Talk Talk,Charli xcx,Troye Sivan
 53,Despues de Las 1,Cris Mj & FloyyMenor,N/A
 93,Rey Sin Reina,Julion Alvarez y Su Norteno Banda,N/A
@@ -3539,7 +3539,7 @@ position,track,artist,featured_artists
 159,Super Tuna,JIN,N/A
 50,"Love, Money, Fame",SEVENTEEN,DJ Khaled
 166,Last Lap,Rod Wave,N/A
-174,Sparks,Coldplay,N/A
+92,Sparks,Coldplay,N/A
 153,Ay Mama,Tito Double P & Grupo Frontera,N/A
 168,It Will Rain,Bruno Mars,N/A
 199,Club Classics,Charli xcx,N/A
@@ -3586,7 +3586,7 @@ position,track,artist,featured_artists
 160,This World's A Giant,Zach Bryan,N/A
 163,Labour,Paris Paloma,N/A
 168,Sana Guvenmiyorum,Dedubluman & Aleyna Tilki,N/A
-140,Feel Good Inc,Gorillaz,N/A
+130,Feel Good Inc,Gorillaz,N/A
 106,No Pole,Don Toliver,N/A
 195,Over The Moon,TOMORROW X TOGETHER,N/A
 5,Running Wild,JIN,N/A
@@ -3594,7 +3594,7 @@ position,track,artist,featured_artists
 29,Two Faced,Linkin Park,N/A
 32,2 Hands,Tate McRae,N/A
 28,Khe?,Rauw Alejandro & Romeo Santos,N/A
-45,No One Noticed,The Marias,N/A
+27,No One Noticed,The Marias,N/A
 57,Se Fue,Rauw Alejandro & Laura Pausini,N/A
 65,Tu Con El,Rauw Alejandro,N/A
 80,Cut The Bridge,Linkin Park,N/A
@@ -3683,10 +3683,10 @@ position,track,artist,featured_artists
 59,La La La,Naughty Boy,Sam Smith
 33,Pitorro de Coco,Bad Bunny,N/A
 109,Descer Pra BC,Brenno & Matheus & DJ Ari SL,N/A
-66,Capaz,Alleh & Yorghaki,N/A
-90,Me Jalo,Fuerza Regida & Grupo Frontera,N/A
+56,Capaz,Alleh & Yorghaki,N/A
+38,Me Jalo,Fuerza Regida & Grupo Frontera,N/A
 179,Fui Mlk,"Nilo, MC Paiva, DJ Di Marques & Kyo",N/A
-183,Good News,Shaboozey,N/A
+156,Good News,Shaboozey,N/A
 5,Nuevayol,Bad Bunny,N/A
 4,Baile Inolvidable,Bad Bunny,N/A
 1,DTMF,Bad Bunny,N/A
@@ -3709,7 +3709,7 @@ position,track,artist,featured_artists
 47,The Days,CHRYSTAL,N/A
 153,Outfit,Lil Baby & 21 Savage,N/A
 88,Imaginate,Danny Ocean & Kapo,N/A
-84,Mi Refe,Beele & Ovy On The Drums,N/A
+71,Mi Refe,Beele & Ovy On The Drums,N/A
 169,By Myself,Lil Baby & Rylo Rodriguez,Rod Wave
 187,F U 2x,Lil Baby,N/A
 91,Are You Even Real,Teddy Swims & GIVEON,N/A
@@ -3734,7 +3734,7 @@ position,track,artist,featured_artists
 200,Let Me Love You,DJ Snake,Justin Bieber
 7,Cry For Me,The Weeknd,N/A
 5,Abracadabra,Lady Gaga,N/A
-16,I'm The Problem,Morgan Wallen,N/A
+15,I'm The Problem,Morgan Wallen,N/A
 29,Love Hangover,JENNIE & Dominic Fike,N/A
 30,Open Hearts,The Weeknd,N/A
 31,Wake Me Up,The Weeknd & Justice,N/A
@@ -3753,8 +3753,8 @@ position,track,artist,featured_artists
 189,Big Sleep,The Weeknd & Giorgio Moroder,N/A
 200,Red Terror,The Weeknd,N/A
 22,Born Again,LISA,Doja Cat & RAYE
-40,Ordinary,Alex Warren,N/A
-50,Te Queria Ver,Aleman X Neton Vega,N/A
+1,Ordinary,Alex Warren,N/A
+25,Te Queria Ver,Aleman X Neton Vega,N/A
 79,Twenties,Giveon,N/A
 139,Love.,Kendrick Lamar,Zacari
 143,Attitude,IVE,N/A
@@ -3765,7 +3765,7 @@ position,track,artist,featured_artists
 192,Baby (Is It A Crime),Rema,N/A
 195,Dash,PLAVE,N/A
 18,Gimme A Hug,Drake,N/A
-19,Nokia,Drake,N/A
+8,Nokia,Drake,N/A
 23,Busy Woman,Sabrina Carpenter,N/A
 26,CN Tower,PARTYNEXTDOOR & Drake,N/A
 32,Die Trying,"PARTYNEXTDOOR, Drake & Yebba",N/A
@@ -3782,7 +3782,7 @@ position,track,artist,featured_artists
 67,Raining In Houston,Drake,N/A
 72,15 Minutes,Sabrina Carpenter,N/A
 73,Brian Steel,Drake,N/A
-65,Por Esos Ojos,Fuerza Regida,N/A
+49,Por Esos Ojos,Fuerza Regida,N/A
 103,Meet Your Padre,"PARTYNEXTDOOR, Drake & Chino Pacas",N/A
 105,Lasers,PARTYNEXTDOOR & Drake,N/A
 126,Couldn't Make It Any Harder,Sabrina Carpenter,N/A
@@ -3790,10 +3790,10 @@ position,track,artist,featured_artists
 144,Bad Reviews,Sabrina Carpenter,N/A
 146,Greedy,PARTYNEXTDOOR & Drake,N/A
 156,Battito,Fedez,N/A
-109,Morena,Neton Vega & Peso Pluma,N/A
+47,Morena,Neton Vega & Peso Pluma,N/A
 172,OMW,PARTYNEXTDOOR & Drake,N/A
 173,When He's Gone,PARTYNEXTDOOR & Drake,N/A
-190,Nice To Meet You,Myles Smith,N/A
+117,Nice To Meet You,Myles Smith,N/A
 193,La Cura Per Me,Giorgia,N/A
 18,ExtraL,JENNIE & Doechii,N/A
 20,Revolving Door,Tate McRae,N/A
@@ -3806,11 +3806,289 @@ position,track,artist,featured_artists
 85,Bloodonmyhands,Tate McRae,Flo Milli
 96,Kaiju,sakanaction,N/A
 108,Signs,Tate McRae,N/A
-134,Wackelkontakt,Oimara,N/A
-138,Too Bad,G-DRAGON & Anderson .Paak,N/A
-155,Mutt,Leon Thomas,N/A
+54,Wackelkontakt,Oimara,N/A
+30,Too Bad,G-DRAGON & Anderson .Paak,N/A
+28,Mutt,Leon Thomas,N/A
 175,cLOUDs,J. Cole,N/A
-176,M&M,Neton Vega,N/A
+97,M&M,Neton Vega,N/A
 180,Like I Do,Tate McRae,N/A
-185,El Mayor de Los Ranas,Victor Valverde X JR Torres,N/A
+97,El Mayor de Los Ranas,Victor Valverde X JR Torres,N/A
 196,Mi Vida Mi Muerte,Neton Vega,N/A
+21,A N X I E T Y,Sleepy Hallow,Doechii
+25,FXCK Up The World,LISA,Future
+35,Tattoo,Tito Double P,N/A
+53,Sorry I'm Here For Someone Else,Benson Boone,N/A
+83,I Know Love,Tate McRae Featauring The Kid LAROI,N/A
+84,Parte & Choke (Remix),Jombriel X Ryan Castro X Jotta X Alex Krack,N/A
+11,La Plena (W Sound 05),"W Sound, Beele & Ovy On The Drums",N/A
+121,Ms. Whitman,Bhad Bhabie,N/A
+132,Rock This Party,timelesz,N/A
+177,Siren Sounds,Tate McRae,N/A
+90,En Privado,Xavi & Manuel Turizo,N/A
+5,like JENNIE,JENNIE,N/A
+3,Anxiety,Doechii,N/A
+16,Sweet Dreams,j-hope,Miguel
+21,Handlebars,JENNIE & Dua Lipa,N/A
+31,Garden Of Eden,Lady Gaga,N/A
+38,Vanish Into You,Lady Gaga,N/A
+52,How Bad Do U Want Me,Lady Gaga,N/A
+67,Perfect Celebrity,Lady Gaga,N/A
+76,Zombieboy,Lady Gaga,N/A
+85,Shadow Of A Man,Lady Gaga,N/A
+95,Killah,Lady Gaga,Gesaffelstein
+103,LoveDrug,Lady Gaga,N/A
+122,ZEN,JENNIE,N/A
+10,Show Me Love,WizTheMc,N/A
+158,Start A War,JENNIE,N/A
+58,Vitamina,Jombriel & DFZM,N/A
+111,We Are The People,Empire Of The Sun,N/A
+182,Damn Right,"JENNIE, Childish Gambino & Kali Uchis",N/A
+183,Don't Call Tonight,Lady Gaga,N/A
+118,Mae Solteira,"DG E Batidao Stronda, J.Eskine, MC Davi & MC G15",N/A
+4,Evil J0rdan,Playboi Carti,N/A
+6,Rather Lie,Playboi Carti & The Weeknd,N/A
+10,The Giver,Chappell Roan,N/A
+17,Crush,Playboi Carti & Travis Scott,N/A
+20,Good Credit,Playboi Carti & Kendrick Lamar,N/A
+24,Philly,Playboi Carti & Travis Scott,N/A
+25,Backd00r,Playboi Carti,Kendrick Lamar & Jhene Aiko
+26,Mojo Jojo,Playboi Carti,N/A
+32,Toxic,Playboi Carti & Skepta,N/A
+35,K Pop,Playboi Carti,N/A
+36,Fine Shit,Playboi Carti,N/A
+37,Pop Out,Playboi Carti,N/A
+40,Radar,Playboi Carti,N/A
+45,Hot,LE SSERAFIM,N/A
+51,Wake Up F1lthy,Playboi Carti & Travis Scott,N/A
+55,HBA,Playboi Carti,N/A
+58,Charge Dem Hoes A Fee,"Playboi Carti, Future & Travis Scott",N/A
+60,Trim,Playboi Carti & Future,N/A
+61,I Seeeeee You Baby Boi,Playboi Carti,N/A
+34,Dark Thoughts,Lil Tecca,N/A
+67,Crank,Playboi Carti,N/A
+71,Jumpin,Playboi Carti & Lil Uzi Vert,N/A
+74,We Need All Da Vibes,"Playboi Carti, Young Thug & Ty Dolla $ign",N/A
+80,Emergence,Sleep Token,N/A
+81,Munyun,Playboi Carti,N/A
+84,Olympian,Playboi Carti,N/A
+86,Twin Trim,Playboi Carti & Lil Uzi Vert,N/A
+87,Like Weezy,Playboi Carti,N/A
+88,Cocaine Nose,Playboi Carti,N/A
+100,OPM Babi,Playboi Carti,N/A
+151,Dis 1 Got It,Playboi Carti,N/A
+176,Overly,Playboi Carti,N/A
+178,South Atlanta Baby,Playboi Carti,N/A
+194,RARI,Peso Pluma,N/A
+14,Mona Lisa,j-hope,N/A
+9,Just In Case,Morgan Wallen,N/A
+39,I'm A Little Crazy,Morgan Wallen,N/A
+51,Ojos Tristes,Selena Gomez & benny blanco,N/A
+76,Con Otra,Cazzu,N/A
+96,Just Us,Jack Harlow & Doja Cat,N/A
+98,How Does It Feel To Be Forgotten,Selena Gomez & benny blanco,N/A
+123,Sunset Blvd,Selena Gomez & benny blanco,N/A
+7,Love Me Not,Ravyn Lenae,N/A
+6,Back To Friends,sombr,N/A
+166,Younger And Hotter Than Me,Selena Gomez & benny blanco,N/A
+7,Twilight Zone,Ariana Grande,N/A
+24,Dandelion,Ariana Grande,N/A
+37,Warm,Ariana Grande,N/A
+41,Past Life,Ariana Grande,N/A
+49,Hampstead,Ariana Grande,N/A
+58,Up From The Bottom,Linkin Park,N/A
+34,Passo Bem Solto,ATLXS,N/A
+145,Keske,Ati242 & BLOK3,N/A
+11,Undressed,sombr,N/A
+17,Azizam,Ed Sheeran,N/A
+23,All The Way,BigXthaPlug,Bailey Zimmerman
+43,End Of The World,Miley Cyrus,N/A
+46,Caramel,Sleep Token,N/A
+59,Montagem Tomada,MXZI,N/A
+88,Kusushiki,Mrs. GREEN APPLE,N/A
+101,Chest Pain (I Love),Malcolm Todd,N/A
+111,ROSE,HANA,N/A
+80,Multo,Cup Of Joe,N/A
+107,You'll Be In My Heart,NIKI,N/A
+162,Bring Me To Life,Evanescence,Paul McCoy
+72,"Henry, Come On",Lana Del Rey,N/A
+17,Triple Lavada,Esau Ortiz,N/A
+152,Doubt,Twenty One Pilots,N/A
+179,Jhol,Maanu X Annural Khalid,N/A
+127,Como Capo,Clave Especial & Fuerza Regida,N/A
+81,Bad Romance,Lady Gaga,N/A
+194,"Raanjhan (From ""Do Patti"")",Parampara Tandon,N/A
+143,Hollywood,Peso Pluma & Estevan Plazola,N/A
+74,Vita Fer,Dareyes de La Sierra X Tito Double P,N/A
+20,I Ain't Coming Back,Morgan Wallen,Post Malone
+97,Steve's Lava Chicken,Jack Black,N/A
+102,Pal Pal,Afusic,N/A
+33,Blue Strips,Jessie Murph,N/A
+116,Headphones On,Addison Rae,N/A
+42,Party 4 U,Charli xcx,N/A
+6,Shake It To The Max (Fly),"MOLIY, Silent Addy, Skillibeng & Shenseea",N/A
+183,Twilight!!!,King Gnu,N/A
+73,Judas,Lady Gaga,N/A
+197,Hard Fought Hallelujah,Brandon Lake x Jelly Roll,N/A
+18,What Was That,Lorde,N/A
+17,Mystical Magical,Benson Boone,N/A
+71,Money On Money,Young Thug,Future
+83,Damocles,Sleep Token,N/A
+92,Tu Tu Tu,Clave Especial & Edgardo Nunez,N/A
+154,Amistad,Blessd & Ovy On The Drums,N/A
+149,Amigos? No.,Oscar Maydon X Neton Vega,N/A
+136,Coqueta,Fuerza Regida & Grupo Frontera,N/A
+130,Just Dance,Lady Gaga,Colby O'Donis
+40,Priceless,Maroon 5 & LISA,N/A
+41,Gnarly,KATSEYE,N/A
+75,Old Phone,Ed Sheeran,N/A
+83,Burning Blue,Mariah The Scientist,N/A
+139,Backup Plan,Bailey Zimmerman & Luke Combs,N/A
+143,Heaven,Mrs. GREEN APPLE,N/A
+163,Love Language,TOMORROW X TOGETHER,N/A
+178,Stop The Rain,TABLO X RM,N/A
+187,Worst Way,Riley Green,N/A
+34,Messy,ROSE,N/A
+30,Superman,Morgan Wallen,N/A
+33,Marlboro Rojo,Fuerza Regida,N/A
+105,Mangu,Fourtwnty,Charita Utami
+119,Milagros,Karol G,N/A
+123,Even In Arcadia,Sleep Token,N/A
+129,Dangerous,Sleep Token,N/A
+80,Blessings,Calvin Harris,Clementine Douglas.
+137,Look To Windward,Sleep Token,N/A
+115,Ansiedad,Fuerza Regida,N/A
+132,Pretty Little Baby,Connie Francis,N/A
+163,WASSUP,Young Miko,N/A
+168,More To Lose,Miley Cyrus,N/A
+182,Past Self,Sleep Token,N/A
+154,Los Voltaje,"Sayfalse, Yb Wasg'Ood & Ariis",N/A
+5,What I Want,Morgan Wallen,Tate McRae
+6,Don't Say You Love Me,Jin,N/A
+29,I Got Better,Morgan Wallen,N/A
+60,20 Cigarettes,Morgan Wallen,N/A
+64,Eyes Are Closed,Morgan Wallen,N/A
+67,Kick Myself,Morgan Wallen,N/A
+68,Falling Apart,Morgan Wallen,N/A
+77,"Skoal, Chevy, And Browning",Morgan Wallen,N/A
+80,Baller,Abor & Tynna,N/A
+19,Tu Sancho,Fuerza Regida,N/A
+89,TN,Morgan Wallen,N/A
+93,Espresso Macchiato,Tommy Cash,N/A
+94,Where'd That Girl Go,Morgan Wallen,N/A
+104,Kiss Her In Front Of You,Morgan Wallen,N/A
+116,If You Were Mine,Morgan Wallen,N/A
+118,Missing,Morgan Wallen,N/A
+123,Bara Bada Bastu,KAJ,N/A
+135,Genesis,Morgan Wallen,N/A
+89,Luna Bala,Yb Wasg'ood & Ariis,N/A
+144,Don't We,Morgan Wallen,N/A
+146,Interlude,Morgan Wallen,N/A
+148,Dark Til Daylight,Morgan Wallen,N/A
+152,Number 3 And Number 7,Morgan Wallen,Eric Church
+158,Revelation,Morgan Wallen,N/A
+167,Wasted Love,JJ,N/A
+190,Jack And Jill,Morgan Wallen,N/A
+200,Come Back As A Redneck,Morgan Wallen,HARDY
+19,Bloodline,Alex Warren With Jelly Roll,N/A
+55,Latina Foreva,Karol G,N/A
+27,No Tiene Sentido,Beele,N/A
+41,Thunder,SEVENTEEN,N/A
+80,Cliche,mgk,N/A
+126,Champagne,Tito Double P,N/A
+174,Momma Song,Benson Boone,N/A
+177,Enter Sandman,Metallica,N/A
+189,Droga,Mora & C. Tangana,N/A
+8,Just Keep Watching,Tate McRae,N/A
+79,Easy Lover,Miley Cyrus,N/A
+83,OWA OWA,Lil Tecca,N/A
+61,Fame Is A Gun,Addison Rae,N/A
+20,Rock That Body,The Black Eyed Peas,N/A
+173,Man Of The Year,Lorde,N/A
+132,One Thing,Lola Young,N/A
+2,Manchild,Sabrina Carpenter,N/A
+8,Sapphire,Ed Sheeran,N/A
+68,Bad Desire (With Or Without You),ENHYPEN,N/A
+122,Hip-Hop,Lil Wayne & BigXthaPlug,Jay Jones
+158,Touch Me Like A Gangster,Jessie Murph,N/A
+163,Nope Your Too Late I Already Died,wifiskeleton & i wanna be a jack-o-lantern,N/A
+117,Top Diesel,Beele,N/A
+173,Breakfast,Mrs. GREEN APPLE,N/A
+169,Let Down,Radiohead,N/A
+3,Killin' It Girl,j-hope & GloRilla,N/A
+131,The Contract,Twenty One Pilots,N/A
+148,Folded,Kehlani,N/A
+115,Yo y Tu,"Ovy On The Drums, Quevedo & Beele",N/A
+188,Weren't For The Wind,Ella Langley,N/A
+161,Shaky,Sanju Rathod,N/A
+27,Outside,Cardi B,N/A
+29,Gabriela,KATSEYE,N/A
+1,Golden,"HUNTR/X: EJAE, Audrey Nuna & REI AMI",N/A
+56,Papasito,Karol G,N/A
+64,Verano Rosa,Karol G & Feid,N/A
+70,Coleccionando Heridas,Karol G & Marco Antonio Solis,N/A
+3,Your Idol,"Saja Boys: Andrew Choi, Neckwav, Danny Chung, Kevin Woo & samUIL Lee",N/A
+43,Famous,ALLDAY PROJECT,N/A
+9,How It’s Done,"HUNTR/X: EJAE, Audrey Nuna & REI AMI",N/A
+106,6 Months Later,Megan Moroney,N/A
+112,Victory Lap,"Fred again.., Skepta, PlaqueBoyMax",N/A
+6,Soda Pop,"Saja Boys: Andrew Choi, Neckwav, Danny Chung, Kevin Woo & samUIL Lee",N/A
+125,Mr Electric Blue,Benson Boone,N/A
+140,We Never Dated,sombr,N/A
+141,Ivonny Bonita,Karol G,N/A
+144,Billyeoon Goyangi (Do The Dance),ILLIT,N/A
+18,What It Sounds Like,"HUNTR/X: EJAE, Audrey Nuna & REI AMI",N/A
+16,Free,"Rumi, JINU, EJAE & Andrew Choi",N/A
+175,Amiga Mia,Karol G & Greeicy,N/A
+125,Dia Delicia,Nakama & MC Staff,N/A
+89,Si Te Pillara,Beele,N/A
+183,Dile Luna,Karol G & Eddy Lover,N/A
+5,Dirty Work,aespa,N/A
+22,Takedown,"HUNTR/X: EJAE, Audrey Nuna & REI AMI",N/A
+57,On My Mind,Alex Warren & ROSE,N/A
+72,Frecuencia,Dareyes de La Sierra,N/A
+68,Takedown,"JEONGYEON, JIHYO & CHAEYOUNG Of TWICE",N/A
+36,Yerinde Dur,Sefo & Demet Akalin,N/A
+110,Survive,Lewis Capaldi,N/A
+131,Gameboy,KATSEYE,N/A
+109,Illegal,PinkPantheress,N/A
+41,Lose My Mind,Don Toliver,Doja Cat
+156,Shapeshifter,Lorde,N/A
+176,FUW,Don Toliver,N/A
+119,No Broke Boys,Disco Lines & Tinashe,N/A
+144,Suiza,Calle 24,N/A
+46,Vamo A Bailotear,Cris Mj,N/A
+9,What Did I Miss?,Drake,N/A
+105,Perlas Negras,Natanael Cano & Gabito Ballesteros,N/A
+152,Corazon Partio,Tito Double P,N/A
+158,"Courtesy Of The Red, White And Blue (The Angry American)",Toby Keith,N/A
+162,Sweet Home Alabama,Lynyrd Skynyrd,N/A
+164,Blancanieves,Natanael Cano,N/A
+195,River Washed Hair,Zach Bryan,N/A
+1,Jump,BLACKPINK,N/A
+3,Daisies,Justin Bieber,N/A
+12,Go Baby,Justin Bieber,N/A
+14,Yukon,Justin Bieber,N/A
+16,All I Can Take,Justin Bieber,N/A
+26,Walking Away,Justin Bieber,N/A
+27,Way It Is,Justin Bieber & Gunna,N/A
+28,Things You Do,Justin Bieber,N/A
+34,Butterflies,Justin Bieber,N/A
+38,This Is For,TWICE,N/A
+47,Kick Out,Travis Scott,N/A
+49,Champain & Vacay,Travis Scott & Don Toliver,N/A
+52,Dumbo,Travis Scott,N/A
+61,Devotion,Justin Bieber & Dijon,N/A
+69,First Place,Justin Bieber,N/A
+76,Sweet Spot,Justin Bieber & Sexyy Red,N/A
+93,Chains & Whips,Clipse,Kendrick Lamar
+97,Por Sus Besos,Tito Double P,N/A
+99,Swag,"Justin Bieber, Cash Cobain & Eddie Benjamin",N/A
+101,2000 EXCURSION,"Travis Scott, Sheck Wes & Don Toliver",N/A
+107,Where Was You,"Travis Scott, Playboi Carti & Future",N/A
+142,Too Long,Justin Bieber,N/A
+145,Dadz Love,Justin Bieber & Lil B,N/A
+146,Glory Voice Memo,Justin Bieber,N/A
+159,Blue Jeans,HANA,N/A
+163,405,Justin Bieber,N/A
+173,So Be It,Clipse,N/A
+200,P.O.V.,Clipse,"Tyler, The Creator"
