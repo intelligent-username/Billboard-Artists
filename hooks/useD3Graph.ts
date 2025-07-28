@@ -7,6 +7,13 @@ const INTRA_CLUSTER_STRENGTH = 0.3; // How strongly nodes in the same cluster re
 const INTRA_CLUSTER_RADIUS = 80;    // Minimum distance between nodes in the same cluster
 const CLUSTER_KEY = 'cluster';      // Property name for cluster/group on node objects
 
+// Settings constants
+const REPULSION = -200;         // Base repulsion force
+const LINK_STRENGTH = 1;      // Base link strength
+const COLLISION_RADIUS = 50;    // Base collision radius
+const LINK_DISTANCE = 50;       // Base link distance
+const ALPHA_DECAY = 0.02;       // Base alpha decay
+
 // Custom force for intra-cluster repulsion
 function forceIntraCluster(strength = INTRA_CLUSTER_STRENGTH, radius = INTRA_CLUSTER_RADIUS, clusterKey = CLUSTER_KEY) {
   type IntraClusterNode = d3.SimulationNodeDatum & { [key: string]: any; x: number; y: number };
@@ -43,24 +50,39 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
   const svgRef = useRef<SVGSVGElement>(null);
 
   useEffect(() => {
+    console.log("useD3Graph received data:", data);
     if (!data || !svgRef.current) return;
+
+    // Fix edges to have string IDs for source/target
+    const cleanedEdges = data.edges.map(e => ({
+      ...e,
+      source: typeof e.source === "object" ? (e.source as any).id : e.source,
+      target: typeof e.target === "object" ? (e.target as any).id : e.target,
+    }));
+
+    // Dynamically set logical plotting area based on node count (square)
+    // Minimum size is the SVG's actual size, but grows with node count
+    const baseSize = Math.max(svgRef.current.clientWidth, svgRef.current.clientHeight);
+    const nodeCount = data.nodes.length;
+    // Growth factor: tweak as needed for your graph density
+    const growth = Math.sqrt(nodeCount) * 100; 
+    const logicalSize = Math.max(baseSize, 300 + growth); // 300px minimum
+    const width = logicalSize;
+    const height = logicalSize;
+    console.log(`Dynamic Logical Size: ${logicalSize} (for ${nodeCount} nodes)`);
 
     const svg = d3.select(svgRef.current);
     svg.selectAll('*').remove();
 
-    const width = svgRef.current.clientWidth;
-    const height = svgRef.current.clientHeight;
-
     // Initial node spread
-    const spread = Math.min(width, height) * 1.5;
+    const spread = Math.min(width, height) * 0.7;
     data.nodes.forEach((d: any, i: number) => {
-      d.x = width / 2 + spread * (Math.random() - 0.5);
-      d.y = height / 2 + spread * (Math.random() - 0.5);
+      d.x = Math.max(0, Math.min(width, width / 2 + spread * (Math.random() - 0.5)));
+      d.y = Math.max(0, Math.min(height, height / 2 + spread * (Math.random() - 0.5)));
     });
 
     // Create simulation based on layout type
     let simulation: d3.Simulation<any, any>;
-
     switch (settings.layout) {
       case 'kamada':
         simulation = d3
@@ -68,46 +90,46 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
           .force(
             'link',
             d3
-              .forceLink(data.edges as d3.SimulationLinkDatum<d3.SimulationNodeDatum>[])
+              .forceLink(cleanedEdges as d3.SimulationLinkDatum<d3.SimulationNodeDatum>[])
               .id((d: any) => d.id)
-              .distance(settings.highPerformance ? 100 : 50)
-              .strength(0.8)
+              .distance(LINK_DISTANCE * 1.0)
+              .strength(LINK_STRENGTH * 2.0)
           )
-          .force('charge', d3.forceManyBody().strength(settings.highPerformance ? -300 : -100))
+          .force('charge', d3.forceManyBody().strength(REPULSION * 1.5))
           .force('center', d3.forceCenter(width / 2, height / 2))
-          .force('collision', d3.forceCollide().radius(settings.highPerformance ? 40 : 20))
+          .force('collision', d3.forceCollide().radius(COLLISION_RADIUS * 0.8))
           .force('intraCluster', forceIntraCluster());
         break;
-
       case 'fruchterman':
         simulation = d3
           .forceSimulation(data.nodes as d3.SimulationNodeDatum[])
           .force(
             'link',
             d3
-              .forceLink(data.edges as d3.SimulationLinkDatum<d3.SimulationNodeDatum>[])
+              .forceLink(cleanedEdges as d3.SimulationLinkDatum<d3.SimulationNodeDatum>[])
               .id((d: any) => d.id)
-              .strength(0.3)
+              .distance(LINK_DISTANCE * 1.2)
+              .strength(LINK_STRENGTH * 0.8)
           )
-          .force('charge', d3.forceManyBody().strength(settings.highPerformance ? -400 : -200))
+          .force('charge', d3.forceManyBody().strength(REPULSION * 2.0))
           .force('center', d3.forceCenter(width / 2, height / 2))
-          .alphaDecay(settings.highPerformance ? 0.01 : 0.02)
+          .alphaDecay(ALPHA_DECAY * 1.0)
           .force('intraCluster', forceIntraCluster());
         break;
-
       default: // spring
         simulation = d3
           .forceSimulation(data.nodes as d3.SimulationNodeDatum[])
           .force(
             'link',
             d3
-              .forceLink(data.edges as d3.SimulationLinkDatum<d3.SimulationNodeDatum>[])
+              .forceLink(cleanedEdges as d3.SimulationLinkDatum<d3.SimulationNodeDatum>[])
               .id((d: any) => d.id)
-              .strength(0.4)
+              .distance(LINK_DISTANCE * 1.0)
+              .strength(LINK_STRENGTH * 1.0)
           )
-          .force('charge', d3.forceManyBody().strength(settings.highPerformance ? -150 : -50))
+          .force('charge', d3.forceManyBody().strength(REPULSION * 1.0))
           .force('center', d3.forceCenter(width / 2, height / 2))
-          .force('collision', d3.forceCollide().radius(settings.highPerformance ? 60 : 50))
+          .force('collision', d3.forceCollide().radius(COLLISION_RADIUS * 1.0))
           .force('intraCluster', forceIntraCluster());
     }
 
@@ -118,22 +140,19 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
       .on('zoom', (event) => {
         g.attr('transform', event.transform);
       });
-
     svg.call(zoom as any);
-
     const g = svg.append('g');
 
     // Create edges
     const link = g
       .append('g')
       .selectAll('line')
-      .data(data.edges)
+      .data(cleanedEdges)
       .enter()
       .append('line')
       .attr('stroke', '#8b5cf6')
       .attr('stroke-opacity', 0.6)
-      .attr('stroke-width', (d: any) => Math.max(1, Math.min(8, d.weight / 2)))
-      .style('filter', 'drop-shadow(0 0 2px rgba(139, 92, 246, 0.3))');
+      .attr('stroke-width', (d: any) => Math.max(1, Math.min(8, d.weight / 2)));
 
     const node = g
       .append('g')
@@ -147,7 +166,6 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
       .attr('fill', (d: any, i: number) => d3.schemeCategory10[i % 10])
       .attr('stroke', '#fff')
       .attr('stroke-width', 2)
-      .style('filter', 'drop-shadow(0 0 6px rgba(139, 92, 246, 0.4))')
       .call(d3.drag().on('start', dragstarted).on('drag', dragged).on('end', dragended) as any);
 
     let labels: any;
@@ -169,7 +187,7 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
       edgeLabels = g
         .append('g')
         .selectAll('text')
-        .data(data.edges)
+        .data(cleanedEdges)
         .enter()
         .append('text')
         .text((d: any) => d.weight)
@@ -186,6 +204,12 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
         .attr('y2', (d: any) => d.target.y);
 
       node.attr('cx', (d: any) => d.x).attr('cy', (d: any) => d.y);
+
+      // Clamp node positions to visible SVG area
+      data.nodes.forEach((d: any) => {
+        d.x = Math.max(0, Math.min(width, d.x));
+        d.y = Math.max(0, Math.min(height, d.y));
+      });
 
       if (labels) {
         labels.attr('x', (d: any) => d.x).attr('y', (d: any) => d.y);
@@ -218,7 +242,7 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
     return () => {
       simulation.stop();
     };
-  }, [data, settings]);
+  }, [data]);
 
   return svgRef;
 }

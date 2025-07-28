@@ -3,11 +3,12 @@ import fs from 'fs';
 import path from 'path';
 import { GraphSettings } from '@/lib/types/graph';
 import { shrinkGraph } from '@/lib/graph/processing';
+import { GraphData } from '@/lib/types/graph';
 
 const dataPath = path.join(process.cwd(), 'data', 'collaborations.json');
 
 // In-memory cache
-const cache = new Map<string, any>();
+const cache = new Map<string, GraphData>();
 
 export async function POST(request: Request) {
   try {

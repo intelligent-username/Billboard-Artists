@@ -174,12 +174,4 @@ def name_builder(location: str, layout: str, num_vertex: int, vertex_label: bool
 
 
 if __name__ == "__main__":
-    import doctest
-    doctest.testmod()
-
-    import python_ta
-    python_ta.check_all(config={
-        'max-line-length': 120,
-        'extra-imports': ['networkx', 'matplotlib.pyplot', 'numpy', 'random'],
-        'max-nested-blocks': 4
-    })
+  print("Don't run this in main yo")

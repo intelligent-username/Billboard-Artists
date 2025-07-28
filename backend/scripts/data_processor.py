@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Dict, List, Tuple, Set
 import logging
 from dataclasses import dataclass
+import os
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -193,10 +194,15 @@ class DataProcessor:
 
 def main():
     """Main function for command-line usage."""
+    # Get the directory of this script
+    script_dir = Path(__file__).parent
+    # Go up one level to backend directory
+    backend_dir = script_dir.parent
+    
     config = ProcessingConfig(
-        input_file="data/cleaned.csv",
-        collaborations_output="data/collaborations.json",
-        songs_output="data/songs_to_artists.json"
+        input_file=str(backend_dir / "data" / "cleaned.csv"),
+        collaborations_output=str(backend_dir / "data" / "collaborations.json"),
+        songs_output=str(backend_dir / "data" / "songs_to_artists.json")
     )
     
     processor = DataProcessor(config)

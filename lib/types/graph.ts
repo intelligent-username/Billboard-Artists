@@ -21,5 +21,5 @@ export interface GraphSettings {
   layout: "spring" | "circular" | "shell" | "random" | "kamada" | "fruchterman";
   showLabels: boolean;
   showWeights: boolean;
-  highPerformance: boolean;
 }
+

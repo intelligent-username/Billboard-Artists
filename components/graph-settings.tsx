@@ -33,12 +33,6 @@ export default function GraphSettings({
     onSettingsChange({ ...settings, [key]: value })
   }
 
-  // When Generate Graph is clicked, always update parent settings with local vertexLimit
-  // Parent will handle graph generation after settings update
-  const handleGenerate = () => {
-    onSettingsChange({ ...settings, vertexLimit: localVertexLimit });
-  }
-
   return (
     <Card className="h-full">
       <CardHeader>
@@ -48,99 +42,102 @@ export default function GraphSettings({
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-6">
-        <div className="space-y-2">
-          <Label htmlFor="vertex-limit">Maximum Vertices</Label>
-          <Input
-            id="vertex-limit"
-            type="number"
-            value={localVertexLimit}
-            onChange={(e) => setLocalVertexLimit(Number.parseInt(e.target.value) || 100)}
-            min="1"
-            max="1000"
-          />
-          <p className="text-xs text-slate-500">Limit the number of artists shown in the graph</p>
-        </div>
-
-        <div className="space-y-2">
-          <Label>Shrinking Method</Label>
-          <Select
-            value={settings.shrinkMethod}
-            onValueChange={(value: "degree" | "random") => updateSetting("shrinkMethod", value)}
-          >
-            <SelectTrigger>
-              <SelectValue />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="degree">Remove Lowest Degree</SelectItem>
-              <SelectItem value="random">Remove Randomly</SelectItem>
-            </SelectContent>
-          </Select>
-          <p className="text-xs text-slate-500">How to reduce the graph size when over the vertex limit</p>
-        </div>
-
-        <div className="space-y-2">
-          <Label>Layout Algorithm</Label>
-          <Select value={settings.layout} onValueChange={(value: any) => updateSetting("layout", value)}>
-            <SelectTrigger>
-              <SelectValue />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="spring">Spring Layout</SelectItem>
-              <SelectItem value="circular">Circular Layout</SelectItem>
-              <SelectItem value="shell">Shell Layout</SelectItem>
-              <SelectItem value="random">Random Layout</SelectItem>
-              <SelectItem value="kamada">Kamada Kawai Layout</SelectItem>
-              <SelectItem value="fruchterman">Fruchterman Reingold Layout</SelectItem>
-            </SelectContent>
-          </Select>
-          <p className="text-xs text-slate-500">Algorithm used to position nodes in the graph</p>
-        </div>
-
-        <div className="space-y-4">
-          <div className="flex items-center justify-between">
-            <Label htmlFor="show-labels">Show Artist Names</Label>
-            <Switch
-              id="show-labels"
-              checked={settings.showLabels}
-              onCheckedChange={(checked) => updateSetting("showLabels", checked)}
+        {/* Essential Settings */}
+        <div className="space-y-6">
+          <h3 className="text-lg font-semibold">Essential Settings</h3>
+          <div className="space-y-2">
+            <Label htmlFor="vertex-limit">Maximum Vertices</Label>
+            <Input
+              id="vertex-limit"
+              type="number"
+              value={localVertexLimit}
+              onChange={(e) => {
+                  const newLimit = Number.parseInt(e.target.value) || 100;
+                  setLocalVertexLimit(newLimit);
+                  updateSetting("vertexLimit", newLimit); // Ensure settings are updated immediately
+              }}
+              min="1"
+              max="10000"
             />
+            <p className="text-xs text-slate-500">Limit the number of artists shown in the graph</p>
           </div>
 
-          <div className="flex items-center justify-between">
-            <Label htmlFor="show-weights">Show Collaboration Counts</Label>
-            <Switch
-              id="show-weights"
-              checked={settings.showWeights}
-              onCheckedChange={(checked) => updateSetting("showWeights", checked)}
-            />
+          <div className="space-y-2">
+            <Label>Shrinking Method</Label>
+            <Select
+              value={settings.shrinkMethod}
+              onValueChange={(value: "degree" | "random") => updateSetting("shrinkMethod", value)}
+            >
+              <SelectTrigger>
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="degree">Remove Lowest Degree</SelectItem>
+                <SelectItem value="random">Remove Randomly</SelectItem>
+              </SelectContent>
+            </Select>
+            <p className="text-xs text-slate-500">How to reduce the graph size when over the vertex limit</p>
           </div>
 
-          <div className="flex items-center justify-between">
-            <Label htmlFor="high-performance">High Performance Mode</Label>
-            <Switch
-              id="high-performance"
-              checked={settings.highPerformance}
-              onCheckedChange={(checked) => updateSetting("highPerformance", checked)}
-            />
+          <div className="space-y-2">
+            <Label>Layout Algorithm</Label>
+            <Select value={settings.layout} onValueChange={(value: any) => updateSetting("layout", value)}>
+              <SelectTrigger>
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="spring">Spring Layout</SelectItem>
+                <SelectItem value="circular">Circular Layout</SelectItem>
+                <SelectItem value="shell">Shell Layout</SelectItem>
+                <SelectItem value="random">Random Layout</SelectItem>
+                <SelectItem value="kamada">Kamada Kawai Layout</SelectItem>
+                <SelectItem value="fruchterman">Fruchterman Reingold Layout</SelectItem>
+              </SelectContent>
+            </Select>
+            <p className="text-xs text-slate-500">Algorithm used to position nodes in the graph</p>
           </div>
         </div>
 
-        <div className="pt-4 border-t">
-          <div className="flex items-center justify-between mb-3">
-            <Label className="text-sm font-medium">Export Graph</Label>
+        {/* Aesthetic Settings */}
+        <div className="space-y-6">
+          <h3 className="text-lg font-semibold">Aesthetic Settings</h3>
+          <div className="space-y-4">
+            <div className="flex items-center justify-between">
+              <Label htmlFor="show-labels">Show Artist Names</Label>
+              <Switch
+                id="show-labels"
+                checked={settings.showLabels}
+                onCheckedChange={(checked) => updateSetting("showLabels", checked)}
+              />
+            </div>
+
+            <div className="flex items-center justify-between">
+              <Label htmlFor="show-weights">Show Collaboration Counts</Label>
+              <Switch
+                id="show-weights"
+                checked={settings.showWeights}
+                onCheckedChange={(checked) => updateSetting("showWeights", checked)}
+              />
+            </div>
+
           </div>
-          <ExportControls graphData={graphData} settings={settings} />
         </div>
 
-        <Button onClick={handleGenerate} disabled={isLoading} className="w-full" size="lg">
+        {/* Generate Button */}
+        <Button onClick={() => {
+          onSettingsChange({ ...settings, vertexLimit: localVertexLimit });
+          onGenerate();
+        }} disabled={isLoading} className="w-full" size="lg">
           <Play className="h-4 w-4 mr-2" />
-          Generate Graph.
+          Generate Graph
         </Button>
         <div className="text-xs text-slate-500 text-center mt-2">
           Some graphs may require you to press twice to confirm.
           {/* THIS IS OBVIOUSLY A *BUG*, not supposed to be there at all, happens somewhat RANDOMLY */}
         </div>
+        <ExportControls graphData={graphData} settings={settings} />
+
       </CardContent>
     </Card>
-  )
+  );
 }

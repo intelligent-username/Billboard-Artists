@@ -46,19 +46,8 @@ export default function Home() {
   const generateGraph = async () => {
     setIsLoading(true)
     try {
-      // Check cache first
-      const cacheResponse = await fetch(`/api/graph/cache?settings=${encodeURIComponent(JSON.stringify(settings))}`)
-      if (cacheResponse.ok) {
-        const cacheResult = await cacheResponse.json()
-        if (cacheResult.cached) {
-          setGraphData(cacheResult.data)
-          setIsLoading(false)
-          return
-        }
-      }
-
-      // Generate new graph
-      const response = await fetch("/api/graph/generate", {
+      // Fetch actual graph data from backend
+      const response = await fetch("http://localhost:8000/api/graph/generate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -69,15 +58,6 @@ export default function Home() {
       if (response.ok) {
         const data = await response.json()
         setGraphData(data)
-
-        // Cache the result
-        await fetch("/api/graph/cache", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ settings, data }),
-        })
       } else {
         console.error("Failed to generate graph")
       }
@@ -94,7 +74,7 @@ export default function Home() {
       generateGraph();
       setShouldGenerate(false);
     }
-  }, [settings]);
+  }, [shouldGenerate]); // Fixed dependency array
 
   const updateData = async () => {
     setIsLoading(true)

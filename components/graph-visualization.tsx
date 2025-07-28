@@ -35,5 +35,5 @@ export default function GraphVisualization({ data, settings, isLoading }: GraphV
     );
   }
 
-  return <svg ref={svgRef} className="w-full h-full border border-slate-200 rounded-lg bg-white" />;
+  return <svg ref={svgRef} id = 'graph-svg' className="w-full h-full border border-slate-200 rounded-lg bg-white" />;
 }
