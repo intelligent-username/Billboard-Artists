@@ -60,13 +60,22 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
       target: typeof e.target === "object" ? (e.target as any).id : e.target,
     }));
 
+    // Find the special artist node
+    const specialArtist = data.nodes.find((n: any) => n.isSpecial);
+
+    // Determine if we're in degree-n connections mode (special artist present)
+    const isDegreeMode = !!specialArtist;
+
     // Dynamically set logical plotting area based on node count (square)
-    // Minimum size is the SVG's actual size, but grows with node count
+    // If degree mode, make canvas much larger
     const baseSize = Math.max(svgRef.current.clientWidth, svgRef.current.clientHeight);
     const nodeCount = data.nodes.length;
-    // Growth factor: tweak as needed for your graph density
-    const growth = Math.sqrt(nodeCount) * 100; 
-    const logicalSize = Math.max(baseSize, 300 + growth); // 300px minimum
+    let growth = Math.sqrt(nodeCount) * 100;
+    let logicalSize = Math.max(baseSize, 300 + growth);
+    if (isDegreeMode) {
+      // Make canvas much larger for degree-n connections mode
+      logicalSize = Math.max(baseSize, 700 + Math.sqrt(nodeCount) * 250);
+    }
     const width = logicalSize;
     const height = logicalSize;
     console.log(`Dynamic Logical Size: ${logicalSize} (for ${nodeCount} nodes)`);
@@ -83,6 +92,31 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
       d.y = Math.max(0, Math.min(height, height / 2 + spread * (Math.random() - 0.5)));
     });
 
+    // Calculate degree from special node for each node (if degree mode)
+    // Assume backend provides d.degreeFromSpecial for each node in degree mode
+
+    // Custom repulsion and link strength functions
+    function getRepulsion(d: any) {
+      if (isDegreeMode && typeof d.degreeFromSpecial === 'number') {
+        // Logarithmic growth: repulsion = base * (1 + scalar * log(degreeFromSpecial+1))
+        const scalar = 1.5; // tweak as needed
+        return REPULSION * (1 + scalar * Math.log(d.degreeFromSpecial + 1));
+      }
+      return REPULSION;
+    }
+    function getLinkStrength(link: any) {
+      if (isDegreeMode) {
+        // Weaken link strength based on furthest degree of source/target
+        const degSource = typeof link.source === 'object' ? link.source.degreeFromSpecial : data.nodes.find((n: any) => n.id === link.source)?.degreeFromSpecial;
+        const degTarget = typeof link.target === 'object' ? link.target.degreeFromSpecial : data.nodes.find((n: any) => n.id === link.target)?.degreeFromSpecial;
+        const maxDeg = Math.max(degSource ?? 1, degTarget ?? 1);
+        // Logarithmic decay: strength = base / (1 + scalar * log(maxDeg+1))
+        const scalar = 1.2; // tweak as needed
+        return LINK_STRENGTH / (1 + scalar * Math.log(maxDeg + 1));
+      }
+      return LINK_STRENGTH;
+    }
+
     // Create simulation based on layout type
     let simulation: d3.Simulation<any, any>;
     switch (settings.layout) {
@@ -95,9 +129,9 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
               .forceLink(cleanedEdges as d3.SimulationLinkDatum<d3.SimulationNodeDatum>[])
               .id((d: any) => d.id)
               .distance(LINK_DISTANCE * 1.0)
-              .strength(LINK_STRENGTH * 2.0)
+              .strength((d: any) => getLinkStrength(d) * 2.0)
           )
-          .force('charge', d3.forceManyBody().strength(REPULSION * 1.5))
+          .force('charge', d3.forceManyBody().strength((d: any) => getRepulsion(d) * 1.5))
           .force('center', d3.forceCenter(width / 2, height / 2))
           .force('collision', d3.forceCollide().radius(COLLISION_RADIUS * 0.8))
           .force('intraCluster', forceIntraCluster());
@@ -111,9 +145,9 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
               .forceLink(cleanedEdges as d3.SimulationLinkDatum<d3.SimulationNodeDatum>[])
               .id((d: any) => d.id)
               .distance(LINK_DISTANCE * 1.2)
-              .strength(LINK_STRENGTH * 0.8)
+              .strength((d: any) => getLinkStrength(d) * 0.8)
           )
-          .force('charge', d3.forceManyBody().strength(REPULSION * 2.0))
+          .force('charge', d3.forceManyBody().strength((d: any) => getRepulsion(d) * 2.0))
           .force('center', d3.forceCenter(width / 2, height / 2))
           .alphaDecay(ALPHA_DECAY * 1.0)
           .force('intraCluster', forceIntraCluster());
@@ -127,9 +161,9 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
               .forceLink(cleanedEdges as d3.SimulationLinkDatum<d3.SimulationNodeDatum>[])
               .id((d: any) => d.id)
               .distance(LINK_DISTANCE * 1.0)
-              .strength(LINK_STRENGTH * 1.0)
+              .strength((d: any) => getLinkStrength(d) * 1.0)
           )
-          .force('charge', d3.forceManyBody().strength(REPULSION * 1.0))
+          .force('charge', d3.forceManyBody().strength((d: any) => getRepulsion(d) * 1.0))
           .force('center', d3.forceCenter(width / 2, height / 2))
           .force('collision', d3.forceCollide().radius(COLLISION_RADIUS * 1.0))
           .force('intraCluster', forceIntraCluster());
@@ -154,7 +188,13 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
       .append('line')
       .attr('stroke', '#8b5cf6')
       .attr('stroke-opacity', 0.6)
-      .attr('stroke-width', (d: any) => Math.max(1, Math.min(8, d.weight / 2)));
+      .attr('stroke-width', (d: any) => Math.max(1, Math.min(8, d.weight * 2)));
+
+    // Center the special artist node only once at initialization
+    if (specialArtist && typeof specialArtist.x === 'undefined' && typeof specialArtist.y === 'undefined') {
+      specialArtist.x = width / 2;
+      specialArtist.y = height / 2;
+    }
 
     const node = g
       .append('g')
@@ -164,10 +204,11 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
       .append('circle')
       .attr('class', 'graph-node')
       .attr('tabindex', -1)
-      .attr('r', (d: any) => Math.max(5, Math.sqrt(d.degree) * 3))
-      .attr('fill', (d: any, i: number) => d3.schemeCategory10[i % 10])
-      .attr('stroke', '#fff')
-      .attr('stroke-width', 2)
+      .attr('r', (d: any) => d.isSpecial ? 40 : Math.max(5, Math.sqrt(d.degree) * 3))
+      .attr('fill', (d: any, i: number) => d.isSpecial ? '#f59e42' : d3.schemeCategory10[i % 10])
+      .attr('stroke', (d: any) => d.isSpecial ? '#222' : '#fff')
+      .attr('stroke-width', (d: any) => d.isSpecial ? 8 : 2)
+      .style('filter', (d: any) => d.isSpecial ? 'drop-shadow(0 0 12px #f59e42)' : '')
       .call(d3.drag().on('start', dragstarted).on('drag', dragged).on('end', dragended) as any);
 
     let labels: any;
@@ -179,9 +220,12 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
         .enter()
         .append('text')
         .text((d: any) => d.name)
-        .attr('font-size', '10px')
-        .attr('dx', 12)
-        .attr('dy', 4);
+        .attr('font-size', (d: any) => d.isSpecial ? '18px' : '11px')
+        .attr('font-family', (d: any) => d.isSpecial ? 'Segoe UI, Arial, sans-serif' : 'inherit')
+        .attr('font-weight', (d: any) => d.isSpecial ? '600' : '400')
+        .attr('fill', (d: any) => d.isSpecial ? '#222' : '#444')
+        .attr('text-anchor', (d: any) => d.isSpecial ? 'middle' : 'start')
+        .attr('alignment-baseline', (d: any) => d.isSpecial ? 'middle' : 'hanging');
     }
 
     let edgeLabels: any;
@@ -209,12 +253,15 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
 
       // Clamp node positions to visible SVG area
       data.nodes.forEach((d: any) => {
+        // Clamp all nodes to visible SVG area
         d.x = Math.max(0, Math.min(width, d.x));
         d.y = Math.max(0, Math.min(height, d.y));
       });
 
       if (labels) {
-        labels.attr('x', (d: any) => d.x).attr('y', (d: any) => d.y);
+        labels
+          .attr('x', (d: any) => d.x)
+          .attr('y', (d: any) => d.y); // Center label for all nodes
       }
 
       if (edgeLabels) {
@@ -237,8 +284,14 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
 
     function dragended(event: any) {
       if (!event.active) simulation.alphaTarget(0);
-      event.subject.fx = null;
-      event.subject.fy = null;
+      // For special artist, return to center when drag ends
+      if (event.subject.isSpecial) {
+        event.subject.fx = width / 2;
+        event.subject.fy = height / 2;
+      } else {
+        event.subject.fx = null;
+        event.subject.fy = null;
+      }
     }
 
     return () => {

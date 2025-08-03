@@ -4,10 +4,10 @@ This project visualizes artist collaborations from the Billboard Global 200 char
 
 ## Features
 
-- Interactive graph visualization of artist collaborations.
-- Customizable graph settings, including layout, vertex limit, and more.
-- Light and dark themes.
-- Export the graph as a PNG image or JSON data.
+- Collect and download latest Global 200 data from Billboard
+- Graph this data via Artist connections
+- Export these graphs for future use (PNG, SVG, or simple JSON)
+- Find connections for specific artists
 
 ## Tech Stack
 
@@ -18,7 +18,7 @@ This project visualizes artist collaborations from the Billboard Global 200 char
 - Tailwind CSS
 - Python for data processing
 
-## Getting Started
+## Running the Project
 
 1. Install frontend dependencies:
 
@@ -36,7 +36,11 @@ This project visualizes artist collaborations from the Billboard Global 200 char
     uvicorn app:app --reload
     ```
 
+    In future runs, just navigate to the backend folder and run the FastAPI backend:
+    `uvicorn app:app --reload`
+
    The backend will be available at [http://localhost:8000](http://localhost:8000).
+   Make sure no other processes are running at that location.
 
 3. In a new terminal, run the development server for the frontend:
 

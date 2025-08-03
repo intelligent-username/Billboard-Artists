@@ -1,10 +1,13 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useCallback } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
 import GraphVisualization from "@/components/graph-visualization"
 import DataPanel from "@/components/data-panel"
 import GraphSettings from "@/components/graph-settings" // Import GraphSettings component
+import ArtistSearch from "@/components/artist-search"
+import ArtistConnections from "@/components/artist-connections"
 import { Loader2 } from "lucide-react"
 import { ThemeProvider } from "@/components/theme-provider"
 import { ThemeToggle } from "@/components/theme-toggle"
@@ -25,6 +28,11 @@ export default function Home() {
   })
   // Track if a settings change should trigger graph generation
   const [shouldGenerate, setShouldGenerate] = useState(false);
+  const [selectedArtist, setSelectedArtist] = useState<string | null>(null);
+  const [displayConnectionsMode, setDisplayConnectionsMode] = useState(false);
+  const [connectionsGraphData, setConnectionsGraphData] = useState<GraphData | null>(null);
+  const [isLoadingConnections, setIsLoadingConnections] = useState(false);
+  const [connectionDegree, setConnectionDegree] = useState(1);
 
   useEffect(() => {
     // Load initial data and last update date
@@ -45,6 +53,7 @@ export default function Home() {
 
   const generateGraph = async () => {
     setIsLoading(true)
+    setDisplayConnectionsMode(false) // Switch back to generated graph mode
     try {
       // Fetch actual graph data from backend
       const response = await fetch("http://localhost:8000/api/graph/generate", {
@@ -76,6 +85,21 @@ export default function Home() {
     }
   }, [shouldGenerate]); // Fixed dependency array
 
+  // useEffect to handle artist selection changes
+  useEffect(() => {
+    if (!selectedArtist && displayConnectionsMode) {
+      setDisplayConnectionsMode(false);
+      setConnectionsGraphData(null);
+    }
+  }, [selectedArtist, displayConnectionsMode]);
+
+  // useEffect to refresh connections when degree changes
+  useEffect(() => {
+    if (displayConnectionsMode && selectedArtist) {
+      displayArtistConnections();
+    }
+  }, [connectionDegree]); // Re-fetch when degree changes
+
   const updateData = async () => {
     setIsLoading(true)
     try {
@@ -98,6 +122,61 @@ export default function Home() {
     }
   }
 
+  const searchArtists = useCallback(async (query: string) => {
+    const response = await fetch(`http://localhost:8000/api/search?query=${encodeURIComponent(query)}`);
+    if (!response.ok) {
+      throw new Error("Failed to search artists");
+    }
+    return await response.json();
+  }, []);
+
+  const getArtistConnections = useCallback(async (artist: string, degree: number = 1) => {
+    const response = await fetch(
+      `http://localhost:8000/api/artist/${encodeURIComponent(artist)}/connections?degree=${degree}`
+    );
+    if (!response.ok) {
+      const error = new Error(`Failed to get connections for ${artist}`);
+      (error as any).status = response.status;
+      throw error;
+    }
+    return await response.json();
+  }, []);
+
+  const getArtistConnectionsGraph = useCallback(async (artist: string, degree: number = 1) => {
+    const response = await fetch(
+      `http://localhost:8000/api/artist/${encodeURIComponent(artist)}/connections-graph?degree=${degree}`
+    );
+    if (!response.ok) {
+      const error = new Error(`Failed to get connections graph for ${artist}`);
+      (error as any).status = response.status;
+      throw error;
+    }
+    return await response.json();
+  }, []);
+
+  const displayArtistConnections = async () => {
+    if (!selectedArtist) return;
+    
+    setIsLoadingConnections(true);
+    try {
+      // Get the complete graph structure from the backend
+      const graphData = await getArtistConnectionsGraph(selectedArtist, connectionDegree);
+      // Mark the special artist node
+      if (graphData && graphData.nodes) {
+        graphData.nodes = graphData.nodes.map((node: any) =>
+          node.id === selectedArtist ? { ...node, isSpecial: true } : node
+        );
+      }
+      setConnectionsGraphData(graphData);
+      setDisplayConnectionsMode(true);
+    } catch (error) {
+      console.error("Error displaying connections:", error);
+      // Handle error appropriately
+    } finally {
+      setIsLoadingConnections(false);
+    }
+  };
+
   return (
     <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
       <div className="min-h-screen relative">
@@ -114,25 +193,119 @@ export default function Home() {
               <p className="text-slate-600 dark:text-slate-300">
                 Visualize artist collaborations from Billboard Global 200 charts
               </p>
+              <p style={{ fontSize: '0.7em', color: 'gray' }}>
+                *Note: The Global 200 Charts were started in September 2020.
+              </p>
             </header>
 
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 h-[calc(100vh-200px)]">
-              {/* Left Panel - Data Info */}
-              <div className="lg:col-span-1">
+              {/* Left Panel - Artist Search & Data Info */}
+              <div className="lg:col-span-1 space-y-4 overflow-y-auto">
+                <Card>
+                  <CardHeader>
+                    <CardTitle>Artist Search</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <ArtistSearch
+                      onSearch={searchArtists}
+                      onSelect={setSelectedArtist}
+                      onClear={() => setSelectedArtist(null)}
+                    />
+                  </CardContent>
+                </Card>
+
+                {selectedArtist && (
+                  <>
+                    <ArtistConnections
+                      artistName={selectedArtist}
+                      getConnections={(artist: string) => getArtistConnections(artist, 1)}
+                    />
+                    <Card>
+                      <CardHeader>
+                        <CardTitle>Visualization Controls</CardTitle>
+                      </CardHeader>
+                      <CardContent className="space-y-2">
+                        <Button 
+                          onClick={displayArtistConnections}
+                          disabled={isLoadingConnections || !selectedArtist}
+                          className="w-full"
+                          variant={displayConnectionsMode ? "secondary" : "default"}
+                        >
+                          {isLoadingConnections ? (
+                            <>
+                              <Loader2 className="h-4 w-4 animate-spin mr-2" />
+                              Loading...
+                            </>
+                          ) : (
+                            "Display Connections"
+                          )}
+                        </Button>
+                        
+                        {/* Degree Selector */}
+                        <div className="flex items-center space-x-2">
+                          <label htmlFor="degree-select" className="text-sm font-medium">
+                            Degree:
+                          </label>
+                          <select 
+                            id="degree-select"
+                            value={connectionDegree}
+                            onChange={(e) => setConnectionDegree(Number(e.target.value))}
+                            className="flex-1 px-2 py-1 text-sm border rounded-md bg-background"
+                            disabled={isLoadingConnections}
+                          >
+                            <option value={1}>Direct (1)</option>
+                            <option value={2}>Up to 2</option>
+                            <option value={3}>Up to 3</option>
+                            <option value={4}>Up to 4</option>
+                            <option value={5}>Up to 5</option>
+                          </select>
+                        </div>
+                        
+                        {displayConnectionsMode && (
+                          <>
+                            <Button 
+                              onClick={() => setDisplayConnectionsMode(false)}
+                              className="w-full"
+                              variant="outline"
+                            >
+                              Back to Generated Graph
+                            </Button>
+                            <p className="text-xs text-muted-foreground">
+                              Showing connections for {selectedArtist} (degree {connectionDegree})
+                            </p>
+                          </>
+                        )}
+                      </CardContent>
+                    </Card>
+                  </>
+                )}
+
                 <DataPanel lastUpdate={lastUpdate} onUpdateData={updateData} isLoading={isLoading} />
               </div>
 
-              {/* Center Panel - Graph Visualization */}
+              {/* Center Panel - Graph Canvas */}
               <div className="lg:col-span-2">
                 <Card className="h-full neon-border graph-container">
                   <CardHeader>
                     <CardTitle className="flex items-center gap-2">
-                      Collaboration Network
-                      {isLoading && <Loader2 className="h-4 w-4 animate-spin" />}
+                      {displayConnectionsMode ? `${selectedArtist} Connections` : "Collaboration Network"}
+                      {(isLoading || isLoadingConnections) && <Loader2 className="h-4 w-4 animate-spin" />}
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="h-[calc(100%-80px)]">
-                    <GraphVisualization data={graphData} settings={settings} isLoading={isLoading} />
+                    {displayConnectionsMode ? (
+                      <GraphVisualization 
+                        data={connectionsGraphData} 
+                        settings={settings} 
+                        isLoading={isLoadingConnections} 
+                      />
+                    ) : (
+                      <GraphVisualization 
+                        data={graphData} 
+                        settings={settings} 
+                        isLoading={isLoading} 
+                      />
+                    )}
                   </CardContent>
                 </Card>
               </div>

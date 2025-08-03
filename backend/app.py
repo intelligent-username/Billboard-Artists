@@ -7,7 +7,7 @@ import json
 import subprocess
 import sys
 from pathlib import Path
-from typing import Dict, Any
+from typing import Dict, Any, List
 import logging
 import tempfile
 import os
@@ -16,6 +16,8 @@ from fastapi import FastAPI, HTTPException, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
 from pydantic import BaseModel
+
+from data_access import DataAccessLayer
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -41,6 +43,13 @@ STATIC_DIR = BASE_DIR / "static"
 
 # Ensure static directory exists
 STATIC_DIR.mkdir(exist_ok=True)
+
+# Initialize Data Access Layer
+try:
+    dal = DataAccessLayer(DATA_DIR / "collaborations.json", DATA_DIR / "songs_to_artists.json")
+except Exception as e:
+    logger.error(f"Failed to initialize DAL: {e}")
+    dal = None
 
 class GraphSettings(BaseModel):
     """Graph settings for PNG generation"""
@@ -82,6 +91,70 @@ def run_script(script_name: str, *args) -> subprocess.CompletedProcess:
 async def root():
     """Health check endpoint"""
     return {"message": "Billboard Artists API is running"}
+
+@app.get("/api/search")
+async def search_artists(query: str) -> List[str]:
+    """Searches for artists whose names contain the query string."""
+    if dal is None:
+        raise HTTPException(status_code=503, detail="Data service not available")
+    try:
+        results = dal.search_artists(query)
+        return results
+    except Exception as e:
+        logger.error(f"Search failed: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/artist/{artist_name}/connections")
+async def get_artist_connections(artist_name: str, degree: int = 1) -> Dict[str, Dict]:
+    """Retrieves connections for a specific artist up to specified degree."""
+    if dal is None:
+        raise HTTPException(status_code=503, detail="Data service not available")
+    
+    # Validate degree parameter
+    if degree < 1:
+        raise HTTPException(status_code=400, detail="Degree must be at least 1")
+    if degree > 5:  # Limit to prevent excessive computation
+        raise HTTPException(status_code=400, detail="Degree cannot exceed 5")
+    
+    try:
+        connections = dal.get_artist_connections(artist_name, degree=degree)
+        # Check if artist exists in data (even with no connections)
+        if not dal.artist_exists(artist_name):
+            raise HTTPException(
+                status_code=404, detail=f"Artist not found: {artist_name}"
+            )
+        return connections
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Failed to get connections: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/artist/{artist_name}/connections-graph")
+async def get_artist_connections_graph(artist_name: str, degree: int = 1) -> Dict:
+    """Retrieves the complete graph structure for an artist's connections up to specified degree."""
+    if dal is None:
+        raise HTTPException(status_code=503, detail="Data service not available")
+    
+    # Validate degree parameter
+    if degree < 1:
+        raise HTTPException(status_code=400, detail="Degree must be at least 1")
+    if degree > 5:  # Limit to prevent excessive computation
+        raise HTTPException(status_code=400, detail="Degree cannot exceed 5")
+    
+    try:
+        graph_data = dal.get_artist_connections_graph(artist_name, degree=degree)
+        # Check if artist exists in data (even with no connections)
+        if not dal.artist_exists(artist_name):
+            raise HTTPException(
+                status_code=404, detail=f"Artist not found: {artist_name}"
+            )
+        return graph_data
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Failed to get connections graph: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
 
 @app.get("/api/update-status")
 async def get_update_status():
