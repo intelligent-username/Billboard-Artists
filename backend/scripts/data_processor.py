@@ -5,6 +5,7 @@ Enhanced data processing module with better error handling and modularity.
 import json
 import csv
 from pathlib import Path
+import json
 from typing import Dict, List, Tuple, Set
 import logging
 from dataclasses import dataclass
@@ -176,21 +177,24 @@ class DataProcessor:
                 elif collaborations[other_artist].get(artist, 0) != count:
                     logger.warning(f"Collaboration count mismatch: {artist} <-> {other_artist}")
     
-    def _save_with_backup(self, data: Dict, filepath: str) -> None:
-        """Save data with backup of existing file."""
-        path = Path(filepath)
-        
-        # Create backup if file exists
+    def _save_with_backup(self, data: dict, path: Path) -> None:
+        """Write JSON to path, moving existing file to .backup (overwriting any prior backup)."""
+        path = Path(path)
+        path.parent.mkdir(parents=True, exist_ok=True)
+
         if path.exists():
-            backup_path = path.with_suffix(f"{path.suffix}.backup")
-            path.rename(backup_path)
-            logger.info(f"Created backup: {backup_path}")
+            backup_path = path.with_suffix(path.suffix + ".backup")
+            try:
+                # Overwrite any existing backup atomically (Windows-safe)
+                path.replace(backup_path)
+            except FileExistsError:
+                backup_path.unlink(missing_ok=True)
+                path.replace(backup_path)
+
+        with path.open("w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
         
-        # Save new data
-        with open(filepath, 'w', encoding='utf-8') as file:
-            json.dump(data, file, indent=2, ensure_ascii=False)
-        
-        logger.info(f"Saved {len(data)} entries to {filepath}")
+        logger.info(f"Saved {len(data)} entries to {path}")
 
 def main():
     """Main function for command-line usage."""
