@@ -1,21 +1,18 @@
 
-# dependencies
 /node_modules
 
-# next.js
 /.next/
 /out/
 
-# production
+__tests__/
+
 /build
 
-# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files
 .env*
 
 # typescript
@@ -28,4 +25,5 @@ node_modules/
 .env
 dato/
 *cache*
+*cache/*
 *backup*
