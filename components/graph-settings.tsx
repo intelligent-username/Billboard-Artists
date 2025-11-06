@@ -120,6 +120,15 @@ export default function GraphSettings({
               />
             </div>
 
+            <div className="flex items-center justify-between">
+              <Label htmlFor="dynamic-mode">Dynamism</Label>
+              <Switch
+                id="dynamic-mode"
+                checked={settings.dynamicMode}
+                onCheckedChange={(checked) => updateSetting("dynamicMode", checked)}
+              />
+            </div>
+
           </div>
         </div>
 

@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect, useCallback } from "react"
+import { useState, useEffect, useCallback, useRef } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import GraphVisualization from "@/components/graph-visualization"
@@ -8,11 +8,12 @@ import DataPanel from "@/components/data-panel"
 import GraphSettings from "@/components/graph-settings" // Import GraphSettings component
 import ArtistSearch from "@/components/artist-search"
 import ArtistConnections from "@/components/artist-connections"
-import { Loader2 } from "lucide-react"
+import { Loader2, Maximize2, Minimize2 } from "lucide-react"
 import { ThemeProvider } from "@/components/theme-provider"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { WaveformBackground } from "@/components/waveform-background"
 import { GraphData, GraphSettings as GraphSettingsType } from "@/lib/types/graph";
+import { Calendar } from "lucide-react";
 
 export default function Home() {
   const [graphData, setGraphData] = useState<GraphData | null>(null)
@@ -25,6 +26,7 @@ export default function Home() {
     layout: "spring",
     showLabels: true,
     showWeights: false,
+    dynamicMode: false,
   })
   // Track if a settings change should trigger graph generation
   const [shouldGenerate, setShouldGenerate] = useState(false);
@@ -33,6 +35,33 @@ export default function Home() {
   const [connectionsGraphData, setConnectionsGraphData] = useState<GraphData | null>(null);
   const [isLoadingConnections, setIsLoadingConnections] = useState(false);
   const [connectionDegree, setConnectionDegree] = useState(1);
+  // Fullscreen state and refs
+  const centerCardRef = useRef<HTMLDivElement | null>(null);
+  const [isFullscreen, setIsFullscreen] = useState(false);
+  const [viewportKey, setViewportKey] = useState(0);
+
+  useEffect(() => {
+    const onFsChange = () => {
+      const fs = !!document.fullscreenElement;
+      setIsFullscreen(fs);
+      // bump key so D3 recomputes layout
+      setViewportKey((k) => k + 1);
+    };
+    document.addEventListener("fullscreenchange", onFsChange);
+    return () => document.removeEventListener("fullscreenchange", onFsChange);
+  }, []);
+
+  const toggleFullscreen = async () => {
+    try {
+      if (!document.fullscreenElement) {
+        await centerCardRef.current?.requestFullscreen?.();
+      } else {
+        await document.exitFullscreen();
+      }
+    } catch (e) {
+      console.error("Fullscreen toggle failed", e);
+    }
+  };
 
   useEffect(() => {
     // Load initial data and last update date
@@ -53,7 +82,9 @@ export default function Home() {
 
   const generateGraph = async () => {
     setIsLoading(true)
-    setDisplayConnectionsMode(false) // Switch back to generated graph mode
+    setDisplayConnectionsMode(false)
+    // Free the connections graph when (re)generating main graph
+    setConnectionsGraphData(null)
     try {
       // Fetch actual graph data from backend
       const response = await fetch("http://localhost:8000/api/graph/generate", {
@@ -142,9 +173,16 @@ export default function Home() {
     return await response.json();
   }, []);
 
+  const connectionsAbortRef = useRef<AbortController | null>(null)
+
   const getArtistConnectionsGraph = useCallback(async (artist: string, degree: number = 1) => {
+    connectionsAbortRef.current?.abort()
+    const controller = new AbortController()
+    connectionsAbortRef.current = controller
+
     const response = await fetch(
-      `http://localhost:8000/api/artist/${encodeURIComponent(artist)}/connections-graph?degree=${degree}`
+      `http://localhost:8000/api/artist/${encodeURIComponent(artist)}/connections-graph?degree=${degree}`,
+      { signal: controller.signal }
     );
     if (!response.ok) {
       const error = new Error(`Failed to get connections graph for ${artist}`);
@@ -154,24 +192,28 @@ export default function Home() {
     return await response.json();
   }, []);
 
+  useEffect(() => {
+    return () => {
+      connectionsAbortRef.current?.abort()
+    }
+  }, [])
+
   const displayArtistConnections = async () => {
     if (!selectedArtist) return;
-    
     setIsLoadingConnections(true);
     try {
-      // Get the complete graph structure from the backend
       const graphData = await getArtistConnectionsGraph(selectedArtist, connectionDegree);
-      // Mark the special artist node
       if (graphData && graphData.nodes) {
         graphData.nodes = graphData.nodes.map((node: any) =>
           node.id === selectedArtist ? { ...node, isSpecial: true } : node
         );
       }
+      // Free the generated graph while showing connections
+      setGraphData(null)
       setConnectionsGraphData(graphData);
       setDisplayConnectionsMode(true);
     } catch (error) {
       console.error("Error displaying connections:", error);
-      // Handle error appropriately
     } finally {
       setIsLoadingConnections(false);
     }
@@ -198,9 +240,9 @@ export default function Home() {
               </p>
             </header>
 
-            <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 h-[calc(100vh-200px)]">
+            <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
               {/* Left Panel - Artist Search & Data Info */}
-              <div className="lg:col-span-1 space-y-4 overflow-y-auto">
+              <div className="lg:col-span-1 space-y-4">
                 <Card>
                   <CardHeader>
                     <CardTitle>Artist Search</CardTitle>
@@ -264,7 +306,11 @@ export default function Home() {
                         {displayConnectionsMode && (
                           <>
                             <Button 
-                              onClick={() => setDisplayConnectionsMode(false)}
+                              onClick={() => {
+                                setDisplayConnectionsMode(false)
+                                // Free the connections graph when returning
+                                setConnectionsGraphData(null)
+                              }}
                               className="w-full"
                               variant="outline"
                             >
@@ -280,30 +326,44 @@ export default function Home() {
                   </>
                 )}
 
-                <DataPanel lastUpdate={lastUpdate} onUpdateData={updateData} isLoading={isLoading} />
+                <DataPanel
+                  lastUpdate={lastUpdate}
+                  onUpdateData={updateData}
+                  isLoading={isLoading}
+                />
               </div>
 
               {/* Center Panel - Graph Canvas */}
               <div className="lg:col-span-2">
-                <Card className="h-full neon-border graph-container">
-                  <CardHeader>
+                <Card
+                  ref={centerCardRef}
+                  className={`neon-border graph-container ${isFullscreen ? "flex flex-col h-full w-full" : ""}`}
+                >
+                  <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                     <CardTitle className="flex items-center gap-2">
                       {displayConnectionsMode ? `${selectedArtist} Connections` : "Collaboration Network"}
                       {(isLoading || isLoadingConnections) && <Loader2 className="h-4 w-4 animate-spin" />}
                     </CardTitle>
+                    <Button variant="ghost" size="icon" aria-label={isFullscreen ? "Exit fullscreen" : "Enter fullscreen"} onClick={toggleFullscreen}>
+                      {isFullscreen ? <Minimize2 className="h-4 w-4" /> : <Maximize2 className="h-4 w-4" />}
+                    </Button>
                   </CardHeader>
-                  <CardContent className="h-[calc(100%-80px)]">
+                  <CardContent className={isFullscreen ? "flex-1 p-0 overflow-hidden" : "p-4"}>
                     {displayConnectionsMode ? (
                       <GraphVisualization 
-                        data={connectionsGraphData} 
-                        settings={settings} 
-                        isLoading={isLoadingConnections} 
+                        data={connectionsGraphData}
+                        settings={settings}
+                        isLoading={isLoadingConnections}
+                        viewportKey={viewportKey}
+                        fillHeight={isFullscreen}
                       />
                     ) : (
                       <GraphVisualization 
-                        data={graphData} 
-                        settings={settings} 
-                        isLoading={isLoading} 
+                        data={graphData}
+                        settings={settings}
+                        isLoading={isLoading}
+                        viewportKey={viewportKey}
+                        fillHeight={isFullscreen}
                       />
                     )}
                   </CardContent>

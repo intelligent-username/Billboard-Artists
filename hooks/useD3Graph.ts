@@ -46,7 +46,7 @@ function forceIntraCluster(strength = INTRA_CLUSTER_STRENGTH, radius = INTRA_CLU
   return force;
 }
 
-export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
+export function useD3Graph(data: GraphData | null, settings: GraphSettings, viewportKey: number = 0) {
   const svgRef = useRef<SVGSVGElement>(null);
 
   useEffect(() => {
@@ -70,18 +70,11 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
     // Determine if we're in degree-n connections mode (special artist present)
     const isDegreeMode = !!specialArtist;
 
-    // Dynamically set logical plotting area based on node count (square)
-    // If degree mode, make canvas much larger
-    const baseSize = Math.max(svgRef.current.clientWidth, svgRef.current.clientHeight);
-  const nodeCount = nodes.length;
-    let growth = Math.sqrt(nodeCount) * 100;
-    let logicalSize = Math.max(baseSize, 300 + growth);
-    if (isDegreeMode) {
-      // Make canvas much larger for degree-n connections mode
-      logicalSize = Math.max(baseSize, 700 + Math.sqrt(nodeCount) * 250);
-    }
-  const width = logicalSize;
-  const height = logicalSize;
+    // Use actual container size to respect aspect ratio (e.g., 1:2 from wrapper)
+    const containerWidth = svgRef.current.clientWidth || 800;
+    const containerHeight = svgRef.current.clientHeight || Math.round(containerWidth * 2);
+    const width = containerWidth;
+    const height = containerHeight;
 
   const svg = d3.select(svgRef.current);
   svg.attr('width', width).attr('height', height);
@@ -173,6 +166,28 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
           .force('center', d3.forceCenter(width / 2, height / 2))
           .force('collision', d3.forceCollide().radius(COLLISION_RADIUS * 1.0))
           .force('intraCluster', forceIntraCluster());
+    }
+
+    // Apply dynamic mode - just nudge one random node occasionally
+    if (settings.dynamicMode) {
+      const NUDGE_INTERVAL = 180; // ~3s at 60fps
+      const NUDGE_MAGNITUDE = 0.002; // tiny velocity tweak
+      simulation
+        .alphaTarget(0.1) // approach 10% of initial energy for perpetual low chaos
+        .alphaDecay(ALPHA_DECAY * 0.5) // slower decay to maintain steady chaos
+        .velocityDecay(0.95); // less damping to preserve motion
+
+      let tickCount = 0;
+      simulation.on("tick.chaos", () => {
+        if (++tickCount % NUDGE_INTERVAL === 0 && nodes.length > 0) {
+          const node = nodes[Math.floor(Math.random() * nodes.length)] as any;
+          node.vx = (node.vx || 0) + (Math.random() - 0.5) * NUDGE_MAGNITUDE;
+          node.vy = (node.vy || 0) + (Math.random() - 0.5) * NUDGE_MAGNITUDE;
+        }
+      });
+    } else {
+      simulation.on("tick.chaos", null);
+      simulation.alphaTarget(0).alphaDecay(ALPHA_DECAY).velocityDecay(0.5);
     }
 
     // Create zoom behavior
@@ -277,18 +292,16 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
     });
 
     function dragstarted(event: any) {
-      if (!event.active) simulation.alphaTarget(0.3).restart();
+      if (!event.active && !settings.dynamicMode) simulation.alphaTarget(0.3).restart();
       event.subject.fx = event.subject.x;
       event.subject.fy = event.subject.y;
     }
-
     function dragged(event: any) {
       event.subject.fx = event.x;
       event.subject.fy = event.y;
     }
-
     function dragended(event: any) {
-      if (!event.active) simulation.alphaTarget(0);
+      if (!event.active && !settings.dynamicMode) simulation.alphaTarget(0);
       // For special artist, return to center when drag ends
       if (event.subject.isSpecial) {
         event.subject.fx = width / 2;
@@ -300,10 +313,20 @@ export function useD3Graph(data: GraphData | null, settings: GraphSettings) {
     }
 
     return () => {
+      // stop sim and remove tick handlers (including the dynamicMode “chaos” tick)
+      simulation.on('tick', null);
+      simulation.on('tick.chaos', null as any);
       simulation.stop();
+
+      // detach zoom listeners and purge DOM to drop references
+      if (svgRef.current) {
+        const svgSel = d3.select(svgRef.current);
+        svgSel.on('.zoom', null);
+        svgSel.selectAll('*').interrupt();
+        svgSel.selectAll('*').remove();
+      }
     };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [data]);
+  }, [data, settings.dynamicMode, settings.layout, settings.showLabels, settings.showWeights, viewportKey]);
 
   return svgRef;
 }

@@ -1,15 +1,10 @@
 fastapi
-uvicorn[standard]==0.24.0
+uvicorn
 pydantic
-# pyCairo
-# rlPyCairo
-svglib==1.0.1
-reportlab==3.5.59
+svglib
+reportlab
 requests
 beautifulsoup4
 pandas
-networkx
-matplotlib
 pillow
-# svgwrite
 svgpathtools

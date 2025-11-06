@@ -50,12 +50,13 @@ export function WaveformBackground() {
       time += 16
       animationId = requestAnimationFrame(animate)
     }
-
-    animate()
+    animationId = requestAnimationFrame(animate)
 
     return () => {
       window.removeEventListener("resize", resizeCanvas)
-      cancelAnimationFrame(animationId)
+      if (animationId) cancelAnimationFrame(animationId)
+      // optional: clear canvas
+      ctx.clearRect(0, 0, canvas.width, canvas.height)
     }
   }, [])
 
