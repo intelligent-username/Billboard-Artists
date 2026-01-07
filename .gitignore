@@ -5,6 +5,7 @@
 /out/
 
 __tests__/
+*TEST*
 
 /build
 

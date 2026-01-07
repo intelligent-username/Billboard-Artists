@@ -82,4 +82,4 @@ Refer to here when expanding or modifying any features.
 
 ---
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
