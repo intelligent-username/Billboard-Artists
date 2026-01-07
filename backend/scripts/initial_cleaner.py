@@ -1,6 +1,4 @@
 """
-CSC111 Project 2: Initial CSV Cleaner
-
 This module goes through the raw data scraped from Billboard.com and removes duplicate songs,
 keeping only the entry with the best (lowest number) rank.
 Doing this greatly helps reduce the amount of data that needs to be processed.

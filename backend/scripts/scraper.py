@@ -1,9 +1,3 @@
-"""
-CSC111 Project 2: Webscraper
-
-This model scrapes the data we need from Billboard website.
-"""
-
 from datetime import datetime, timedelta
 import time
 import csv
@@ -36,7 +30,7 @@ def split_artist(artist_str: str) -> tuple[str, str]:
         featuring = ""
     return main_artist, featuring
 
-
+    
 def parse_chart_row(row: bs4.element.Tag, date_str: str) -> Optional[dict]:
     """
     Parses a single chart row (a <ul class="o-chart-results-list-row"> element)

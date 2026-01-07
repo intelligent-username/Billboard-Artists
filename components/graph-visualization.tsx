@@ -1,7 +1,7 @@
 "use client"
 
 import { GraphData, GraphSettings } from "@/lib/types/graph";
-import { useD3Graph } from "@/hooks/useD3Graph";
+import { useD3Graph } from "@/lib/hooks/useD3Graph";
 import { Loader2 } from "lucide-react";
 
 interface GraphVisualizationProps {

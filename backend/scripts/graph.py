@@ -1,6 +1,4 @@
 """
-CSC111 Project 2: Graph Builder
-
 This module loads the JSON file created by the CSV Processor and Dictionary Builder in process.csv
 and uses it to build a NetworkX weighted graph.
 """

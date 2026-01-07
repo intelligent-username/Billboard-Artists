@@ -27,3 +27,8 @@ dato/
 *cache*
 *cache/*
 *backup*
+*.pyc
+**.ker
+
+*.h5
+*.hdf5
