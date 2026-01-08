@@ -9,3 +9,4 @@ pandas
 pillow
 svgpathtools
 ipykernel
+pandas
