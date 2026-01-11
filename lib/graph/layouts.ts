@@ -31,7 +31,7 @@ export function randomLayout(data: GraphData, width: number, height: number) {
   data.nodes.forEach((node: any) => {
     node.x = Math.random() * (width - 100) + 50;
     node.y = Math.random() * (height - 100) + 50;
-    // Removed pinning to allow simulation to move nodes
+    // DO NOT PIN, MUST BE MOVABLE
     node.fx = node.x;
     node.fy = node.y;
   });

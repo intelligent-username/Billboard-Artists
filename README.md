@@ -1,4 +1,4 @@
-# Billboard Collaboration Analysis
+# Billboard Performance
 
 This project visualizes artist collaborations from the Billboard Global 200 charts and predicts future performance.
 
@@ -6,17 +6,17 @@ This project visualizes artist collaborations from the Billboard Global 200 char
 
 - Collect and download latest Global 200 data from Billboard
 - Graph this data via Artist connections
+- See first, second, etc. degree connections
 - Export these graphs for future use (PNG, SVG, or simple JSON)
 - Find connections for specific artists
+- Use connection data to predict future debut performance
 
-## Tech Stack
+## Tech Stack (Prerequisites)
 
-- Next.js
-- React
-- TypeScript
-- D3.js
-- Tailwind CSS
-- Python for data processing
+- npm (Node.js)
+- Python 3.8+
+
+For everything else, run the instructions below.
 
 ## Running the Project
 
@@ -61,22 +61,22 @@ For reference, here's an overview of the data flow.
 
 #### Data Flow
 
-1.  **Data Scraping:** Raw data is scraped from  Billboard.com.
-2.  **Initial Cleaning:** `initial_cleaner.py` removes duplicate songs.
-3.  **Data Processing:** `data_processor.py` builds the collaboration graph.
-4.  **API Endpoint:** The Next.js API endpoint at `/api/graph/generate` serves the graph data.
-5.  **Frontend:** The React frontend fetches and renders the graph using D3.js.
+1. **Data Scraping:** Raw data is scraped from  Billboard.com.
+2. **Initial Cleaning:** `initial_cleaner.py` removes duplicate songs.
+3. **Data Processing:** `data_processor.py` builds the collaboration graph.
+4. **API Endpoint:** The Next.js API endpoint at `/api/graph/generate` serves the graph data.
+5. **Frontend:** The React frontend fetches and renders the graph using D3.js.
 
 #### Components
 
--   `GraphVisualization`: The main component for rendering the graph.
--   `GraphSettings`: The component for controlling graph settings.
--   `DataPanel`: The component for displaying data status and download links.
--   `ExportControls`: The component for exporting the graph as an image or JSON.
+- `GraphVisualization`: The main component for rendering the graph.
+- `GraphSettings`: The component for controlling graph settings.
+- `DataPanel`: The component for displaying data status and download links.
+- `ExportControls`: The component for exporting the graph as an image or JSON.
 
 #### Types
 
--   `lib/types/graph.ts`: Contains all the shared types for the graph data and settings.
+- `lib/types/graph.ts`: Contains all the shared types for the graph data and settings.
 
 Refer to here when expanding or modifying any features.
 

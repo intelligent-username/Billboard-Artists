@@ -26,7 +26,7 @@ export default function GraphSettings({
   isLoading,
   graphData,
 }: GraphSettingsProps) {
-  // Store vertexLimit locally so changing it doesn't reload the graph
+  // Store vertexLimit locally so changing it doesn't reload the graph, was bugging
   const [localVertexLimit, setLocalVertexLimit] = useState(settings.vertexLimit);
 
   const updateSetting = (key: keyof GraphSettingsType, value: any) => {
